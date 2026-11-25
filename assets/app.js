@@ -99,7 +99,7 @@
     if (!s) { if (dlg.open) dlg.close(); return; }
     tab("dir");
     $("#dlg-inner").innerHTML = `<button class="close" type="button" aria-label="بستن">×</button>
-      <figure><img src="${s.image}" alt="${s.name_fa}"><figcaption>${s.kind === "diagram" ? "نمودار حرکت دوربین" : "نمونهٔ ساخته‌شده با هوش مصنوعی (GPT Image)"}</figcaption></figure>
+      <figure><img src="${s.image}" alt="${s.name_fa}"><figcaption>${s.kind === "diagram" ? "نمودار حرکت دوربین" : s.kind === "sample" ? ("نمونهٔ " + (s.credit || "منبع")) : "نمونهٔ ساخته‌شده با هوش مصنوعی (GPT Image)"}</figcaption></figure>
       <div class="body"><h2>${s.name_fa}</h2><span class="lat">${s.name_en}</span>
       <div class="meta"><span>${TAX.family[s.family].fa}</span>${(s.needs || []).map(n => `<span>${TAX.needs[n]}</span>`).join("")}</div>
       <h3>نام سبک برای پرامپت</h3><button type="button" class="kwc big"><span>${s.keyword}</span><i>کپی</i></button>

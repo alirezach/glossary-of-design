@@ -9454,5 +9454,677 @@
   "image": "images/styles/triadic-palette.webp",
   "kind": "ai",
   "region": "world"
+ },
+ {
+  "id": "birds-eye-drone-tracking",
+  "name_fa": "ردیابی هوایی از بالا",
+  "name_en": "Bird's-eye drone tracking",
+  "keyword": "bird's-eye drone tracking",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/birds-eye-drone-tracking.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: aerial drone tracking shot from a top-down perspective, looking straight down at the subject. The camera is positioned directly overhead, following the subject from above as they move through the scene. The camera matches the subject's speed and direction, keeping them centered in frame throughout. The movement is smooth and weightless, like a drone locked onto the subject from a bird's eye view. The surrounding environment is revealed naturally as the subject moves through it.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "slow-zoom-in",
+  "name_fa": "زوم آرام به داخل",
+  "name_en": "Slow zoom in",
+  "keyword": "slow zoom in",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/slow-zoom-in.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: Single continuous shot. Gentle slow zoom-in on the subject at a perfectly constant speed from the first frame to the last. The camera is locked on a tripod, fixed in one position throughout. Only the lens zooms, magnifying the image evenly with consistent perspective. The speed is identical at every moment, steady, smooth, uniform from start to finish. Like a timelapse camera with a motorized zoom set to one constant rate.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "slow-zoom-out",
+  "name_fa": "زوم آرام به بیرون",
+  "name_en": "Slow zoom out",
+  "keyword": "slow zoom out",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/slow-zoom-out.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: Single continuous shot. Gentle slow zoom-out from the subject at a perfectly constant speed from the first frame to the last. The camera stays in one fixed position the entire time, it is the lens that widens, the camera itself stays completely still. The framing gets progressively wider, revealing more of the scene evenly from the center outward toward all edges. The speed is identical at every moment, steady, smooth, uniform. Like a motorized lens zoom set to one constant rate.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "fly-through",
+  "name_fa": "پرواز در دل صحنه",
+  "name_en": "Fly-through",
+  "keyword": "fly-through",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/fly-through.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: smooth forward journey through the environment, the camera floats forward through the environment at a constant speed, always advancing, adapting its path to navigate the space organically. It flows around obstacles, through openings, along curves, always moving forward but finding its way through the scene naturally. Like a drone gliding through the space. The movement is smooth, weightless, and continuous from the first frame to the last. Perspective and depth increase naturally as the camera advances deeper into the scene.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "parallax-move",
+  "name_fa": "حرکت پارالاکس",
+  "name_en": "Parallax move",
+  "keyword": "parallax move",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/parallax-move.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: parallax move, the camera moves physically sideways through space at a constant speed, smooth, lateral, straight. Foreground elements slide across the frame faster than the background, creating clear depth separation between layers. The movement emphasizes the distance between objects at different depths. Like a camera mounted on rails gliding sideways. One axis only: purely lateral, one speed, one direction.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "vertical-reveal",
+  "name_fa": "آشکارسازی عمودی",
+  "name_en": "Vertical reveal",
+  "keyword": "vertical reveal",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/vertical-reveal.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: vertical reveal, the camera glides straight upward at a perfectly constant speed, smooth, vertical, steady. The camera stays perfectly level throughout the ascent, always facing forward at the same angle. Like a drone rising straight up. The whole frame lifts evenly, gradually revealing more of the scene above. One axis only: purely vertical, one speed, one direction.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "focus-reveal",
+  "name_fa": "آشکارسازی با فوکوس",
+  "name_en": "Focus reveal (out of focus to sharp)",
+  "keyword": "focus reveal (out of focus to sharp)",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/focus-reveal.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Focus: subject starts out of focus and slowly comes into focus.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "breathing-focus",
+  "name_fa": "فوکوس تنفسی",
+  "name_en": "Breathing focus",
+  "keyword": "breathing focus",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/breathing-focus.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Focus: subtle breathing focus, almost imperceptible.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "deep-focus",
+  "name_fa": "فوکوس عمیق",
+  "name_en": "Deep focus",
+  "keyword": "deep focus",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/deep-focus.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Focus: deep focus, foreground and background both sharp.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "symmetrical-tracking-shot",
+  "name_fa": "نمای تعقیبی قرینه",
+  "name_en": "Symmetrical tracking shot",
+  "keyword": "symmetrical tracking shot",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/symmetrical-tracking-shot.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: slow perfectly symmetrical tracking shot, camera moves in a direct straight axis advancing steadily forward to the subject, absolute center-frame composition maintained throughout, zero lateral drift, zero rotation, zero tilt. Subject remains perfectly centered in frame at all times. Ruler-straight dolly movement along the central axis.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "hero-360-shot",
+  "name_fa": "چرخش ۳۶۰ درجهٔ قهرمان",
+  "name_en": "Hero 360 shot",
+  "keyword": "hero 360 shot",
+  "family": "camera-movement",
+  "form": [
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "ads-product"
+  ],
+  "image": "images/video/hero-360-shot.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Camera movement: rapid 360-degree camera rotation around the hero, multi-camera array simulation, camera spins aggressively at extreme speed around a nearly frozen subject, time appears to slow dramatically while the camera whips around the character, rooftop setting, cinematic slow-motion freeze effect.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "soft-gradient-commercial-light",
+  "name_fa": "نور تبلیغاتی با پس‌زمینهٔ گرادیانی",
+  "name_en": "Soft gradient background commercial lighting",
+  "keyword": "soft gradient background commercial lighting",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/soft-gradient-commercial-light.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Smooth gradient background transitioning from light to mid-tone, two large softbox setup with key light at 45 degrees and fill opposite, gentle wrap-around illumination on the product. Neutral color temperature, no harsh shadows, professional commercial catalog style",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "flat-lay-lighting",
+  "name_fa": "نورپردازی فلت‌لی",
+  "name_en": "Flat lay commercial lighting",
+  "keyword": "flat lay commercial lighting",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/flat-lay-lighting.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Overhead diffused lighting panel providing even, shadow-free illumination for flat lay product arrangements. Soft fill from all sides, minimal depth shadows, consistent exposure across the entire frame, clean commercial aesthetic ideal",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "tabletop-reflective-lighting",
+  "name_fa": "نورپردازی رومیزی روی سطح براق",
+  "name_en": "Tabletop reflective product lighting",
+  "keyword": "tabletop reflective product lighting",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/tabletop-reflective-lighting.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Controlled studio lighting on a glossy reflective surface creating mirror-like product reflections below, key light from slightly above and behind at 60 degrees, strip softbox for clean elongated highlights. Dark or gradient background, polished commercial aesthetic",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "window-light-portrait",
+  "name_fa": "پرترهٔ نور پنجره",
+  "name_en": "Soft window light portrait",
+  "keyword": "soft window light portrait",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/window-light-portrait.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Large window providing soft directional light on the model from one side, gentle shadow transition across the face creating natural dimension. Warm neutral color temperature, relaxed lifestyle feel, shallow depth of field with background softly blurred, flattering even skin illumination",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "beauty-dish-lighting",
+  "name_fa": "نورپردازی بیوتی‌دیش",
+  "name_en": "Beauty dish lighting",
+  "keyword": "beauty dish lighting",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/beauty-dish-lighting.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Beauty dish positioned directly above and slightly in front of the model at 15-degree downward angle, creating signature circular catchlight in eyes and smooth skin illumination. Controlled falloff around the face, subtle chin shadow, even skin tone rendering, white or silver beauty dish modifier",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "overcast-soft-light",
+  "name_fa": "نور نرم هوای ابری",
+  "name_en": "Overcast soft light",
+  "keyword": "overcast soft light",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/overcast-soft-light.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Soft diffused overcast sky providing even wrap-around illumination on the model with no harsh shadows. Natural open shade, neutral true-to-life color temperature, flattering skin tones without blown highlights. Gentle contrast, subtle environmental bokeh.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "split-side-lighting",
+  "name_fa": "نور جانبی دوپاره",
+  "name_en": "Cinematic side (split) lighting",
+  "keyword": "cinematic side (split) lighting",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/split-side-lighting.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Strong side light from a single large source creating a half-lit face with deep cinematic shadows on the opposite side. Cool neutral to slightly warm color temperature, film-like contrast, visible texture on skin and fabric. Atmospheric haze optional, shallow depth of field.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "hard-light-editorial",
+  "name_fa": "نور سخت ادیتوریال مد",
+  "name_en": "Hard light fashion editorial",
+  "keyword": "hard light fashion editorial",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/hard-light-editorial.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Direct hard light source creating sharp defined shadows on the model's face and body, strong contrast between lit and shadow areas. Bold graphic shadow patterns, high clarity on skin texture and wardrobe details, mid-century fashion photography aesthetic. Clean background, punchy color saturation, ideal",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "product-spotlight",
+  "name_fa": "اسپات‌لایت محصول",
+  "name_en": "Hero product spotlight",
+  "keyword": "hero product spotlight",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/product-spotlight.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Single focused spotlight from above at 30-degree angle, tight beam illuminating the hero product against a dark background, strong specular highlights on reflective surfaces, deep shadows surrounding the product. High contrast, dramatic falloff, premium luxury goods aesthetic, sharp detail on textures and materials",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "clamshell-lighting",
+  "name_fa": "نورپردازی صدفی (کلم‌شل)",
+  "name_en": "Clamshell lighting",
+  "keyword": "clamshell lighting",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/clamshell-lighting.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Action: Model starts bowed down in slight grin, looks up on a focused expression Lighting: Clamshell lighting setup with large softbox above and reflector below the model's face, creating even shadow-free illumination across skin. High-key white background, bright clean exposure, minimal shadows under chin, flattering catchlights in both eyes. Commercial beauty standard. No Visible lighting equipment to appear on scene.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "low-key-moody-lighting",
+  "name_fa": "نورپردازی تیره و لوکس",
+  "name_en": "Low-key moody luxury lighting",
+  "keyword": "low-key moody luxury lighting",
+  "family": "lighting",
+  "form": [
+   "light-color",
+   "motion"
+  ],
+  "needs": [
+   "ads-product",
+   "film",
+   "branding"
+  ],
+  "image": "images/video/low-key-moody-lighting.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Lighting: Low-key moody lighting with controlled side light, deep rich shadows, dark textured background. Selective illumination highlighting product details and material quality, warm undertones, luxurious atmosphere",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "cinematic-title-fade",
+  "name_fa": "ظهور سینمایی عنوان",
+  "name_en": "Cinematic title fade-in",
+  "keyword": "cinematic title fade-in",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/cinematic-title-fade.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Animate text with a dramatic fade-in from black, accompanied by a subtle glow effect that intensifies as the text becomes fully visible. Add a slight zoom from 95% to 100% scale over 2 seconds.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "blur-title-reveal",
+  "name_fa": "آشکارسازی عنوان از دل محوشدگی",
+  "name_en": "Blur title reveal",
+  "keyword": "blur title reveal",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/blur-title-reveal.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Title text starts completely obscured behind a heavy gaussian blur. Over 2 seconds, the blur gradually reduces from maximum intensity to zero while the text fades in from 0% to 100% opacity. The clearing motion moves from the center outward, creating a cinematic focus-pull effect as the title sharpens into full clarity.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "dissolve-drift-title",
+  "name_fa": "عنوان ذره‌ای شناور",
+  "name_en": "Dissolve drift title",
+  "keyword": "dissolve drift title",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/dissolve-drift-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Title text materializes through a particle dissolve effect while drifting gently upward from 10 pixels below its final position. The text transitions from scattered pixel fragments to solid letterforms over 2.5 seconds. A soft blur clears progressively as the dissolve completes. Opacity builds gradually from 0% to 100% with an ease-in curve for a dreamy, atmospheric entrance.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "glide-in-title",
+  "name_fa": "ورود لغزان عنوان",
+  "name_en": "Smooth glide-in title",
+  "keyword": "smooth glide-in title",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/glide-in-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Title text glides in smoothly from the right side of the frame, traveling horizontally with a fluid ease-in-out motion. Opacity ramps from 0% to 100% over the first 40% of the animation. The text decelerates gradually as it reaches its final centered position. Total duration 1.5 seconds with no bounce or overshoot for a clean, polished finish.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "split-slide-title",
+  "name_fa": "عنوان دونیمه‌شونده",
+  "name_en": "Split slide title reveal",
+  "keyword": "split slide title reveal",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/split-slide-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: The title splits into two halves at the center. The left half slides in from the left edge and the right half slides in from the right edge. Both halves converge at the center simultaneously. Opacity fades in from 0% to 100% during the slide. A subtle motion blur trails behind each half during movement. Duration 1.5 seconds with ease-out timing.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "roll-flip-title",
+  "name_fa": "عنوان چرخان",
+  "name_en": "Roll typography",
+  "keyword": "roll typography",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/roll-flip-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Title text rotates into view along the X-axis, flipping forward from a 90-degree vertical position to 0 degrees flat. Each word rolls independently with a 0.15-second delay between words. Opacity increases from 0% to 100% during the first half of the rotation. Total duration 1.8 seconds with an ease-out curve for a smooth landing.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "bounce-fall-title",
+  "name_fa": "سقوط جهندهٔ حروف",
+  "name_en": "Bounce fall letters",
+  "keyword": "bounce fall letters",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/bounce-fall-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Each letter of the title drops from above the frame and bounces twice on the baseline before settling into its final position. The first bounce reaches 30% of the drop height, the second bounce reaches 10%. Letters are staggered with a 0.08-second delay from left to right. Each letter enters at full opacity. Total sequence duration 2 seconds with elastic easing on each bounce.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "typewriter-cascade-title",
+  "name_fa": "آبشار ماشین‌تحریری",
+  "name_en": "Typewriter cascade",
+  "keyword": "typewriter cascade",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/typewriter-cascade-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Letters appear one at a time from left to right, each dropping in from slightly above the baseline with a quick 0.1-second slide downward. A blinking cursor leads the reveal, advancing after each letter lands. Each letter snaps to full opacity instantly on arrival. The stagger interval is 0.06 seconds per character. Total duration adapts to title length with a consistent rhythmic pace.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "elastic-pop-title",
+  "name_fa": "پاپ کشسان عنوان",
+  "name_en": "Elastic pop title",
+  "keyword": "elastic pop title",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/elastic-pop-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Title text pops in from 0% scale to 120% scale, then bounces back to 100% with an elastic overshoot. The scaling originates from the center of each word. Each word pops in sequence with a 0.12-second stagger. Opacity jumps from 0% to 100% at the start of each pop. The elastic settle uses a spring-damped easing curve. Total duration 1.8 seconds.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
+ },
+ {
+  "id": "fall-reveal-title",
+  "name_fa": "آشکارسازی با سقوط حروف",
+  "name_en": "Fall reveal title",
+  "keyword": "fall reveal title",
+  "family": "typography",
+  "form": [
+   "lettering",
+   "motion"
+  ],
+  "needs": [
+   "short-video",
+   "film"
+  ],
+  "image": "images/video/fall-reveal-title.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Effect: Each letter of the title drops in from above the frame with staggered timing, falling with a natural gravity-like acceleration. Letters enter with 0% opacity and reach full visibility as they land on the baseline. A 0.05-second stagger between each letter creates a sequential cascade from left to right over 1.5 seconds total.",
+  "credit": "Kittl Video Prompt Library",
+  "credit_url": "https://kittl.notion.site/videogenprompts"
  }
 ]
