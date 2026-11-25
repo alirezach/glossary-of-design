@@ -1,0 +1,66 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>اصطلاحات طراحی · واژه‌نامهٔ طراحی با هوش مصنوعی · Glossary of Design</title>
+<meta name="description" content="واژه‌نامهٔ فارسی اصطلاحات طراحی گرافیک، رنگ، تایپوگرافی، چاپ و تولید تصویر با هوش مصنوعی">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=20261126">
+<style>
+.tw{max-width:1100px;margin:0 auto;padding:24px 20px 80px}
+.tw h1{font-family:Lalezar,Vazirmatn,sans-serif;font-weight:400;font-size:clamp(30px,5vw,46px);margin:8px 0 4px}
+.tw .lead{opacity:.8;margin:0 0 18px;line-height:1.9}
+.tw .back{font-size:15px}
+.tbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0}
+.tbar input{flex:1;min-width:240px;font:inherit;font-size:16px;padding:10px 14px;border-radius:10px;border:1px solid rgba(0,0,0,.2);background:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 18px}
+.chips button{font:inherit;font-size:14px;padding:5px 12px;border-radius:99px;border:1px solid rgba(0,0,0,.18);background:transparent;cursor:pointer}
+.chips button[aria-pressed=true]{background:#1d1d1b;color:#fff;border-color:#1d1d1b}
+.tcat{margin:28px 0 8px;font-size:20px;border-bottom:2px solid currentColor;padding-bottom:4px}
+.tlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.term{background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:12px;padding:14px 16px;line-height:1.85}
+.term h3{margin:0 0 6px;font-size:17px}
+.term h3 .en{font-family:"IBM Plex Mono",monospace;font-weight:400;font-size:13.5px;opacity:.7;direction:ltr;unicode-bidi:isolate}
+.term p{margin:0;font-size:15px}
+.term .meta{margin-top:8px;font-size:13px;opacity:.75;display:flex;gap:10px;flex-wrap:wrap}
+.term .meta a.style{font-weight:700;opacity:1}
+.empty{opacity:.7;padding:30px 0}
+</style></head><body>
+<div class="tw">
+<a class="back" href="index.html">→ بازگشت به فهرست سبک‌ها</a>
+<h1>اصطلاحات طراحی</h1>
+<p class="lead">واژه‌هایی که طراحان، ناشران و ابزارهای هوش مصنوعی با آن‌ها حرف می‌زنند؛ از ترکیب‌بندی و رنگ تا چاپ و پرامپت. هر جا اصطلاح خودش یک سبک تصویری باشد، پیوند «دیدن سبک» شما را به کارت آن در فهرست می‌برد.</p>
+<div class="tbar"><label class="sr" for="tq">جست‌وجو</label><input id="tq" type="search" placeholder="جست‌وجو: کنتراست، kerning، ریزوگراف، بلید…" autocomplete="off"><span id="tn"></span></div>
+<div class="chips" id="chips"></div>
+<div id="out"></div>
+<h2 class="tcat">منابع این صفحه</h2><div id="srcs" class="srcs"></div>
+</div>
+<footer>Glossary of Design · محتوا با مجوز CC BY-SA 4.0 · ترجمه و بازنویسی فارسی از منابع ذکرشده · <a href="https://github.com/alirezach/glossary-of-design">GitHub</a></footer>
+<script>
+const fa=n=>String(n).replace(/\d/g,d=>"۰۱۲۳۴۵۶۷۸۹"[d]);
+const norm=s=>(s||"").toLowerCase().replace(/[ي]/g,"ی").replace(/[ك]/g,"ک").replace(/\u200c/g," ");
+let D,cur="all",STY={};
+Promise.all([fetch("data/terms.json?v=20261126").then(r=>r.json()),fetch("data/styles.json?v=20261126").then(r=>r.json())]).then(([d,s])=>{
+ D=d; s.forEach(x=>STY[x.id]=x);
+ const ch=document.getElementById("chips");
+ const mk=(k,l)=>{const b=document.createElement("button");b.textContent=l;b.dataset.k=k;b.setAttribute("aria-pressed",k===cur);b.onclick=()=>{cur=k;[...ch.children].forEach(x=>x.setAttribute("aria-pressed",x.dataset.k===cur));draw()};ch.appendChild(b)};
+ mk("all","همه");Object.entries(D.categories).forEach(([k,v])=>mk(k,v));
+ document.getElementById("srcs").innerHTML=Object.values(D.sources).map(x=>`<a class="card" href="${x.url}" target="_blank" rel="noopener"><span class="t">${x.name}</span></a>`).join("");
+ document.getElementById("tq").addEventListener("input",draw);
+ const q=new URLSearchParams(location.search).get("q");if(q){document.getElementById("tq").value=q}
+ draw();
+});
+function draw(){
+ const q=norm(document.getElementById("tq").value).trim();
+ const list=D.terms.filter(t=>(cur==="all"||t.cat===cur)&&(!q||norm(t.fa+" "+t.en+" "+t.desc).includes(q)));
+ document.getElementById("tn").textContent=fa(list.length)+" اصطلاح";
+ const out=document.getElementById("out");out.innerHTML="";
+ if(!list.length){out.innerHTML='<p class="empty">چیزی پیدا نشد.</p>';return}
+ for(const [k,v] of Object.entries(D.categories)){
+  const g=list.filter(t=>t.cat===k);if(!g.length)continue;
+  const h=document.createElement("h2");h.className="tcat";h.textContent=v;out.appendChild(h);
+  const box=document.createElement("div");box.className="tlist";
+  g.forEach(t=>{const st=t.style&&STY[t.style];const el=document.createElement("article");el.className="term";el.id="t-"+t.en.toLowerCase().replace(/[^a-z0-9]+/g,"-");
+   el.innerHTML=`<h3>${t.fa} <span class="en">(${t.en})</span></h3><p>${t.desc}</p><div class="meta">${st?`<a class="style" href="index.html#${t.style}">دیدن سبک «${st.name_fa}» ←</a>`:""}<span>منبع: ${t.src.map(s=>`<a href="${D.sources[s].url}" target="_blank" rel="noopener">${D.sources[s].name.split(":")[0]}</a>`).join("، ")}</span></div>`;
+   box.appendChild(el)});
+  out.appendChild(box)}
+}
+</script></body></html>

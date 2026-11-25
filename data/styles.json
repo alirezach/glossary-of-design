@@ -8976,5 +8976,483 @@
   "prompt": "A student notices a fallen leaf on a notebook and places it between the pages; one clear action in a single continuous close shot; soft daylight, calm micro-story style. Audio: leaf rustle and quiet room tone.",
   "note_fa": "در هر نما فقط یک حرکت یا کنش اصلی را نگه دارید.",
   "region": "world"
+ },
+ {
+  "id": "letterpress",
+  "name_fa": "چاپ لترپرس",
+  "name_en": "Letterpress print",
+  "keyword": "letterpress print",
+  "family": "medium",
+  "form": [
+   "print"
+  ],
+  "needs": [
+   "poster",
+   "branding",
+   "packaging"
+  ],
+  "image": "images/styles/letterpress.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "offset-print",
+  "name_fa": "چاپ افست",
+  "name_en": "Offset print",
+  "keyword": "offset print, CMYK halftone rosettes",
+  "family": "medium",
+  "form": [
+   "print"
+  ],
+  "needs": [
+   "editorial",
+   "book-cover",
+   "packaging"
+  ],
+  "image": "images/styles/offset-print.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "newsprint",
+  "name_fa": "چاپ روزنامه‌ای",
+  "name_en": "Newsprint",
+  "keyword": "newsprint halftone on thin grey newspaper",
+  "family": "medium",
+  "form": [
+   "print"
+  ],
+  "needs": [
+   "editorial",
+   "poster"
+  ],
+  "image": "images/styles/newsprint.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "photocopy-xerox",
+  "name_fa": "زیراکس و فتوکپی",
+  "name_en": "Photocopy / xerox",
+  "keyword": "photocopy xerox aesthetic, toner grain",
+  "family": "medium",
+  "form": [
+   "print"
+  ],
+  "needs": [
+   "poster",
+   "album",
+   "editorial"
+  ],
+  "image": "images/styles/photocopy-xerox.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "mimeograph",
+  "name_fa": "چاپ استنسیلی مایموگراف",
+  "name_en": "Mimeograph print",
+  "keyword": "mimeograph stencil print, purple ink",
+  "family": "medium",
+  "form": [
+   "print"
+  ],
+  "needs": [
+   "poster",
+   "children"
+  ],
+  "image": "images/styles/mimeograph.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "foil-stamping",
+  "name_fa": "فویل‌کوبی (طلاکوب)",
+  "name_en": "Foil stamping",
+  "keyword": "gold foil stamping on dark card",
+  "family": "craft-material",
+  "form": [
+   "print",
+   "craft"
+  ],
+  "needs": [
+   "branding",
+   "packaging"
+  ],
+  "image": "images/styles/foil-stamping.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "die-cut",
+  "name_fa": "برش قالبی (دایکات)",
+  "name_en": "Die cut",
+  "keyword": "layered die-cut paper",
+  "family": "craft-material",
+  "form": [
+   "print",
+   "craft"
+  ],
+  "needs": [
+   "packaging",
+   "branding"
+  ],
+  "image": "images/styles/die-cut.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "maximalism",
+  "name_fa": "ماکسیمالیسم",
+  "name_en": "Maximalism",
+  "keyword": "maximalist design, abundant pattern and color",
+  "family": "graphic-design",
+  "form": [
+   "layout",
+   "pattern"
+  ],
+  "needs": [
+   "poster",
+   "album",
+   "social"
+  ],
+  "image": "images/styles/maximalism.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "medium-format-film",
+  "name_fa": "فیلم مدیوم‌فرمت",
+  "name_en": "Medium-format film",
+  "keyword": "medium format film photograph",
+  "family": "lens-film",
+  "form": [
+   "photo"
+  ],
+  "needs": [
+   "editorial",
+   "ads-product"
+  ],
+  "image": "images/styles/medium-format-film.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "large-format-photography",
+  "name_fa": "عکاسی لارج‌فرمت",
+  "name_en": "Large-format photography",
+  "keyword": "large format view camera photograph",
+  "family": "photography",
+  "form": [
+   "photo"
+  ],
+  "needs": [
+   "editorial",
+   "moodboard"
+  ],
+  "image": "images/styles/large-format-photography.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "early-digital-camera",
+  "name_fa": "دوربین دیجیتال اولیه",
+  "name_en": "Early digital camera",
+  "keyword": "2000s early digital compact camera photo",
+  "family": "photography",
+  "form": [
+   "photo"
+  ],
+  "needs": [
+   "social",
+   "album"
+  ],
+  "image": "images/styles/early-digital-camera.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "flash-snapshot",
+  "name_fa": "عکس فوری با فلاش",
+  "name_en": "Flash snapshot",
+  "keyword": "direct flash snapshot",
+  "family": "photography",
+  "form": [
+   "photo"
+  ],
+  "needs": [
+   "social",
+   "editorial"
+  ],
+  "image": "images/styles/flash-snapshot.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "lifestyle-photography",
+  "name_fa": "عکاسی لایف‌استایل",
+  "name_en": "Lifestyle photography",
+  "keyword": "lifestyle photography",
+  "family": "photography",
+  "form": [
+   "photo"
+  ],
+  "needs": [
+   "ads-product",
+   "social"
+  ],
+  "image": "images/styles/lifestyle-photography.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "gritty-realism",
+  "name_fa": "واقع‌گرایی خشن",
+  "name_en": "Gritty realism",
+  "keyword": "gritty realism, coarse grain, hard contrast",
+  "family": "photography",
+  "form": [
+   "photo"
+  ],
+  "needs": [
+   "documentary",
+   "film",
+   "editorial"
+  ],
+  "image": "images/styles/gritty-realism.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "crt-display",
+  "name_fa": "نمایشگر CRT",
+  "name_en": "CRT display look",
+  "keyword": "CRT screen, scanlines, phosphor glow",
+  "family": "digital-aesthetic",
+  "form": [
+   "light-color"
+  ],
+  "needs": [
+   "album",
+   "music-video",
+   "social"
+  ],
+  "image": "images/styles/crt-display.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "mannerism",
+  "name_fa": "منریسم",
+  "name_en": "Mannerism",
+  "keyword": "Mannerist painting",
+  "family": "art-movement",
+  "form": [
+   "painting"
+  ],
+  "needs": [
+   "book-cover",
+   "editorial"
+  ],
+  "image": "images/styles/mannerism.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "biopunk",
+  "name_fa": "بیوپانک",
+  "name_en": "Biopunk",
+  "keyword": "biopunk",
+  "family": "digital-aesthetic",
+  "form": [
+   "painting",
+   "3d"
+  ],
+  "needs": [
+   "concept",
+   "book-cover"
+  ],
+  "image": "images/styles/biopunk.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "coastal-aesthetic",
+  "name_fa": "زیبایی‌شناسی ساحلی",
+  "name_en": "Coastal aesthetic",
+  "keyword": "coastal aesthetic",
+  "family": "digital-aesthetic",
+  "form": [
+   "photo",
+   "light-color"
+  ],
+  "needs": [
+   "moodboard",
+   "social",
+   "branding"
+  ],
+  "image": "images/styles/coastal-aesthetic.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "whimsical-illustration",
+  "name_fa": "تصویرگری فانتزی بازیگوش",
+  "name_en": "Whimsical illustration",
+  "keyword": "whimsical illustration",
+  "family": "illustration",
+  "form": [
+   "drawing",
+   "painting"
+  ],
+  "needs": [
+   "children",
+   "book-cover"
+  ],
+  "image": "images/styles/whimsical-illustration.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "atmospheric-horror",
+  "name_fa": "وحشت فضاسازانه",
+  "name_en": "Atmospheric horror",
+  "keyword": "atmospheric horror",
+  "family": "cinematic-look",
+  "form": [
+   "photo",
+   "motion"
+  ],
+  "needs": [
+   "film",
+   "book-cover",
+   "poster"
+  ],
+  "image": "images/styles/atmospheric-horror.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "newspaper-comic-strip",
+  "name_fa": "استریپ کمیک روزنامه",
+  "name_en": "Newspaper comic strip",
+  "keyword": "newspaper comic strip",
+  "family": "illustration",
+  "form": [
+   "drawing"
+  ],
+  "needs": [
+   "editorial",
+   "children"
+  ],
+  "image": "images/styles/newspaper-comic-strip.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "painterly-comic",
+  "name_fa": "کمیک نقاشانه",
+  "name_en": "Painterly comic",
+  "keyword": "painterly comic art",
+  "family": "illustration",
+  "form": [
+   "painting"
+  ],
+  "needs": [
+   "book-cover",
+   "concept"
+  ],
+  "image": "images/styles/painterly-comic.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "puppet-animation",
+  "name_fa": "انیمیشن عروسکی",
+  "name_en": "Puppet animation",
+  "keyword": "puppet animation",
+  "family": "animation",
+  "form": [
+   "3d",
+   "motion",
+   "craft"
+  ],
+  "needs": [
+   "children",
+   "short-video",
+   "film"
+  ],
+  "image": "images/styles/puppet-animation.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "limited-animation",
+  "name_fa": "انیمیشن محدود",
+  "name_en": "Limited animation",
+  "keyword": "limited animation, 1960s TV cartoon",
+  "family": "animation",
+  "form": [
+   "drawing",
+   "motion"
+  ],
+  "needs": [
+   "explainer",
+   "short-video"
+  ],
+  "image": "images/styles/limited-animation.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "analogous-palette",
+  "name_fa": "پالت همسایه (آنالوگ)",
+  "name_en": "Analogous color scheme",
+  "keyword": "analogous color palette",
+  "family": "color",
+  "form": [
+   "light-color"
+  ],
+  "needs": [
+   "branding",
+   "infographic"
+  ],
+  "image": "images/styles/analogous-palette.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "complementary-palette",
+  "name_fa": "پالت مکمل",
+  "name_en": "Complementary color scheme",
+  "keyword": "complementary color palette",
+  "family": "color",
+  "form": [
+   "light-color"
+  ],
+  "needs": [
+   "poster",
+   "ads-product"
+  ],
+  "image": "images/styles/complementary-palette.webp",
+  "kind": "ai",
+  "region": "world"
+ },
+ {
+  "id": "triadic-palette",
+  "name_fa": "پالت سه‌گانه",
+  "name_en": "Triadic color scheme",
+  "keyword": "triadic color palette",
+  "family": "color",
+  "form": [
+   "light-color"
+  ],
+  "needs": [
+   "children",
+   "poster"
+  ],
+  "image": "images/styles/triadic-palette.webp",
+  "kind": "ai",
+  "region": "world"
  }
 ]

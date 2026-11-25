@@ -1,0 +1,2539 @@
+{
+ "categories": {
+  "layout": "اصول چیدمان و ترکیب‌بندی",
+  "color": "رنگ",
+  "type": "تایپوگرافی",
+  "brand": "برند و هویت بصری",
+  "print": "چاپ و تولید",
+  "file": "فایل، تصویر و خروجی",
+  "ai": "گردش‌کار تولید با هوش مصنوعی",
+  "critique": "ترجمهٔ بازخوردها",
+  "repr": "میزان بازنمایی",
+  "shape": "زبان شکل",
+  "line": "خط و لبه",
+  "detail": "جزئیات و پیچیدگی",
+  "finish": "نشانه‌های واقع‌گرایی و پرداخت",
+  "era": "دوره‌های تاریخی و طراحی",
+  "genre": "ژانرها",
+  "anim": "انیمیشن و کمیک",
+  "surface": "سطح چاپ و تصویر",
+  "mood": "حال‌وهوا به زبان تصویر"
+ },
+ "sources": {
+  "lovart": {
+   "name": "Lovart: AI Design Dictionary 2026",
+   "url": "https://www.lovart.ai/blog/ai-design-dictionary-non-designers-guide-2026"
+  },
+  "coursera": {
+   "name": "Coursera: Graphic Design Terms",
+   "url": "https://www.coursera.org/resources/graphic-design-terms"
+  },
+  "canva": {
+   "name": "Canva: 50 design terms",
+   "url": "https://www.canva.com/learn/graphic-design-terms/"
+  },
+  "aiscribbles": {
+   "name": "AI Scribbles: Visual Style Vocabulary",
+   "url": "https://www.aiscribbles.com/guide/visual-style-vocabulary/"
+  }
+ },
+ "terms": [
+  {
+   "cat": "layout",
+   "fa": "ترکیب‌بندی",
+   "en": "Composition",
+   "desc": "شیوهٔ چیدن عناصر در کادر، طوری که چشم بداند از کجا وارد شود، کجا مکث کند و از کجا بیرون برود. ترکیب‌بندی بد دلیل این است که یک تصویر «زیبا» باز هم گیج‌کننده به نظر می‌رسد.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "سلسله‌مراتب بصری",
+   "en": "Hierarchy",
+   "desc": "ترتیب توجه: اول چه دیده شود، بعد چه، و در آخر چه. معمولاً با اندازه، رنگ و جای قرارگیری ساخته می‌شود. اگر همه‌چیز فریاد بزند، هیچ‌چیز شنیده نمی‌شود.",
+   "src": [
+    "lovart",
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "کنتراست",
+   "en": "Contrast",
+   "desc": "تفاوتی که تمرکز می‌سازد: روشن و تیره، بزرگ و کوچک، شلوغ و ساکت، زبر و صاف. کنتراست کم دشمن خاموش تصویرهای کوچک در موبایل است.",
+   "src": [
+    "lovart",
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "فضای منفی (فضای سفید)",
+   "en": "Negative space / White space",
+   "desc": "بخش‌های خالی و آگاهانهٔ طرح که به سوژه نفس می‌دهند و از شلوغی جلوگیری می‌کنند. فضای خالیِ برنامه‌ریزی‌شده یعنی طرح ناتمام نیست.",
+   "src": [
+    "lovart",
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "تراز (هم‌ترازی)",
+   "en": "Alignment",
+   "desc": "قرار دادن عناصر روی لبه‌ها و ستون‌های مشترک و نامرئی تا طرح منظم و منسجم دیده شود. تراز راست، چپ، وسط و دوطرفه چهار شکل رایج آن در متن‌اند.",
+   "src": [
+    "lovart",
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "تعادل",
+   "en": "Balance",
+   "desc": "توزیع وزن بصری در کادر. قرینگی یک راه است؛ تعادل نامتقارن اغلب برای عکس محصول قوی‌تر است.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "مقیاس",
+   "en": "Scale",
+   "desc": "اندازهٔ نسبی عناصر، به‌عنوان معنا. مقیاس بزرگ درام می‌سازد و مقیاس کوچک جزئیات ظریف. خطای مقیاس دکمهٔ اقدام را شبیه پانویس می‌کند.",
+   "src": [
+    "lovart",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "مجاورت",
+   "en": "Proximity",
+   "desc": "کنار هم گذاشتن چیزهای مرتبط. فاصله‌های تصادفی باعث می‌شود ذهن رابطه‌های غلط بسازد.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "ریتم",
+   "en": "Rhythm",
+   "desc": "تکرار فاصله یا نقش‌مایه که در یک مجموعه حس ضرباهنگ می‌سازد؛ برای اسلایدهای کاروسل و بسته‌های استیکر حیاتی است.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "نقطهٔ کانونی",
+   "en": "Focal point",
+   "desc": "جایی که کل کادر برای آن ساخته شده است. مدل‌های هوش مصنوعی اغلب یک نقطهٔ کانونی دوم می‌سازند؛ حذفش کنید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "سیستم گرید (شبکه)",
+   "en": "Grid / Grid system",
+   "desc": "چارچوبی از ستون‌ها و ردیف‌های متقاطع که چیدن عناصر را سریع‌تر، تمیزتر و یکدست‌تر می‌کند.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": "swiss-grid-editorial-layout"
+  },
+  {
+   "cat": "layout",
+   "fa": "قاعدهٔ یک‌سوم",
+   "en": "Rule of thirds",
+   "desc": "تقسیم کادر با دو خط افقی و دو خط عمودی؛ نقطه‌های تقاطع جای مناسبی برای نقطهٔ کانونی‌اند.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "حاشیه",
+   "en": "Margins",
+   "desc": "فضای دور لبهٔ صفحه. حاشیهٔ بزرگ‌تر طرح را آرام‌تر و حاشیهٔ کوچک‌تر آن را پرتنش‌تر می‌کند.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "حاشیهٔ امن",
+   "en": "Safe margin",
+   "desc": "فاصله‌ای که متن و لوگوی مهم باید از لبه‌های برش داشته باشند تا در برش یا قاب شبکه‌های اجتماعی از دست نروند.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "نسبت ابعاد",
+   "en": "Aspect ratio",
+   "desc": "نسبت عرض به ارتفاع تصویر یا صفحه، مثل ۱:۱، ۴:۵ یا ۱۶:۹. پیش از تولید انبوه آن را مشخص کنید.",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "دعوت به اقدام",
+   "en": "Call to action (CTA)",
+   "desc": "عنصری، معمولاً دکمه یا پیوند، که مخاطب را به کاری مشخص دعوت می‌کند؛ مثل «ثبت‌نام کنید».",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "طرح اولیهٔ دستی",
+   "en": "Thumbnail sketch",
+   "desc": "طرح‌های کوچک و سریع دستی برای سنجیدن چند ایده پیش از رفتن سراغ کامپیوتر.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "ماکاپ",
+   "en": "Mockup",
+   "desc": "نمونهٔ واقع‌نمای یک طرح روی محصول یا صفحه برای ارائه، ارزیابی و تبلیغ.",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "layout",
+   "fa": "اینفوگرافیک",
+   "en": "Infographic",
+   "desc": "نمایش تصویری اطلاعات یا داده که نمودار، تصویر و متن را ترکیب می‌کند تا پیام سریع و روشن برسد.",
+   "src": [
+    "coursera"
+   ],
+   "style": "isotype-infographic"
+  },
+  {
+   "cat": "layout",
+   "fa": "بافت",
+   "en": "Texture",
+   "desc": "سطح لمسی واقعی یک اثر چاپی یا حس لمسی‌ای که با لایه‌های بافت‌دار روی طرح دیجیتال ساخته می‌شود.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "پالت رنگ",
+   "en": "Palette",
+   "desc": "مجموعهٔ محدودی از رنگ‌ها که هر کدام نقشی دارند؛ نه انباری از رنگ‌های مودبورد.",
+   "src": [
+    "lovart",
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "رنگ اصلی، ثانویه و تأکیدی",
+   "en": "Primary / secondary / accent",
+   "desc": "نقش‌های رنگ: اصلی برند را حمل می‌کند، ثانویه پشتیبانی می‌کند و تأکیدی عمداً کم استفاده می‌شود.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "رنگ‌های خنثی",
+   "en": "Neutral",
+   "desc": "خاکستری‌ها و رنگ‌های نزدیک به خاکستری که به رنگ‌های پررنگ مجال نفس می‌دهند.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "اشباع رنگ",
+   "en": "Saturation",
+   "desc": "شدت و زنده‌بودن رنگ. اشباع زیاد رنگ‌ها را پرجان و اشباع کم آن‌ها را رنگ‌پریده می‌کند؛ اشباع بیش از حد خطای پیش‌فرض تصویرهای هوش مصنوعی است.",
+   "src": [
+    "lovart",
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "دمای رنگ",
+   "en": "Temperature",
+   "desc": "گرایش گرم یا سرد رنگ. ترکیب بی‌هدف دمای رنگ تصویر را کثیف نشان می‌دهد.",
+   "src": [
+    "lovart"
+   ],
+   "style": "cool-tones-warm-tones"
+  },
+  {
+   "cat": "color",
+   "fa": "رنگ‌های گرم",
+   "en": "Warm colors",
+   "desc": "قرمز، زرد و نارنجی؛ رنگ‌هایی که حس گرما، صمیمیت و شادی می‌دهند.",
+   "src": [
+    "canva"
+   ],
+   "style": "cool-tones-warm-tones"
+  },
+  {
+   "cat": "color",
+   "fa": "رنگ‌های سرد",
+   "en": "Cool colors",
+   "desc": "آبی، سبز و بنفش؛ رنگ‌هایی که فضایی آرام و خنک می‌سازند.",
+   "src": [
+    "canva"
+   ],
+   "style": "cool-tones-warm-tones"
+  },
+  {
+   "cat": "color",
+   "fa": "نسبت کنتراست",
+   "en": "Contrast ratio",
+   "desc": "میزان خوانایی متن روی زمینه از نظر روشنایی. اگر متن در اندازهٔ موبایل خوانا نباشد، برند هم در فید شکست می‌خورد.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "رانش رنگ برند",
+   "en": "Brand color drift",
+   "desc": "وقتی هوش مصنوعی آرام‌آرام «تقریباً آبیِ شما» را می‌سازد. با ثابت کردن کد رنگ‌ها در بریف جلویش را بگیرید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "تک‌رنگ",
+   "en": "Monochrome",
+   "desc": "طرح رنگی ساخته‌شده از فقط یک رنگ، همراه با تیرگی‌ها و روشنی‌های همان رنگ.",
+   "src": [
+    "canva"
+   ],
+   "style": "monochromatic-blues"
+  },
+  {
+   "cat": "color",
+   "fa": "طرح رنگی همسایه (آنالوگ)",
+   "en": "Analogous",
+   "desc": "سه رنگ کنار هم روی چرخهٔ رنگ؛ هماهنگ و آرام.",
+   "src": [
+    "canva"
+   ],
+   "style": "analogous-palette"
+  },
+  {
+   "cat": "color",
+   "fa": "طرح رنگی مکمل",
+   "en": "Complementary",
+   "desc": "دو رنگ روبه‌روی هم روی چرخهٔ رنگ؛ پرکنتراست و پرانرژی.",
+   "src": [
+    "canva"
+   ],
+   "style": "complementary-palette"
+  },
+  {
+   "cat": "color",
+   "fa": "طرح رنگی سه‌گانه",
+   "en": "Triadic",
+   "desc": "سه رنگ با فاصلهٔ برابر روی چرخهٔ رنگ؛ متعادل و سرزنده.",
+   "src": [
+    "canva"
+   ],
+   "style": "triadic-palette"
+  },
+  {
+   "cat": "color",
+   "fa": "CMYK",
+   "en": "CMYK",
+   "desc": "مدل رنگی چاپ با فیروزه‌ای، سرخابی، زرد و مشکی. کاهشی است: هرچه رنگ بیشتری اضافه شود، نتیجه تیره‌تر می‌شود.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "RGB",
+   "en": "RGB",
+   "desc": "مدل رنگی صفحه‌نمایش با قرمز، سبز و آبی. افزایشی است: از سیاه شروع می‌شود و با افزودن نور به سفید می‌رسد.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "پنتون (PMS)",
+   "en": "Pantone (PMS)",
+   "desc": "سامانهٔ استاندارد و شماره‌دار رنگ‌های چاپ که پیدا کردن و تکرار دقیق یک رنگ را ساده می‌کند.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "نظریهٔ رنگ",
+   "en": "Color theory",
+   "desc": "مطالعهٔ اثر رنگ‌ها بر احساس و واکنش آدم‌ها؛ مثلاً پیوند آبی با اعتماد.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "color",
+   "fa": "گرادیان",
+   "en": "Gradient",
+   "desc": "گذر تدریجی از یک رنگ به رنگ دیگر؛ خطی (از یک سو به سوی دیگر) یا شعاعی (از مرکز به لبه).",
+   "src": [
+    "canva"
+   ],
+   "style": "aurora-gradient"
+  },
+  {
+   "cat": "color",
+   "fa": "شفافیت (اپاسیتی)",
+   "en": "Opacity",
+   "desc": "میزان کدری یا شفافیت یک عنصر. هرچه اپاسیتی کمتر باشد، لایه‌های زیرین بیشتر دیده می‌شوند.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "تایپوگرافی",
+   "en": "Typography",
+   "desc": "هنر و فن چیدن و طراحی حروف تا متن خوانا و چشم‌نواز باشد: انتخاب قلم، اندازه، طول سطر، فاصلهٔ سطرها و حروف.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "سلسله‌مراتب تایپوگرافی",
+   "en": "Type hierarchy",
+   "desc": "نقش‌های اندازه و وزن قلم برای تیتر اصلی، تیتر فرعی، متن و زیرنویس.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "متن اصلی",
+   "en": "Body copy",
+   "desc": "بخش اصلی متن یک طرح یا نشریه؛ همان متنی که خوانده می‌شود.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "حروف نمایشی",
+   "en": "Display type",
+   "desc": "حروف پرزرق‌وبرق برای سطرهای کوتاه و جلب توجه، مثل تیتر پوستر و جلد. هرگز برای متن بلند یا حقوقی.",
+   "src": [
+    "lovart",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "فاصلهٔ سطرها (لیدینگ)",
+   "en": "Leading / Line height",
+   "desc": "فاصلهٔ عمودی بین سطرها. لیدینگ تنگ حس فوریت و لیدینگ باز حس فاخر بودن می‌دهد.",
+   "src": [
+    "lovart",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "فاصلهٔ حروف (ترکینگ)",
+   "en": "Tracking",
+   "desc": "تنظیم یکنواخت فاصلهٔ همهٔ حروف یک کلمه یا بند برای تغییر تراکم متن.",
+   "src": [
+    "lovart",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "کرنینگ",
+   "en": "Kerning",
+   "desc": "تنظیم فاصلهٔ بین دو حرف مشخص تا فاصله‌ها از نظر بصری یکدست شوند.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "ارتفاع x",
+   "en": "X-height",
+   "desc": "ارتفاع میانگین حروف کوچک لاتین، که با ارتفاع حرف x سنجیده می‌شود.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "بالارو",
+   "en": "Ascender",
+   "desc": "بخشی از حرف کوچک که از ارتفاع x بالاتر می‌رود، مثل b، d و f.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "پایین‌رو",
+   "en": "Descender",
+   "desc": "بخشی از حرف که از خط کرسی پایین‌تر می‌رود، مثل g، j و p.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "بیوه و یتیم",
+   "en": "Widow / Orphan",
+   "desc": "کلمه یا سطر کوتاهی که تنها در بالا یا پایین ستون یا انتهای بند می‌ماند. با ویرایش جعبهٔ متن درستش کنید، نه با ساختن دوبارهٔ کل تصویر.",
+   "src": [
+    "lovart",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "قلم سریف‌دار",
+   "en": "Serif typeface",
+   "desc": "قلمی با زائده‌های کوچک در انتهای خطوط؛ رسمی، معتبر و سنتی.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "قلم بدون سریف",
+   "en": "Sans serif",
+   "desc": "قلمی بدون زائده؛ تمیز، مدرن و ساده.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "قلم دست‌نویس",
+   "en": "Script typeface",
+   "desc": "قلمی که از دست‌خط پیوسته تقلید می‌کند؛ ظریف، شخصی یا خودمانی.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "قلم اسلب‌سریف",
+   "en": "Slab serif",
+   "desc": "قلمی با سریف‌های ضخیم و مکعبی؛ محکم و پرقدرت، بیشتر برای تیتر.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "خواناییِ حرف در برابر خوانش‌پذیری",
+   "en": "Legibility vs readability",
+   "desc": "خوانایی یعنی تشخیص تک‌تک حروف؛ خوانش‌پذیری یعنی راحتی خواندن طولانی. تبلیغ به هر دو نیاز دارد.",
+   "src": [
+    "lovart",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "نقل‌قول برجسته",
+   "en": "Pull quote",
+   "desc": "جمله‌ای کوتاه از متن که بزرگ و جدا چیده می‌شود تا ایدهٔ مهم را برجسته کند؛ رایج در مجله.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "type",
+   "fa": "متن ساختگی (لورم ایپسوم)",
+   "en": "Lorem ipsum",
+   "desc": "متن پرکنندهٔ موقت برای دیدن شکل طرح پیش از رسیدن متن واقعی.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "brand",
+   "fa": "برند",
+   "en": "Brand",
+   "desc": "مجموعهٔ ارزش‌ها، ایده‌ها و احساس‌هایی که یک سازمان را تعریف می‌کند؛ از لحن حرف زدن تا محتوایی که منتشر می‌کند.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "brand",
+   "fa": "هویت بصری برند",
+   "en": "Brand identity",
+   "desc": "تجسم دیدنی برند: لوگو، رنگ، قلم، کارت ویزیت، بسته‌بندی و هر چیزی که برند را در ذهن مخاطب متمایز کند.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "brand",
+   "fa": "لوگوتایپ",
+   "en": "Logotype",
+   "desc": "لوگویی که خود نام برند است، با طراحی ویژهٔ حروف؛ مثل گوگل.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "brand",
+   "fa": "نشانه (برندمارک)",
+   "en": "Brandmark",
+   "desc": "لوگویی که به‌جای نام از یک نماد استفاده می‌کند؛ مثل سیب اپل.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "brand",
+   "fa": "عکس استوک",
+   "en": "Stock photo",
+   "desc": "عکس حرفه‌ای آماده که با مجوز استفاده می‌شود، به‌جای عکاسی سفارشی.",
+   "src": [
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "print",
+   "fa": "بلید (اضافهٔ برش)",
+   "en": "Bleed",
+   "desc": "گسترش تصویر یا رنگ کمی بیرون از لبهٔ برش تا بعد از برش، لبهٔ سفید چاپ‌نشده باقی نماند.",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "print",
+   "fa": "برش قالبی (دایکات)",
+   "en": "Die cut",
+   "desc": "بریدن بخش‌هایی از اثر چاپی با قالب برای ساختن شکل‌های خاص؛ از مراحل تکمیلی چاپ است.",
+   "src": [
+    "canva"
+   ],
+   "style": "die-cut"
+  },
+  {
+   "cat": "print",
+   "fa": "فویل‌کوبی",
+   "en": "Foil stamping",
+   "desc": "پرس داغ فویل روی بخش‌هایی از طرح برای ساختن سطح براق فلزی.",
+   "src": [
+    "canva"
+   ],
+   "style": "foil-stamping"
+  },
+  {
+   "cat": "print",
+   "fa": "چاپ لترپرس",
+   "en": "Letterpressing",
+   "desc": "فشردن طرح با کلیشهٔ فلزی روی کاغذ برای ساختن فرورفتگی‌های برجسته.",
+   "src": [
+    "canva",
+    "aiscribbles"
+   ],
+   "style": "letterpress"
+  },
+  {
+   "cat": "file",
+   "fa": "DPI (نقطه در اینچ)",
+   "en": "DPI (Dots per inch)",
+   "desc": "تعداد نقطه‌های چاپ در هر اینچ؛ هرچه بیشتر، چاپ شفاف‌تر.",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "وضوح (رزولوشن)",
+   "en": "Resolution",
+   "desc": "میزان جزئیات تصویر؛ برای چاپ با DPI و برای نمایشگر با PPI سنجیده می‌شود. وضوح کم یعنی تصویر تار یا پیکسلی.",
+   "src": [
+    "coursera",
+    "canva"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "پیکسل",
+   "en": "Pixel",
+   "desc": "کوچک‌ترین واحد تصویر دیجیتال روی نمایشگر.",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "تصویر رستری (بیت‌مپ)",
+   "en": "Raster image",
+   "desc": "تصویری ساخته‌شده از شبکهٔ پیکسل‌ها، مثل عکس؛ با بزرگ کردن کیفیتش افت می‌کند.",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "تصویر برداری (وکتور)",
+   "en": "Vector image",
+   "desc": "تصویری ساخته‌شده از نقطه، خط و منحنی که بدون افت کیفیت بزرگ و کوچک می‌شود؛ مناسب لوگو.",
+   "src": [
+    "coursera"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "هدف خروجی",
+   "en": "Export intent",
+   "desc": "جایی که فایل در آن زندگی می‌کند: اینستاگرام، چاپ، فروشگاه آنلاین یا ارائه. همین تعیین می‌کند وضوح، زمینه و حاشیهٔ امن چه باشد.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "PNG شفاف",
+   "en": "Transparent PNG",
+   "desc": "فایل بدون زمینه برای استیکر و لایهٔ رویی؛ اگر لبه‌هایش کثیف باشد فاجعه است.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "الزام زمینهٔ سفید",
+   "en": "White background compliance",
+   "desc": "قانون فروشگاه‌های آنلاین برای عکس محصول، نه یک سلیقهٔ زیبایی‌شناختی.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "آثار فشرده‌سازی",
+   "en": "Compression artifacts",
+   "desc": "بلوک‌های زشتی که بعد از خروجی گرفتن و فشرده‌سازی پیدا می‌شوند. در مقصد واقعی (مثلاً روی گوشی) بررسی کنید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "نام‌گذاری فایل",
+   "en": "File naming",
+   "desc": "نامی مثل brand_campaign_asset_v03 بهتر از final-FINAL2 است. نظم فایل هم بخشی از طراحی است.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "file",
+   "fa": "تثبیت نسخه",
+   "en": "Version freeze",
+   "desc": "بعد از تأیید، دیگر از نو تولید نکنید. نسخهٔ تثبیت‌شده را منتشر کنید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "پرامپت",
+   "en": "Prompt",
+   "desc": "بریفی با سوژه، زمینه و محدودیت‌ها؛ نه یک شعر حسی.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "پرامپت منفی (فهرست ممنوع‌ها)",
+   "en": "Negative prompt / never-list",
+   "desc": "چیزهایی که نباید در تصویر باشند. غیرطراح‌ها از آن کم و از تولید دوباره زیاد استفاده می‌کنند.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "تصویر مرجع و تختهٔ سبک",
+   "en": "Reference / style board",
+   "desc": "تصویرهایی که ظاهر کار را تعریف می‌کنند. سه مرجع قوی بهتر از دوازده مرجع پراکنده است.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "بذر و واریاسیون",
+   "en": "Seed / variation",
+   "desc": "کنترل شباهت خروجی‌ها در یک مجموعه؛ برای سری تبلیغ و استیکر حیاتی است.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "توهم بصری",
+   "en": "Visual hallucination",
+   "desc": "جزئیات غلط اما مطمئن: انگشت اضافه، هندسهٔ غلط لوگو، متن جعلی روی بسته‌بندی.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "چسبیدن بیش از حد به مرجع",
+   "en": "Overfit to reference",
+   "desc": "وقتی خروجی چنان از مرجع کپی می‌کند که واقعیت محصول از دست می‌رود.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "یکدستی دسته‌ای",
+   "en": "Batch consistency",
+   "desc": "ثابت نگه داشتن چهره، پالت و اشیا در یک مجموعهٔ بزرگ از تصویرها.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "حق وتوی انسانی",
+   "en": "Human veto",
+   "desc": "فردی مشخص که می‌تواند تصویر «زیبا» اما غلط را رد کند. بدون او هوش مصنوعی فقط اشتباه را سریع‌تر می‌کند.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "ساختار سه‌بخشی پرامپت",
+   "en": "Prompt structure",
+   "desc": "سوژه (چه چیز، با چه جنس و حالتی)، زمینه (محیط، زمان، فاصلهٔ دوربین) و پارامترهای سبک (نور، لنز، نقش رنگ‌ها، ممنوع‌ها).",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "ai",
+   "fa": "ترکیب منسجم سبک‌ها",
+   "en": "Combining styles coherently",
+   "desc": "یک رسانهٔ اصلی، یک اثر ساختاری و یک پرداخت نهایی را نام ببرید؛ نه فهرستی از ده سبک متضاد. اگر ترکیب می‌کنید، هر ویژگی را به یک لایه یا بخش تصویر نسبت دهید.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "critique",
+   "fa": "«شلوغه»",
+   "en": "\"Busy\"",
+   "desc": "معمولاً یعنی چند نقطهٔ کانونی با هم رقابت می‌کنند. سلسله‌مراتب و فضای منفی را درست کنید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "critique",
+   "fa": "«ارزون به نظر می‌رسه»",
+   "en": "\"Cheap\"",
+   "desc": "معمولاً یعنی کنتراست بی‌نظم، نورپردازی کلیشه‌ای استوک یا رنگ‌های تأکیدیِ بیش از حد اشباع.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "critique",
+   "fa": "«به برند نمی‌خوره»",
+   "en": "\"Off brand\"",
+   "desc": "فاصله گرفتن از نقش‌های رنگ و قلم برند. هویت را دوباره قفل کنید؛ برای درست کردن یک تصویر، سبک تازه اضافه نکنید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "critique",
+   "fa": "«تخته»",
+   "en": "\"Flat\"",
+   "desc": "کمبود عمق و کنتراست. جهت نور را تغییر دهید یا لایه‌ها را از هم جدا کنید؛ فقط اشباع را بالا نبرید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "critique",
+   "fa": "«خیلی اداریه»",
+   "en": "\"Corporate\"",
+   "desc": "ترکیب‌بندی بیش از حد محتاط و ژست‌های استوک. یک شیء مشخص یا یک زاویهٔ دید تازه اضافه کنید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "critique",
+   "fa": "«بوی هوش مصنوعی می‌ده»",
+   "en": "\"AI look\"",
+   "desc": "پوست پلاستیکی، قرینگی کامل، براقی بی‌معنا. بافت را اصلاح کنید و یک لبهٔ بی‌نقص را بشکنید.",
+   "src": [
+    "lovart"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "فوتورئال",
+   "en": "Photorealistic",
+   "desc": "جزئیات کاملاً باورپذیر از نظر فیزیکی و عکاسی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "طبیعت‌گرا",
+   "en": "Naturalistic",
+   "desc": "مشاهدهٔ دقیق و باورپذیر، بی‌آنکه لزوماً شبیه عکس باشد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "بازنمایانه",
+   "en": "Representational",
+   "desc": "سوژه کاملاً قابل‌شناسایی می‌ماند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "سبک‌پردازی‌شده (استیلایز)",
+   "en": "Stylized",
+   "desc": "بعضی ویژگی‌ها آگاهانه ساده یا اغراق می‌شوند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "نیمه‌واقع‌گرا",
+   "en": "Semi-realistic",
+   "desc": "کالبد و جنس واقعی با ساده‌سازی ملایم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "آرمانی‌شده",
+   "en": "Idealized",
+   "desc": "بی‌نظمی‌ها به سمت یک آرمان بصری کم می‌شوند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "ساده‌شده",
+   "en": "Simplified",
+   "desc": "جزئیات غیرضروری حذف می‌شوند اما هویت سوژه می‌ماند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "طرح‌واره‌ای",
+   "en": "Schematic",
+   "desc": "رابطه‌ها مهم‌تر از ظاهر واقعی‌اند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "نموداری",
+   "en": "Diagrammatic",
+   "desc": "نظم اطلاعات و برچسب‌ها غالب است.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "blueprint-technical-drawing"
+  },
+  {
+   "cat": "repr",
+   "fa": "نمادین",
+   "en": "Symbolic",
+   "desc": "شکل‌ها با قرارداد یا استعاره ایده منتقل می‌کنند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "ناییف (خام‌دستانه)",
+   "en": "Naïve",
+   "desc": "بازنمایی مستقیم، تخت و غیرآکادمیک؛ نه به معنای کیفیت پایین.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "naive-art"
+  },
+  {
+   "cat": "repr",
+   "fa": "هندسی ابتدایی",
+   "en": "Primitive geometric",
+   "desc": "شکل‌ها به حجم‌های پایه و نشانه‌های تکراری کاهش می‌یابند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "انتزاعی‌شده",
+   "en": "Abstracted",
+   "desc": "سوژهٔ شناختنی به رابطهٔ شکل و رنگ تبدیل می‌شود.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "repr",
+   "fa": "غیرعینی (نان‌آبجکتیو)",
+   "en": "Nonobjective",
+   "desc": "هیچ سوژهٔ قابل‌شناسایی‌ای در کار نیست.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "color-field-painting"
+  },
+  {
+   "cat": "repr",
+   "fa": "سورئال",
+   "en": "Surreal",
+   "desc": "عناصر باورپذیر با منطق رؤیا به شکلی ناممکن کنار هم می‌نشینند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "surrealism"
+  },
+  {
+   "cat": "shape",
+   "fa": "هندسی",
+   "en": "Geometric",
+   "desc": "دایره، مربع، مثلث و گرید؛ حس عقلانی و ساختاری.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "ارگانیک",
+   "en": "Organic",
+   "desc": "منحنی‌های نامنظم طبیعی؛ زنده، روان و غیررسمی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "زاویه‌دار",
+   "en": "Angular",
+   "desc": "گوشه‌های تیز، مورب‌ها و برش‌های چندوجهی؛ پرانرژی و پرتنش.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "گرد",
+   "en": "Rounded",
+   "desc": "گوشه‌های نرم و حجم‌های بادکرده؛ دوستانه و بازیگوش.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "راست‌گوشه",
+   "en": "Rectilinear",
+   "desc": "غلبهٔ لبه‌های صاف افقی و عمودی؛ معمارانه و پایدار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "منحنی‌گرا",
+   "en": "Curvilinear",
+   "desc": "منحنی‌های پیوسته و روان؛ ظریف، تزئینی و پویا.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "زیست‌ریخت (بیومورفیک)",
+   "en": "Biomorphic",
+   "desc": "شکل‌های انتزاعی شبیه سلول، بدن یا سنگ؛ طبیعی، سورئال و میانهٔ قرن.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "biomorphic"
+  },
+  {
+   "cat": "shape",
+   "fa": "چندوجهی",
+   "en": "Faceted",
+   "desc": "سطح‌های منحنی به وجه‌های چندضلعی شکسته می‌شوند؛ بلوری و لوپولی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "low-poly-3d"
+  },
+  {
+   "cat": "shape",
+   "fa": "مکعبی",
+   "en": "Blocky",
+   "desc": "توده‌های مستطیلی پهن؛ محکم، اسباب‌بازی‌گونه و یادمانی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "لاغر و دوکی",
+   "en": "Spindly",
+   "desc": "فرم‌های بسیار باریک و کشیده؛ ظریف، عصبی و ترسناک.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "کشیده",
+   "en": "Elongated",
+   "desc": "تناسب‌ها در طول یا عرض کش می‌آیند؛ ظریف، استیلایز یا غریب.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "کوتاه و پهن",
+   "en": "Squat",
+   "desc": "تناسب‌های پهن و کوتاه؛ پایدار، کمیک و محکم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "باریک‌شونده",
+   "en": "Tapered",
+   "desc": "فرم‌ها کم‌کم باریک می‌شوند؛ جهت‌دار و پالوده.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "پیمانه‌ای (مدولار)",
+   "en": "Modular",
+   "desc": "ساخته‌شده از واحدهای تکرارپذیر؛ سیستماتیک و صنعتی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "shape",
+   "fa": "نامتقارن",
+   "en": "Asymmetric",
+   "desc": "دو طرف آگاهانه متفاوت‌اند؛ ارگانیک، فعال و شخصی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "خط تمیز",
+   "en": "Clean line",
+   "desc": "کنتور کنترل‌شده، یکنواخت یا با تغییر آگاهانهٔ ضخامت.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "تک‌ضخامت (مونولاین)",
+   "en": "Monoline",
+   "desc": "خطی با ضخامت ثابت در همه‌جا.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "line-art-illustration"
+  },
+  {
+   "cat": "line",
+   "fa": "ضخامت متغیر خط",
+   "en": "Variable line weight",
+   "desc": "تغییر ضخیم و نازک خط برای تأکید، عمق یا فشار دست.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "دورگیری ضخیم",
+   "en": "Bold outline",
+   "desc": "کنتور سنگینی که فرم‌های تخت یا حجم‌دار را در بر می‌گیرد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "دورگیری نازک",
+   "en": "Fine outline",
+   "desc": "مرز ظریف؛ مناسب گیاه‌نگاری، طراحی فنی یا مد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "خط شکسته",
+   "en": "Broken line",
+   "desc": "کنتور منقطع که زمینه از لابه‌لایش پیداست.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "خط اسکیسی",
+   "en": "Sketchy line",
+   "desc": "خط‌های جست‌وجوگر و تکراری که دیده می‌مانند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "conceptual-sketch-doodle"
+  },
+  {
+   "cat": "line",
+   "fa": "خط خوشنویسانه",
+   "en": "Calligraphic line",
+   "desc": "فشار و جهت قلم، باریک‌شدن پرحالت می‌سازد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "خط مکانیکی",
+   "en": "Mechanical line",
+   "desc": "خط دقیق خط‌کشی یا برداری.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "بدون دورگیری",
+   "en": "No outline / Lineless",
+   "desc": "شکل‌ها فقط با رنگ و تیرگی از هم جدا می‌شوند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "flat-design"
+  },
+  {
+   "cat": "line",
+   "fa": "لبهٔ سخت",
+   "en": "Hard-edged",
+   "desc": "مرزهای تیز بدون هیچ ترکیب رنگی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "hard-edge-painting"
+  },
+  {
+   "cat": "line",
+   "fa": "لبهٔ نرم",
+   "en": "Soft-edged",
+   "desc": "گذرها محو می‌شوند، می‌دوند یا حل می‌شوند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "لبهٔ گم‌وپیدا",
+   "en": "Lost-and-found edges",
+   "desc": "کنتور بسته به نور و تأکید ناپدید می‌شود و برمی‌گردد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "line",
+   "fa": "لبهٔ کاغذ بریده",
+   "en": "Cut-paper edge",
+   "desc": "سیلوئت تیز با کمی عمق و سایهٔ فیزیکی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "layered-papercut"
+  },
+  {
+   "cat": "line",
+   "fa": "لبهٔ پیکسلی",
+   "en": "Pixel edge",
+   "desc": "لبهٔ پله‌پلهٔ عمدی با وضوح کم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "pixel-art-8-bit"
+  },
+  {
+   "cat": "detail",
+   "fa": "مینیمال",
+   "en": "Minimal",
+   "desc": "فرم‌ها و جزئیات بسیار کم، با سلسله‌مراتب آگاهانه.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "minimalism-art"
+  },
+  {
+   "cat": "detail",
+   "fa": "کم‌مایه و باز",
+   "en": "Spare",
+   "desc": "اجزای محدود با فضای باز سخاوتمندانه.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "detail",
+   "fa": "تمیز",
+   "en": "Clean",
+   "desc": "سطح‌های کنترل‌شده و نویز ناخواستهٔ کم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "detail",
+   "fa": "صرفه‌جویانه",
+   "en": "Economical",
+   "desc": "هر نشانه نقش روشنی دارد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "detail",
+   "fa": "تخت",
+   "en": "Flat",
+   "desc": "حجم‌پردازی محدود؛ شکل و رنگ غالب است.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "flat-design"
+  },
+  {
+   "cat": "detail",
+   "fa": "لایه‌لایه",
+   "en": "Layered",
+   "desc": "صفحه‌ها، بافت‌ها یا عمق‌های روی هم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "detail",
+   "fa": "پرتزئین",
+   "en": "Ornate",
+   "desc": "تزئینات متراکم و جزئیات پرکار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "victorian-ornamental"
+  },
+  {
+   "cat": "detail",
+   "fa": "پرجزئیات",
+   "en": "Intricate",
+   "desc": "جزئیات ریز فراوان و درهم‌تنیده.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "detail",
+   "fa": "ماکسیمالیستی",
+   "en": "Maximalist",
+   "desc": "رنگ، نقش، شیء و تزئین فراوان با زیاده‌روی عمدی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "maximalism"
+  },
+  {
+   "cat": "detail",
+   "fa": "باروک‌وار",
+   "en": "Baroque",
+   "desc": "منحنی‌های پویا، کنتراست نمایشی، تزئین غنی و حرکت فضایی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "baroque"
+  },
+  {
+   "cat": "detail",
+   "fa": "روکوکوگونه",
+   "en": "Rococo-like",
+   "desc": "تزئین نامتقارن ظریف، رنگ‌های کم‌رنگ، منحنی صدفی و ظرافت بازیگوش.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "rococo"
+  },
+  {
+   "cat": "detail",
+   "fa": "خویشتن‌دار",
+   "en": "Restrained",
+   "desc": "افکت، پالت و تزئین محدود.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "detail",
+   "fa": "خام",
+   "en": "Raw",
+   "desc": "نشانه‌های صیقل‌نخورده، فرایند پیدا و لبه‌های نامنظم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "detail",
+   "fa": "صیقلی",
+   "en": "Polished",
+   "desc": "پرداخت کامل، یکدست و آمادهٔ ارائه.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "finish",
+   "fa": "مستند",
+   "en": "Documentary",
+   "desc": "قاب‌بندی مشاهده‌گر، حس نور موجود، جزئیات صحنه‌سازی‌نشده و نقص‌های باورپذیر.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "documentary-photography"
+  },
+  {
+   "cat": "finish",
+   "fa": "مطبوعاتی (ادیتوریال)",
+   "en": "Editorial",
+   "desc": "ایدهٔ آگاهانه، ترکیب‌بندی کنترل‌شده و پرداخت آمادهٔ انتشار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "editorial-magazine-cover"
+  },
+  {
+   "cat": "finish",
+   "fa": "تجاری",
+   "en": "Commercial",
+   "desc": "سلسله‌مراتب روشن محصول، اجرای تمیز و جذابیت عام.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "finish",
+   "fa": "کاتالوگی",
+   "en": "Catalog",
+   "desc": "زمینهٔ خنثی، زاویهٔ ثابت، جزئیات دقیق محصول و کمترین روایت.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "product-photography"
+  },
+  {
+   "cat": "finish",
+   "fa": "لایف‌استایل",
+   "en": "Lifestyle",
+   "desc": "محصول یا آدم در زمینه‌ای طبیعی، آرمانی اما باورپذیر.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "lifestyle-photography"
+  },
+  {
+   "cat": "finish",
+   "fa": "بی‌تکلف (کندید)",
+   "en": "Candid",
+   "desc": "سوژه انگار بین دو ژست غافلگیر شده؛ نگاه و حرکت از دوربین فرمان نمی‌گیرد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "street-photography"
+  },
+  {
+   "cat": "finish",
+   "fa": "اسنپ‌شات",
+   "en": "Snapshot",
+   "desc": "قاب‌بندی فوری، فلاش مستقیم یا نور موجود، برش اتفاقی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "flash-snapshot"
+  },
+  {
+   "cat": "finish",
+   "fa": "پرداخت استودیویی",
+   "en": "Studio-polished",
+   "desc": "نور دقیق، زمینهٔ کنترل‌شده، روتوش‌شده اما از نظر فیزیکی منسجم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "studio-lighting"
+  },
+  {
+   "cat": "finish",
+   "fa": "روتوش‌نشده",
+   "en": "Unretouched",
+   "desc": "منافذ پوست، الیاف، گردوخاک و ناقرینگی‌های جزئی باقی می‌مانند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "finish",
+   "fa": "هایپررئال",
+   "en": "Hyperreal",
+   "desc": "واقعیت با دقت، مقیاس، بافت یا وضوح افراطی تشدید می‌شود.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "photorealism-painting"
+  },
+  {
+   "cat": "finish",
+   "fa": "رؤیاگونه",
+   "en": "Dreamlike",
+   "desc": "منطق علت و معلول نرم می‌شود؛ گذرهای مه‌آلود، مقیاس دگرگون یا رنگ درخشان.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "dreamcore"
+  },
+  {
+   "cat": "finish",
+   "fa": "اثیری",
+   "en": "Ethereal",
+   "desc": "رنگ‌های روشن درخشان، شفافیت، مه و لبه‌های نرم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "ethereal"
+  },
+  {
+   "cat": "finish",
+   "fa": "خشن و زمخت",
+   "en": "Gritty",
+   "desc": "بافت درشت، کنتراست سخت، فرسودگی، نویز و محیط آرمانی‌نشده.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "gritty-realism"
+  },
+  {
+   "cat": "finish",
+   "fa": "لمسی",
+   "en": "Tactile",
+   "desc": "دانهٔ ماده، نشانه‌های برجسته، لبه‌ها و ردّ ساخت پیدا می‌مانند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "era",
+   "fa": "کلاسیک",
+   "en": "Classical",
+   "desc": "تناسب متعادل، فرم آرمانی، ستون‌ها و هماهنگی خویشتن‌دار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "greco-roman-classical"
+  },
+  {
+   "cat": "era",
+   "fa": "نسخهٔ خطی قرون وسطا",
+   "en": "Medieval manuscript-like",
+   "desc": "سلسله‌مراتب تخت، حاشیه‌های تزئینی، ورق طلا و زمینهٔ منقوش.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "gothic-illuminated-manuscript"
+  },
+  {
+   "cat": "era",
+   "fa": "رنسانس",
+   "en": "Renaissance-inspired",
+   "desc": "پرسپکتیو خطی، ترکیب هرمی پایدار، حجم طبیعی و معماری کلاسیک.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "renaissance"
+  },
+  {
+   "cat": "era",
+   "fa": "منریسم",
+   "en": "Mannerist",
+   "desc": "بدن‌های کشیده، تنش فضایی غیرعادی و رنگ‌های مصنوعی پیچیده.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "mannerism"
+  },
+  {
+   "cat": "era",
+   "fa": "باروک",
+   "en": "Baroque",
+   "desc": "مورب‌های نمایشی، کیاروسکوروی تئاتری، حرکت و مادهٔ غنی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "baroque"
+  },
+  {
+   "cat": "era",
+   "fa": "روکوکو",
+   "en": "Rococo",
+   "desc": "پالت پاستلی، تزئین صدفی، عدم تقارن و صحنه‌های تزئینی سبک.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "rococo"
+  },
+  {
+   "cat": "era",
+   "fa": "نئوکلاسیک",
+   "en": "Neoclassical",
+   "desc": "کنتور روشن، نقش‌مایه‌های باستانی، قرینگی منظم و پالت خویشتن‌دار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "neoclassical"
+  },
+  {
+   "cat": "era",
+   "fa": "رمانتیک",
+   "en": "Romantic",
+   "desc": "منظرهٔ والا، آب‌وهوای طوفانی، احساس و مقیاس نمایشی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "romanticism"
+  },
+  {
+   "cat": "era",
+   "fa": "ویکتوریایی",
+   "en": "Victorian",
+   "desc": "تزئین لایه‌لایه، نقش گیاهی، رنگ‌های تیرهٔ غنی و تایپوگرافی متراکم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "victorian-ornamental"
+  },
+  {
+   "cat": "era",
+   "fa": "هنرها و صنایع دستی",
+   "en": "Arts and Crafts",
+   "desc": "مواد صادق، کار دست، طبیعت استیلایز و الگوهای تکراری تخت.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "arts-and-crafts-painting"
+  },
+  {
+   "cat": "era",
+   "fa": "آرت نوو",
+   "en": "Art Nouveau",
+   "desc": "منحنی‌های شلاقی، ساختار گیاهی، حروف درهم‌آمیخته و پیکره‌های کشیده.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "art-nouveau"
+  },
+  {
+   "cat": "era",
+   "fa": "آرت دکو",
+   "en": "Art Deco",
+   "desc": "هندسهٔ آیرودینامیک، فرم‌های پله‌ای، پرتوهای خورشیدی، قرینگی و فلزهای فاخر.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "art-deco"
+  },
+  {
+   "cat": "era",
+   "fa": "باوهاوس",
+   "en": "Bauhaus-inspired",
+   "desc": "هندسهٔ پایه، سلسله‌مراتب کارکردی، رنگ‌های اصلی و حروف بدون سریف.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "bauhaus-graphic-design"
+  },
+  {
+   "cat": "era",
+   "fa": "کانستراکتیویسم",
+   "en": "Constructivist-inspired",
+   "desc": "مورب‌های قوی، فتومونتاژ، بلوک‌های هندسی و پالت محدود قرمز و مشکی و کرم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "russian-constructivism"
+  },
+  {
+   "cat": "era",
+   "fa": "استریم‌لاین مدرن",
+   "en": "Streamline Moderne",
+   "desc": "خطوط سرعت افقی، گوشه‌های گرد، کروم و فرم‌های آیرودینامیک.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "streamline-moderne"
+  },
+  {
+   "cat": "era",
+   "fa": "مدرن میانهٔ قرن",
+   "en": "Mid-century modern",
+   "desc": "هندسهٔ ارگانیک، چوب گرم، کارکرد تمیز و رنگ‌های ملایم و خوش‌بین.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "mid-century-modern"
+  },
+  {
+   "cat": "era",
+   "fa": "رترو‌فیوچریسم عصر فضا",
+   "en": "Space-age retrofuturist",
+   "desc": "گنبد، باله، ستاره‌های انفجاری، فناوری خوش‌بین و پلاستیک قالبی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "atomic-retro-futurism"
+  },
+  {
+   "cat": "era",
+   "fa": "بروتالیسم",
+   "en": "Brutalist",
+   "desc": "مواد خام عظیم، سازهٔ نمایان، هندسهٔ خشک و کنتراست بی‌تعارف.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "graphic-brutalism"
+  },
+  {
+   "cat": "era",
+   "fa": "پست‌مدرن",
+   "en": "Postmodern",
+   "desc": "نقل‌قول از گذشته، تناقض بازیگوش، الگوهای پررنگ و ارجاع‌های تاریخی درهم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "postmodern-graphic-design"
+  },
+  {
+   "cat": "era",
+   "fa": "ممفیس",
+   "en": "Memphis-like",
+   "desc": "الگوهای هندسی روشن، خط‌خطی‌ها، سطح‌های شبیه لمینیت و عدم تقارن بازیگوش.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "memphis-group"
+  },
+  {
+   "cat": "era",
+   "fa": "Y2K رترو دیجیتال",
+   "en": "Y2K retro-digital",
+   "desc": "کروم، پلاستیک شفاف، حباب، گرادیان و رابط‌های فشردهٔ آینده‌گرا.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "y2k-frutiger-aero"
+  },
+  {
+   "cat": "genre",
+   "fa": "نوآر",
+   "en": "Noir",
+   "desc": "نور کم، سایه‌های سخت، خیابان خیس، سایهٔ کرکره و قاب‌بندی پرتنش اخلاقی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "film-noir"
+  },
+  {
+   "cat": "genre",
+   "fa": "نئونوآر",
+   "en": "Neo-noir",
+   "desc": "کنتراست نوآر با رنگ، معماری و نورهای ترکیبی امروزی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "neo-noir"
+  },
+  {
+   "cat": "genre",
+   "fa": "سایبرپانک",
+   "en": "Cyberpunk",
+   "desc": "فناوری شهری متراکم، فاصلهٔ طبقاتی، نور نئون، باران و تابلوهای لایه‌لایه.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "cyberpunk-neon"
+  },
+  {
+   "cat": "genre",
+   "fa": "سولارپانک",
+   "en": "Solarpunk",
+   "desc": "فناوری سبز در مقیاس محله، گیاهان فراوان، نور گرم روز و طراحی خوش‌بین و تعمیرپذیر.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "solarpunk"
+  },
+  {
+   "cat": "genre",
+   "fa": "استیم‌پانک",
+   "en": "Steampunk",
+   "desc": "ماشین‌آلات خیالی عصر بخار، برنج و آهن پرچ‌شده، عقربه‌ها، چرم و دوده.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "steampunk"
+  },
+  {
+   "cat": "genre",
+   "fa": "دیزل‌پانک",
+   "en": "Dieselpunk",
+   "desc": "آینده‌گرایی صنعتی میان دو جنگ، موتورهای سنگین، فولاد، هندسهٔ دکو و دود.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "dieselpunk"
+  },
+  {
+   "cat": "genre",
+   "fa": "اتم‌پانک",
+   "en": "Atompunk",
+   "desc": "خوش‌بینی و اضطراب عصر اتم، فرم‌های بومرنگی، باله، گنبد و رنگ‌های لعابی روشن.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "atomic-retro-futurism"
+  },
+  {
+   "cat": "genre",
+   "fa": "آینده‌گرایی کاستی",
+   "en": "Cassette futurism",
+   "desc": "کنترل‌های آنالوگ درشت، CRT، کلیدها، پنل‌های برچسب‌دار و پلاستیک صنعتی بژ و خاکستری.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "cassette-futurism"
+  },
+  {
+   "cat": "genre",
+   "fa": "بیوپانک",
+   "en": "Biopunk",
+   "desc": "فرم‌های ارگانیک مهندسی‌شده، آزمایشگاه مرطوب، غشا و سامانه‌های رشد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "biopunk"
+  },
+  {
+   "cat": "genre",
+   "fa": "آینده‌گرایی زیست‌محیطی",
+   "en": "Eco-futurist",
+   "desc": "مواد کم‌اثر، طراحی غیرفعال، چرخه‌های بسته و زیست‌بوم یکپارچه.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "solarpunk"
+  },
+  {
+   "cat": "genre",
+   "fa": "گوتیک",
+   "en": "Gothic",
+   "desc": "طاق‌های تیزه‌دار، عمودگرایی، تور سنگی، سایه و فضای عبادی یا شوم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "gothic-design"
+  },
+  {
+   "cat": "genre",
+   "fa": "دارک آکادمیا",
+   "en": "Dark academia",
+   "desc": "کتابخانه‌های قدیمی، چوب فرسوده، پشم و کاغذ، پالت قهوه‌ای و سبز و نور پنجره.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "dark-academia"
+  },
+  {
+   "cat": "genre",
+   "fa": "کاتیج‌کور",
+   "en": "Cottagecore",
+   "desc": "خانه‌داری دستی روستایی، باغ پربار، الیاف طبیعی و نور نرم فصلی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "cottagecore"
+  },
+  {
+   "cat": "genre",
+   "fa": "ساحلی",
+   "en": "Coastal",
+   "desc": "مواد رنگ‌پریدهٔ فرسوده، آبی‌های دریایی، مه شور و نور باز.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "coastal-aesthetic"
+  },
+  {
+   "cat": "genre",
+   "fa": "وسترن",
+   "en": "Western",
+   "desc": "منظرهٔ خشک، مواد کاربردی فرسوده، افق پهن و معماری مرزی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "spaghetti-western-poster"
+  },
+  {
+   "cat": "genre",
+   "fa": "فانتزی",
+   "en": "Fantasy",
+   "desc": "سامانهٔ جهانی ناممکن؛ فرهنگ، مواد، رفتار جادو و سطح فناوری را مشخص کنید.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "high-fantasy"
+  },
+  {
+   "cat": "genre",
+   "fa": "علمی‌تخیلی",
+   "en": "Science fiction",
+   "desc": "فناوری خیالی با کارکرد، مقیاس و منطق مادی منسجم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "space-opera"
+  },
+  {
+   "cat": "genre",
+   "fa": "وحشت",
+   "en": "Horror",
+   "desc": "تهدید از راه نور، غیاب، دگرگونی بدن یا محیط، یا تعلیق؛ سازوکارش را نام ببرید.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "atmospheric-horror"
+  },
+  {
+   "cat": "genre",
+   "fa": "بازیگوش و خیال‌انگیز",
+   "en": "Whimsical",
+   "desc": "مقیاس بازیگوش، ترکیب‌های غافلگیرکننده، شکل‌های شاد و رنگ ملایم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "whimsical-illustration"
+  },
+  {
+   "cat": "anim",
+   "fa": "انیمیشن سل",
+   "en": "Cel animation look",
+   "desc": "رنگ‌های تخت نقاشی‌شده، خط و سایه‌های جدا.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "2d-cel-animation"
+  },
+  {
+   "cat": "anim",
+   "fa": "انیمیشن محدود",
+   "en": "Limited animation",
+   "desc": "فرم‌های ساده و آمادهٔ حرکت با جزئیات صرفه‌جویانه.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "limited-animation"
+  },
+  {
+   "cat": "anim",
+   "fa": "انیمیشن برش کاغذی",
+   "en": "Cutout animation",
+   "desc": "قطعه‌های لایه‌لایهٔ کاغذمانند که می‌چرخند و روی هم می‌افتند.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "cutout-paper-animation"
+  },
+  {
+   "cat": "anim",
+   "fa": "استاپ‌موشن",
+   "en": "Stop-motion look",
+   "desc": "صحنه‌های مینیاتوری ساخته‌شده، اثر انگشت و درزها.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "stop-motion"
+  },
+  {
+   "cat": "anim",
+   "fa": "انیمیشن خمیری",
+   "en": "Clay animation",
+   "desc": "سطح پلاستیلین، تغییر شکل گرد و اثر انگشت.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "claymation"
+  },
+  {
+   "cat": "anim",
+   "fa": "انیمیشن عروسکی",
+   "en": "Puppet animation",
+   "desc": "شخصیت‌های پارچه‌ای، فومی یا چوبی با مفصل و صحنهٔ ساخته‌شده.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "puppet-animation"
+  },
+  {
+   "cat": "anim",
+   "fa": "الهام از انیمه",
+   "en": "Anime-influenced",
+   "desc": "به‌تنهایی خیلی کلی است؛ ضخامت خط، تناسب چهره، سایه‌زنی و ژانر را مشخص کنید.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "anime-inspired-animation"
+  },
+  {
+   "cat": "anim",
+   "fa": "مانگاگونه",
+   "en": "Manga-like",
+   "desc": "مرکب تک‌رنگ، تراما، خطوط سرعت و زبان پنل.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "manga-screentone"
+  },
+  {
+   "cat": "anim",
+   "fa": "کمیک آلبومی اروپایی",
+   "en": "European album comic",
+   "desc": "صفحه‌آرایی روشن، مرکب کنترل‌شده و پنل‌های رنگی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "franco-belgian-bande-dessinee"
+  },
+  {
+   "cat": "anim",
+   "fa": "استریپ روزنامه",
+   "en": "Newspaper strip",
+   "desc": "چند پنل کوتاه تکراری، خط صرفه‌جو و صحنهٔ محدود.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "newspaper-comic-strip"
+  },
+  {
+   "cat": "anim",
+   "fa": "رمان گرافیکی",
+   "en": "Graphic novel",
+   "desc": "رسانهٔ کمیک بلند، نه یک سبک واحد؛ مرکب، رنگ، واقع‌گرایی و ریتم پنل را مشخص کنید.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "anim",
+   "fa": "خط روشن (لین کلر)",
+   "en": "Clear-line style",
+   "desc": "کنتور تمیز یکنواخت، رنگ تخت و محیط پرجزئیات خوانا.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "ligne-claire"
+  },
+  {
+   "cat": "anim",
+   "fa": "کمیک نقاشانه",
+   "en": "Painterly comic",
+   "desc": "بافت قلم‌مو و رنگ پیدا در قاب‌بندی پیاپی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "painterly-comic"
+  },
+  {
+   "cat": "surface",
+   "fa": "چاپ سیلک (اسکرین)",
+   "en": "Screen-printed",
+   "desc": "رنگ‌های تخت جدا، هم‌پوشانی کدر، جابه‌جایی جزئی رنگ‌ها و بافت توری.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "screen-print-gig-poster"
+  },
+  {
+   "cat": "surface",
+   "fa": "ریزوگراف",
+   "en": "Risograph",
+   "desc": "رنگ‌های زندهٔ محدود، هافتون، ترکیب رنگ‌های روی هم، جابه‌جایی رنگ و کاغذ بدون پوشش.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "risograph"
+  },
+  {
+   "cat": "surface",
+   "fa": "لترپرس",
+   "en": "Letterpress",
+   "desc": "جوهر برجسته، فرورفتگی لمسی، فشردگی لبه و کاغذ ضخیم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "letterpress"
+  },
+  {
+   "cat": "surface",
+   "fa": "چاپ افست",
+   "en": "Offset print",
+   "desc": "هافتون و روزت ریز، ثبت دقیق رنگ و کاغذ تجاری.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "offset-print"
+  },
+  {
+   "cat": "surface",
+   "fa": "کاغذ روزنامه",
+   "en": "Newsprint",
+   "desc": "نقطه‌های درشت، پخش جوهر، رنگ کدر و کاغذ نازک خاکستری.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "newsprint"
+  },
+  {
+   "cat": "surface",
+   "fa": "فتوکپی و زیراکس",
+   "en": "Photocopy / xerox",
+   "desc": "کنتراست بالا، دانهٔ تونر، ریزش لبه و آثار کپی‌های پیاپی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "photocopy-xerox"
+  },
+  {
+   "cat": "surface",
+   "fa": "مایموگراف",
+   "en": "Mimeograph-like",
+   "desc": "جوهر محدود، بافت استنسیل و تکثیر ناهموار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "mimeograph"
+  },
+  {
+   "cat": "surface",
+   "fa": "سیانوتایپ",
+   "en": "Cyanotype",
+   "desc": "زمینهٔ آبی پروسی با سیلوئت‌های سفید یا روشن.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "cyanotype"
+  },
+  {
+   "cat": "surface",
+   "fa": "فیلم فوری",
+   "en": "Instant film",
+   "desc": "چاپ حاشیه‌دار ضخیم، اپتیک نرم و تغییر رنگ شیمیایی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "polaroid"
+  },
+  {
+   "cat": "surface",
+   "fa": "فیلم ۳۵ میلی‌متری",
+   "en": "35mm film",
+   "desc": "دانهٔ ریز تا متوسط، هاله و افت نرم نورهای روشن.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "35mm-film-look"
+  },
+  {
+   "cat": "surface",
+   "fa": "فیلم مدیوم‌فرمت",
+   "en": "Medium-format film",
+   "desc": "جزئیات بالا، گذر نرم تونال و فوکوس کم‌عمق.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "medium-format-film"
+  },
+  {
+   "cat": "surface",
+   "fa": "لارج‌فرمت",
+   "en": "Large-format",
+   "desc": "جزئیات بسیار بالا، ترکیب‌بندی سنجیده و کنترل صفحه‌ها و پرسپکتیو.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "large-format-photography"
+  },
+  {
+   "cat": "surface",
+   "fa": "ویدئوی VHS و آنالوگ",
+   "en": "VHS / analog video",
+   "desc": "خطوط درهم، نشت رنگ، نویز ترکینگ و وضوح کم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "vhs-camcorder-look"
+  },
+  {
+   "cat": "surface",
+   "fa": "دوربین دیجیتال اولیه",
+   "en": "Early digital camera",
+   "desc": "فلاش تند، دامنهٔ دینامیک محدود، نویز رنگی و تیزکردن بیش از حد.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "early-digital-camera"
+  },
+  {
+   "cat": "surface",
+   "fa": "نمایشگر CRT",
+   "en": "CRT display",
+   "desc": "خطوط اسکن، درخشش فسفر، شیشهٔ خمیده، موآره و هاله.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "crt-display"
+  },
+  {
+   "cat": "surface",
+   "fa": "گلیچ",
+   "en": "Glitch",
+   "desc": "بلوک‌های داده‌موش، جابه‌جایی کانال رنگ، پارگی تصویر و خطای فشرده‌سازی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": "glitch-datamosh"
+  },
+  {
+   "cat": "mood",
+   "fa": "آرام",
+   "en": "Calm",
+   "desc": "افق‌های پایدار، فاصله‌گذاری باز، کنتراست کم، لبه‌های نرم و پالت خویشتن‌دار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "پرانرژی",
+   "en": "Energetic",
+   "desc": "مورب‌ها، برش تنگ، بردارهای تکراری، اشباع بالا و کنتراست تیز.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "صمیمی",
+   "en": "Intimate",
+   "desc": "قاب نزدیک، نور گرم موضعی، فضای کم‌عمق و جزئیات آرام.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "یادمانی",
+   "en": "Monumental",
+   "desc": "زاویهٔ پایین، توده‌های بزرگ ساده، آدم‌های کوچک و ساختار تونال پهن.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "مالیخولیایی",
+   "en": "Melancholic",
+   "desc": "رنگ سرد کدر، فاصله‌های خالی، دوردست نرم و نگاه رو به پایین یا ردّ باران.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "شاد",
+   "en": "Joyful",
+   "desc": "ژست باز، منحنی‌های سرزنده، رنگ گرم روشن و تکرار ریتمیک.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "پرتنش",
+   "en": "Tense",
+   "desc": "قاب فشرده، زاویه‌های مایل، سایهٔ سخت، دید بسته و تعادل ناپایدار.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "رازآلود",
+   "en": "Mysterious",
+   "desc": "دید گزینشی، پوشاندن، نور کم، عمق مبهم و سرنخ‌های اندک.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "نوستالژیک",
+   "en": "Nostalgic",
+   "desc": "مواد و پردازش خاص یک دوره، رنگ کم‌رنگ یا گرم و جزئیات زیسته؛ نه فقط فیلتر سپیا.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "فاخر",
+   "en": "Luxurious",
+   "desc": "کنتراست پالودهٔ مواد، بازتاب‌های کنترل‌شده، فاصله‌گذاری سخاوتمندانه و پرداخت دقیق.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "بازیگوش",
+   "en": "Playful",
+   "desc": "جابه‌جایی مقیاس، فرم‌های گرد، تأکیدهای رنگی غیرمنتظره و ریتم نامنظم.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  },
+  {
+   "cat": "mood",
+   "fa": "بالینی و سرد",
+   "en": "Clinical",
+   "desc": "نور خنثی و سرد، سطح‌های تمیز، تراز سخت و بافت و تزئین حداقلی.",
+   "src": [
+    "aiscribbles"
+   ],
+   "style": null
+  }
+ ]
+}
