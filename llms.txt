@@ -1,0 +1,41 @@
+# واژه‌نامهٔ طراحی با هوش مصنوعی (Glossary of Design)
+
+> Persian-first, community visual directory of 524 named styles for AI image and video prompting. Each style has a Persian name, an English prompt keyword, a sample image, and taxonomy (family, form, need, Iranian/world origin). Also includes a Persian glossary of 247 graphic-design terms. Author: Alireza Chamanzar. License: CC BY-SA 4.0.
+
+دایرکتوری فارسی سبک‌های تصویری برای پرامپت‌نویسی تصویر و ویدئو؛ شامل سنت‌های تصویری ایرانی (نگارگری، خوشنویسی، کاشی، پوستر تهران).
+
+## Main pages
+- [Interactive directory](https://alirezach.github.io/glossary-of-design/): search, filter and copy prompt keywords
+- [All styles, one page each](https://alirezach.github.io/glossary-of-design/styles/)
+- [Design terms glossary (Persian)](https://alirezach.github.io/glossary-of-design/terms.html)
+- [Full text for LLMs](https://alirezach.github.io/glossary-of-design/llms-full.txt)
+
+## Data
+- [styles.json](https://alirezach.github.io/glossary-of-design/data/styles.json): all styles
+- [terms.json](https://alirezach.github.io/glossary-of-design/data/terms.json): design terms
+- [taxonomy.json](https://alirezach.github.io/glossary-of-design/data/taxonomy.json): families, forms, needs
+- [recipes.json](https://alirezach.github.io/glossary-of-design/data/recipes.json): ready-made style combinations
+
+## Families
+- [نگارگری و نقاشی ایرانی / Persian Painting](https://alirezach.github.io/glossary-of-design/styles/#persian-painting)
+- [خوشنویسی و حروف فارسی / Persian Calligraphy & Type](https://alirezach.github.io/glossary-of-design/styles/#persian-calligraphy)
+- [نقش، صناعت و معماری ایرانی / Persian Pattern, Craft & Architecture](https://alirezach.github.io/glossary-of-design/styles/#persian-pattern)
+- [گرافیک، پوستر و سینمای ایران / Iranian Graphic, Poster & Film](https://alirezach.github.io/glossary-of-design/styles/#persian-graphic)
+- [پوستر / Poster](https://alirezach.github.io/glossary-of-design/styles/#poster)
+- [تایپوگرافی / Typography](https://alirezach.github.io/glossary-of-design/styles/#typography)
+- [طراحی گرافیک و رابط / Graphic & Interface Design](https://alirezach.github.io/glossary-of-design/styles/#graphic-design)
+- [تصویرگری / Illustration](https://alirezach.github.io/glossary-of-design/styles/#illustration)
+- [جنبش‌ها و دوره‌های هنری / Art Movements](https://alirezach.github.io/glossary-of-design/styles/#art-movement)
+- [رسانه و تکنیک / Medium & Technique](https://alirezach.github.io/glossary-of-design/styles/#medium)
+- [زیبایی‌شناسی دیجیتال و اینترنتی / Digital & Internet Aesthetics](https://alirezach.github.io/glossary-of-design/styles/#digital-aesthetic)
+- [سه‌بعدی و رندر / 3D & Render](https://alirezach.github.io/glossary-of-design/styles/#3d-render)
+- [ماده، بافت و کاردستی / Material & Craft](https://alirezach.github.io/glossary-of-design/styles/#craft-material)
+- [عکاسی / Photography](https://alirezach.github.io/glossary-of-design/styles/#photography)
+- [نورپردازی / Lighting](https://alirezach.github.io/glossary-of-design/styles/#lighting)
+- [رنگ و پالت / Color & Palette](https://alirezach.github.io/glossary-of-design/styles/#color)
+- [اندازهٔ نما و زاویهٔ دوربین / Shot Size & Angle](https://alirezach.github.io/glossary-of-design/styles/#shot-angle)
+- [حرکت دوربین / Camera Movement](https://alirezach.github.io/glossary-of-design/styles/#camera-movement)
+- [لنز، فیلم و سرعت / Lens, Film & Speed](https://alirezach.github.io/glossary-of-design/styles/#lens-film)
+- [حال‌وهوای سینمایی / Cinematic Looks](https://alirezach.github.io/glossary-of-design/styles/#cinematic-look)
+- [انیمیشن / Animation](https://alirezach.github.io/glossary-of-design/styles/#animation)
+- [تدوین، ریتم و صدا / Editing, Pacing & Sound](https://alirezach.github.io/glossary-of-design/styles/#editing)

@@ -1,0 +1,816 @@
+# واژه‌نامهٔ طراحی با هوش مصنوعی (Glossary of Design)
+
+> Persian-first, community visual directory of 524 named styles for AI image and video prompting. Each style has a Persian name, an English prompt keyword, a sample image, and taxonomy (family, form, need, Iranian/world origin). Also includes a Persian glossary of 247 graphic-design terms. Author: Alireza Chamanzar. License: CC BY-SA 4.0.
+
+دایرکتوری فارسی سبک‌های تصویری برای پرامپت‌نویسی تصویر و ویدئو؛ شامل سنت‌های تصویری ایرانی (نگارگری، خوشنویسی، کاشی، پوستر تهران).
+
+## Main pages
+- [Interactive directory](https://alirezach.github.io/glossary-of-design/): search, filter and copy prompt keywords
+- [All styles, one page each](https://alirezach.github.io/glossary-of-design/styles/)
+- [Design terms glossary (Persian)](https://alirezach.github.io/glossary-of-design/terms.html)
+- [Full text for LLMs](https://alirezach.github.io/glossary-of-design/llms-full.txt)
+
+## Data
+- [styles.json](https://alirezach.github.io/glossary-of-design/data/styles.json): all styles
+- [terms.json](https://alirezach.github.io/glossary-of-design/data/terms.json): design terms
+- [taxonomy.json](https://alirezach.github.io/glossary-of-design/data/taxonomy.json): families, forms, needs
+- [recipes.json](https://alirezach.github.io/glossary-of-design/data/recipes.json): ready-made style combinations
+
+## Families
+- [نگارگری و نقاشی ایرانی / Persian Painting](https://alirezach.github.io/glossary-of-design/styles/#persian-painting)
+- [خوشنویسی و حروف فارسی / Persian Calligraphy & Type](https://alirezach.github.io/glossary-of-design/styles/#persian-calligraphy)
+- [نقش، صناعت و معماری ایرانی / Persian Pattern, Craft & Architecture](https://alirezach.github.io/glossary-of-design/styles/#persian-pattern)
+- [گرافیک، پوستر و سینمای ایران / Iranian Graphic, Poster & Film](https://alirezach.github.io/glossary-of-design/styles/#persian-graphic)
+- [پوستر / Poster](https://alirezach.github.io/glossary-of-design/styles/#poster)
+- [تایپوگرافی / Typography](https://alirezach.github.io/glossary-of-design/styles/#typography)
+- [طراحی گرافیک و رابط / Graphic & Interface Design](https://alirezach.github.io/glossary-of-design/styles/#graphic-design)
+- [تصویرگری / Illustration](https://alirezach.github.io/glossary-of-design/styles/#illustration)
+- [جنبش‌ها و دوره‌های هنری / Art Movements](https://alirezach.github.io/glossary-of-design/styles/#art-movement)
+- [رسانه و تکنیک / Medium & Technique](https://alirezach.github.io/glossary-of-design/styles/#medium)
+- [زیبایی‌شناسی دیجیتال و اینترنتی / Digital & Internet Aesthetics](https://alirezach.github.io/glossary-of-design/styles/#digital-aesthetic)
+- [سه‌بعدی و رندر / 3D & Render](https://alirezach.github.io/glossary-of-design/styles/#3d-render)
+- [ماده، بافت و کاردستی / Material & Craft](https://alirezach.github.io/glossary-of-design/styles/#craft-material)
+- [عکاسی / Photography](https://alirezach.github.io/glossary-of-design/styles/#photography)
+- [نورپردازی / Lighting](https://alirezach.github.io/glossary-of-design/styles/#lighting)
+- [رنگ و پالت / Color & Palette](https://alirezach.github.io/glossary-of-design/styles/#color)
+- [اندازهٔ نما و زاویهٔ دوربین / Shot Size & Angle](https://alirezach.github.io/glossary-of-design/styles/#shot-angle)
+- [حرکت دوربین / Camera Movement](https://alirezach.github.io/glossary-of-design/styles/#camera-movement)
+- [لنز، فیلم و سرعت / Lens, Film & Speed](https://alirezach.github.io/glossary-of-design/styles/#lens-film)
+- [حال‌وهوای سینمایی / Cinematic Looks](https://alirezach.github.io/glossary-of-design/styles/#cinematic-look)
+- [انیمیشن / Animation](https://alirezach.github.io/glossary-of-design/styles/#animation)
+- [تدوین، ریتم و صدا / Editing, Pacing & Sound](https://alirezach.github.io/glossary-of-design/styles/#editing)
+
+## Styles (Persian name | English name | prompt keyword | family | page)
+- نگارگری ایلخانی تبریز | Ilkhanid / early Tabriz miniature | `Ilkhanid Persian miniature` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/ilkhanid-tabriz-miniature.html
+- مکتب نگارگری شیراز | Shiraz miniature school | `Shiraz miniature` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/shiraz-miniature.html
+- نگارگری تیموری هرات | Herat Timurid miniature | `Herat Timurid miniature` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/herat-timurid-miniature.html
+- نگارگری صفوی تبریز | Safavid Tabriz miniature | `Safavid Tabriz miniature` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/safavid-tabriz-miniature.html
+- مکتب اصفهان، شیوهٔ رضا عباسی | Isfahan school / Reza Abbasi line | `Isfahan school painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/isfahan-reza-abbasi.html
+- مکتب نگارگری بخارا | Bukhara school miniature | `Bukhara miniature` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/bukhara-miniature.html
+- نقاشی درباری قاجار | Qajar court painting | `Qajar court painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/qajar-court-painting.html
+- تصویرسازی چاپ‌سنگی قاجار | Qajar lithographed book illustration | `Qajar lithograph` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/qajar-lithograph-illustration.html
+- نقاشی قهوه‌خانه‌ای | Coffeehouse painting | `Iranian coffeehouse painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/coffeehouse-painting.html
+- نقاشی پرده‌خوانی | Pardeh-khani curtain painting | `pardeh-khani painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/pardeh-khani.html
+- جنبش سقاخانه | Saqqakhaneh movement | `Saqqakhaneh painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/saqqakhaneh.html
+- تذهیب ایرانی | Persian manuscript illumination (tazhib) | `Persian tazhib` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/tazhib-illumination.html
+- نقاشی لاکی ایرانی | Persian lacquer and papier-mâché painting | `Persian lacquer painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/lacquer-papier-mache.html
+- خط نستعلیق | Nasta‘liq calligraphy | `Persian Nastaliq` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/nastaliq.html
+- خط شکسته‌نستعلیق | Shekasteh-Nasta‘liq calligraphy | `Shekasteh Nastaliq` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/shekasteh-nastaliq.html
+- خط نسخ ایرانی | Persian Naskh script | `Persian Naskh` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/naskh.html
+- خط ثلث ایرانی | Thuluth calligraphy in Iranian contexts | `Persian Thuluth` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/thuluth.html
+- کوفی معقلی و بنّایی | Kufic, Ma‘qeli / Banna’i square script | `square Kufic` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/kufic-bannaei.html
+- سیاه‌مشق | Siyah-mashq practice sheet | `siyah-mashq` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/siyah-mashq.html
+- خط‌نقاشی و کالیگرافیتی فارسی | Persian calligraffiti / Naqashi-khat | `Persian calligraffiti` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/calligraffiti-naqashi-khat.html
+- تایپوگرافی نمایشی و جنبشی فارسی | Persian display and kinetic lettering | `Persian kinetic typography` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/persian-display-kinetic-type.html
+- گره‌سازی هندسی | Girih geometric strapwork | `Persian girih` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/girih.html
+- مقرنس ایرانی | Muqarnas Persian vaulting | `Persian muqarnas` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/muqarnas.html
+- کاشی هفت‌رنگ | Haft-rang polychrome tilework | `haft-rang tilework` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/haft-rang-tilework.html
+- کاشی معرّق | Mo‘arraq cut-tile mosaic | `Persian moarraq mosaic` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/moarraq-tile-mosaic.html
+- آینه‌کاری | Ayeneh-kari mirror mosaic | `ayeneh-kari mirrorwork` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/ayeneh-kari.html
+- ترنج قالی ایرانی | Persian medallion carpet design | `Persian medallion carpet` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/persian-carpet-medallion.html
+- بته‌جقه | Boteh / Persian paisley motif | `boteh motif` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/boteh-paisley.html
+- قالی شکار ایرانی | Persian hunting carpet | `Persian hunting carpet` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/hunting-carpet.html
+- گبه | Gabbeh rug | `gabbeh rug` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/gabbeh.html
+- گلیم ایرانی | Persian kilim flatweave | `Persian kilim` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/kilim.html
+- ترمه | Termeh luxury woven textile | `termeh textile` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/termeh.html
+- قلمکار | Ghalamkar block-printed textile | `ghalamkar print` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/ghalamkar.html
+- خاتم‌کاری | Khatamkari marquetry | `khatamkari` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/khatamkari.html
+- نقش‌برجستهٔ تخت‌جمشید | Achaemenid Persepolis relief | `Persepolis relief` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/persepolis-relief.html
+- نقش‌مایه‌های ظروف سیمین ساسانی | Sasanian silver vessel motif | `Sasanian silver motifs` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/sasanian-silver-motif.html
+- معماری کویری یزد و بادگیر | Yazd desert architecture and windcatchers | `Yazd windcatcher architecture` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/yazd-windcatcher.html
+- گنبد و ایوان صفوی اصفهان | Isfahan Safavid dome and iwan architecture | `Isfahan Safavid architecture` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/isfahan-dome-iwan.html
+- خانهٔ حیاط‌دار کاشان | Kashan courtyard house | `Kashan courtyard house` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/kashan-courtyard-house.html
+- چهارباغ ایرانی | Persian chaharbagh garden | `Persian chaharbagh garden` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/persian-charbagh.html
+- سنت پوستر تهران و گرافیک نوین ایران | Tehran poster tradition / Iranian modern graphic design | `Tehran poster design` | Iranian Graphic, Poster & Film | https://alirezach.github.io/glossary-of-design/styles/tehran-poster.html
+- پوسترهای انقلاب ۱۳۵۷ و جنگ ایران و عراق | 1979 Revolution and Iran–Iraq War poster art | `Iranian revolutionary poster` | Iranian Graphic, Poster & Film | https://alirezach.github.io/glossary-of-design/styles/revolutionary-war-poster.html
+- گرافیک مدرن و تصویرسازی ایرانی | Iranian modernist illustration and poster | `Iranian modernist graphic design` | Iranian Graphic, Poster & Film | https://alirezach.github.io/glossary-of-design/styles/iranian-modern-graphic.html
+- تصویرسازی و پویانمایی کانون | Kanoon children’s illustration and animation | `Kanoon animation` | Iranian Graphic, Poster & Film | https://alirezach.github.io/glossary-of-design/styles/kanoon-illustration-animation.html
+- واقع‌گرایی موج نوی سینمای ایران | Iranian art-cinema realism | `Iranian art-cinema realism` | Iranian Graphic, Poster & Film | https://alirezach.github.io/glossary-of-design/styles/iranian-new-wave-realism.html
+- پوستر جدایی‌طلبی وین | Vienna Secession poster | `Vienna Secession poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/vienna-secession-poster.html
+- پوستر یوگندشتایل آلمانی | German Jugendstil poster | `German Jugendstil poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/jugendstil-poster.html
+- پوستر مونیخی به سبک هول‌واین | Munich Hohlwein-style poster | `Munich poster style` | Poster | https://alirezach.github.io/glossary-of-design/styles/munich-hohlwein-poster.html
+- پوستر فوتوریستی ایتالیایی | Italian Futurist poster | `Italian Futurist poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/futurist-poster.html
+- پوستر فتومونتاژ دادائیستی | Dada photomontage poster | `Dada photomontage poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/dada-photomontage-poster.html
+- پوستر سینمایی سازه‌گرای شوروی | Soviet Constructivist film poster | `Soviet Constructivist film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/soviet-constructivist-film-poster.html
+- پوستر سینمایی چکسلواکی | Czechoslovak film poster | `Czechoslovak film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/czechoslovak-film-poster.html
+- پوستر فرهنگی آلمان شرقی | East German cultural poster | `East German cultural poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/east-german-cultural-poster.html
+- پوستر تبلیغاتی مدرنیستی ایتالیایی | Italian modernist advertising poster | `Italian modernist advertising` | Poster | https://alirezach.github.io/glossary-of-design/styles/italian-modernist-advertising-poster.html
+- پوستر سینمایی جالو ایتالیایی | Italian giallo film poster | `Italian giallo film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/italian-giallo-film-poster.html
+- پوستر وسترن اسپاگتی | Spaghetti western poster | `Spaghetti western poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/spaghetti-western-poster.html
+- پوستر آفیچیست آرت دکوی فرانسوی | French Art Deco affichiste poster | `French Art Deco poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/french-art-deco-affiche.html
+- پوستر آتلیهٔ پوپولر مهٔ ۱۹۶۸ | Atelier Populaire May 68 poster | `May 68 screenprint poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/atelier-populaire-may-68-poster.html
+- پوستر حمل‌ونقل متروی لندن | London Underground transport poster | `London Underground poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/london-underground-poster.html
+- پوستر سفر هوایی میانهٔ قرن | Mid-century airline travel poster | `mid-century airline poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/midcentury-airline-travel-poster.html
+- پوستر اسکی کوهستانی سوئیس | Swiss Alpine ski poster | `Swiss Alpine ski poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/swiss-alpine-ski-poster.html
+- پوستر جشنوارهٔ جاز سوئیس | Swiss jazz festival poster | `Swiss jazz festival poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/swiss-jazz-festival-poster.html
+- سبک پوستر جلد صفحهٔ بلو نوت | Blue Note record-cover style | `Blue Note cover style` | Poster | https://alirezach.github.io/glossary-of-design/styles/blue-note-record-cover-poster.html
+- پوستر سینمایی ژاپن در دورهٔ شووا | Japanese Showa film poster | `Japanese Showa film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/japanese-showa-film-poster.html
+- پوستر تئاتر زیرزمینی آنگورا در ژاپن | Japanese Angura underground-theatre poster | `Japanese Angura theatre poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/japanese-angura-theater-poster.html
+- پوستر سینمایی کایجو ژاپنی | Japanese kaiju film poster | `Japanese kaiju poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/japanese-kaiju-film-poster.html
+- پوستر تقویمی یوفن‌پای شانگهای | Shanghai yuefenpai calendar poster | `Shanghai calendar poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/shanghai-yuefenpai-poster.html
+- پوستر سینمایی هنگ‌کنگ | Hong Kong cinema poster | `Hong Kong cinema poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/hong-kong-cinema-poster.html
+- پوستر سینمایی کرهٔ جنوبی | South Korean film poster | `South Korean film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/korean-film-poster.html
+- پوستر سینمایی عصر طلایی مکزیک | Mexican Golden Age cinema poster | `Mexican Golden Age poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/mexican-golden-age-cinema-poster.html
+- پوستر سینمایی ایکائیک کوبا | Cuban ICAIC film poster | `Cuban ICAIC film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/cuban-icaic-film-poster.html
+- پوستر نقاشی‌دستی نالیوود | Nollywood hand-painted poster | `Nollywood hand-painted poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/nollywood-handpainted-poster.html
+- پوستر اپ‌آرت المپیک مکزیک ۱۹۶۸ | Mexico 1968 Olympic Op Art poster | `Mexico 68 Op Art poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/mexico-1968-op-art-poster.html
+- مدرنیسم پوستر المپیک توکیو ۱۹۶۴ | Tokyo 1964 Olympic modernism | `Tokyo 1964 Olympic poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/tokyo-1964-olympic-modernism.html
+- پوستر گرید مدرنیستی هلندی | Dutch modernist grid poster | `Dutch modernist grid poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/dutch-modernist-grid-poster.html
+- پوستر تایپوگرافیک تجربی سوئیس معاصر | Contemporary Swiss experimental type poster | `Swiss experimental type poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/swiss-experimental-type-poster.html
+- پوستر رویداد فلوکسوس | Fluxus event poster | `Fluxus event poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/fluxus-event-poster.html
+- پوستر تایپ دیجیتال امیگر و فیوز | Emigre and FUSE digital type poster | `experimental digital type poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/emigre-fuse-digital-type-poster.html
+- پوستر جشنوارهٔ مولد معاصر | Generative festival poster | `generative festival poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/generative-festival-poster.html
+- پوستر آرت نوو | Art Nouveau poster | `Art Nouveau poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/art-nouveau-poster.html
+- پوستر سفر آرت دکو | Art Deco travel poster | `Art Deco travel poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/art-deco-travel-poster.html
+- پوستر لیتوگرافی بل اپوک | Belle Époque lithographic poster | `Belle Époque lithographic poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/belle-epoque-lithographic-poster.html
+- پوستر WPA | WPA poster | `WPA poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/wpa-poster.html
+- پوستر تبلیغاتی جنگ جهانی دوم | World War II propaganda poster | `World War II poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/wwii-propaganda-poster.html
+- مکتب پوستر لهستان | Polish Poster School | `Polish Poster School` | Poster | https://alirezach.github.io/glossary-of-design/styles/polish-poster-school.html
+- پوستر کوبایی OSPAAAL | Cuban OSPAAAL poster | `Cuban OSPAAAL poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/cuban-ospaaal-poster.html
+- پوستر مدرنیستی ژاپنی | Japanese modernist poster | `Japanese modernist poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/japanese-modernist-poster.html
+- پوستر کنسرت سایکدلیک دههٔ ۱۹۶۰ | Psychedelic 1960s concert poster | `1960s psychedelic concert poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/psychedelic-60s-concert-poster.html
+- پوستر نمادین سینمایی میانهٔ قرن | Mid-century symbolic film poster | `mid-century symbolic film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/mid-century-symbolic-film-poster.html
+- پوستر بلکسپلویتیشن | Blaxploitation / 1970s exploitation film poster | `Blaxploitation film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/blaxploitation-film-poster.html
+- پوستر ترسناک پالپی همر | Hammer horror / pulp horror poster | `Hammer horror poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/hammer-horror-pulp-poster.html
+- پوستر نقاشی‌شدهٔ هالیوودی | Hollywood painted movie poster | `painted Hollywood movie poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/hollywood-painted-movie-poster.html
+- فلایر ریوی گرافیک اسیدی | Acid graphics / rave flyer | `acid house rave flyer` | Poster | https://alirezach.github.io/glossary-of-design/styles/acid-graphics-rave-flyer.html
+- پوستر اجرای چاپ سیلک | Screen-print gig poster | `screen-print gig poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/screen-print-gig-poster.html
+- پوستر مینیمال سینمایی | Minimalist movie poster | `minimalist movie poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/minimalist-movie-poster.html
+- پوستر تبلیغاتی چینی | Chinese propaganda poster | `Chinese historical poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/chinese-propaganda-poster.html
+- پوستر فضایی شوروی | Soviet space-age poster | `Soviet space-age poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/soviet-space-age-poster.html
+- پوستر پارک ملی به سبک WPA | National Park WPA poster | `WPA national park poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/national-park-wpa-poster.html
+- پوستر نقاشی‌دستی بالیوودی | Bollywood hand-painted poster | `Bollywood hand-painted poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/bollywood-hand-painted-poster.html
+- پوستر سینمایی نقاشی‌دستی غنایی | Ghanaian hand-painted movie poster | `Ghanaian hand-painted movie poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/ghanaian-hand-painted-movie-poster.html
+- پوستر کشتی لوچا لیبره | Lucha libre / Mexican wrestling poster | `lucha libre poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/lucha-libre-mexican-poster.html
+- پوستر سینمایی تایلندی | Thai film poster | `Thai film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/thai-film-poster.html
+- پوستر سینمایی یشیل‌چام | Turkish Yeşilçam film poster | `Yeşilçam film poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/turkish-yesilcam-poster.html
+- پوستر مود دههٔ ۱۹۶۰ | Mod 1960s poster | `1960s mod poster` | Poster | https://alirezach.github.io/glossary-of-design/styles/mod-1960s-poster.html
+- تایپوگرافی گرانج | Grunge / deconstructed typography | `grunge typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/grunge-deconstructed-typography.html
+- تایپوگرافی موج نو | New Wave typography | `New Wave typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/new-wave-typography.html
+- تایپوگرافی جنبشی | Kinetic typography | `kinetic typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/kinetic-typography.html
+- تایپوگرافی ویکتوریایی | Victorian typographic poster | `Victorian typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/victorian-typographic-poster.html
+- تایپوگرافی گوتیک | Blackletter typography | `blackletter typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/blackletter-typography.html
+- تایپوگرافی بروتالیستی | Brutalist typography | `brutalist typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/brutalist-typography.html
+- تایپوگرافی متغیر | Variable / fluid typography | `variable typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/variable-fluid-type.html
+- تایپ کروم سه‌بعدی | 3D chrome type | `3D chrome type` | Typography | https://alirezach.github.io/glossary-of-design/styles/three-dimensional-chrome-type.html
+- تایپ حبابی | Bubble type | `bubble lettering` | Typography | https://alirezach.github.io/glossary-of-design/styles/bubble-type.html
+- تایپوگرافی لوکس | Luxury typography | `luxury serif typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/luxury-typography.html
+- کلاژ حروف | Type collage | `type collage` | Typography | https://alirezach.github.io/glossary-of-design/styles/type-collage.html
+- مدرنِ میانهٔ قرن | Mid-Century Modern | `mid-century modern` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/mid-century-modern.html
+- بروتالیسم گرافیکی | Graphic Brutalism | `graphic brutalism` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/graphic-brutalism.html
+- مینیمالیسم ژاپنی (ما) | Japanese Minimalism (Ma) | `Japanese minimalism ma` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/japanese-minimalism-ma.html
+- صفحه‌آرایی مجلهٔ مد | Editorial Fashion Layout | `fashion editorial layout` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/editorial-fashion-layout.html
+- پوستر شیءمحور (زاخ‌پلاکات) | Plakatstil / Sachplakat | `Sachplakat` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/plakatstil-sachplakat.html
+- نئوبروتالیسم دیجیتال | Neubrutalism (Digital) | `digital neubrutalism` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/neubrutalism-digital.html
+- ایزومتریک تخت | Isometric Flat | `flat isometric illustration` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/isometric-flat.html
+- کلی‌مورفیسم | Claymorphism | `claymorphism` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/claymorphism.html
+- گلس‌مورفیسم | Glassmorphism | `glassmorphism` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/glassmorphism.html
+- شبکهٔ بنتو | Bento Grid | `bento grid` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/bento-grid.html
+- اسکیومورفیسم | Skeuomorphism | `skeuomorphism` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/skeuomorphism.html
+- نیومورفیسم | Neumorphism | `neumorphism` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/neumorphism.html
+- وب ۱٫۰ | Web 1.0 | `Web 1.0` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/web-1-0.html
+- هدآپ و رابط کاربری آینده‌نگر | HUD / FUI | `HUD FUI` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/hud-fui.html
+- تصویرسازی تحریریه با وکتور تخت | Flat Vector Editorial | `flat vector editorial` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/flat-vector-editorial.html
+- سبک تایپوگرافیک بین‌المللی سوئیس | Swiss / International Typographic Style | `Swiss International Typographic Style` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/swiss-international-typographic-style.html
+- گرافیک باوهاوس | Bauhaus graphic design | `Bauhaus graphic design` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/bauhaus-graphic-design.html
+- کنستراکتیویسم روسی | Russian Constructivism | `Russian Constructivism` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/russian-constructivism.html
+- دِ استایل | De Stijl | `De Stijl` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/de-stijl.html
+- گرافیک گروه ممفیس | Memphis Group graphic design | `Memphis Group design` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/memphis-group.html
+- کلاژ زین پانکی | Punk zine / DIY collage | `punk zine collage` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/punk-zine-diy-collage.html
+- گرافیک پست‌مدرن | Postmodern graphic design | `postmodern graphic design` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/postmodern-graphic-design.html
+- گرافیک وب نئوبروتالیستی | Neo-brutalist / brutalist web graphics | `neo-brutalist web graphics` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/neo-brutalist-web-graphics.html
+- هندسهٔ تخت به سبک باوهاوس نو | Bauhaus-revival flat geometric | `Bauhaus revival flat geometry` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/bauhaus-revival-flat-geometric.html
+- طراحی تخت | Flat design | `flat design` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/flat-design.html
+- گرافیک دوتُن | Duotone graphic | `duotone graphic` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/duotone-graphic.html
+- گرافیک کمیک پاپ ترام‌دار | Halftone / pop-comic graphic | `halftone pop comic graphic` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/halftone-pop-comic.html
+- فتومونتاژ کنستراکتیویستی | Constructivist photomontage | `Constructivist photomontage` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/constructivist-photomontage.html
+- صفحه‌آرایی تحریریه با گرید سوئیسی | Swiss grid editorial layout | `Swiss grid editorial layout` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/swiss-grid-editorial-layout.html
+- جلد مجلهٔ تحلیلی | Editorial magazine cover | `editorial magazine cover` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/editorial-magazine-cover.html
+- اینفوگرافیک آیزوتایپ | ISOTYPE infographic | `ISOTYPE infographic` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/isotype-infographic.html
+- نشان و برچسب وینتیج | Retro badge / vintage label | `retro badge vintage label` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/retro-badge-vintage-label.html
+- سبک شفق قطبی (گرادیان شفقی) | Aurora | `aurora gradient aesthetic` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/aurora-gradient.html
+- ملیله‌کاری تزئینی (فیلیگری) | Filigree | `filigree ornament` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/filigree.html
+- نقش برگ کنگر (آکانتوس) | Acanthus | `acanthus leaf ornament` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/acanthus.html
+- ژاپندی | Japandi | `Japandi style` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/japandi.html
+- بوهمین (بوهو) | Bohemian (boho) | `boho style` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/bohemian-boho.html
+- شبی‌شیک | Shabby chic | `shabby chic` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/shabby-chic.html
+- طراحی ویکتوریایی | Victorian design | `Victorian ornamental design` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/victorian-ornamental.html
+- طراحی گوتیک | Gothic | `gothic design` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/gothic-design.html
+- زیست‌ریخت (بایومورفیک) | Biomorphic | `biomorphic shapes` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/biomorphic.html
+- چیدمان شبکهٔ سه‌درسه | 3×3 grid design | `3x3 grid layout` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/grid-3x3.html
+- تیتراژ سال باس | Saul Bass titles | `Saul Bass title sequence style` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/saul-bass-titles.html
+- گرووی دههٔ هفتاد | 70s Groovy | `1970s groovy` | Illustration | https://alirezach.github.io/glossary-of-design/styles/70s-groovy.html
+- تابلوسازی آمریکایی وینتیج | Vintage Americana / Sign Painting | `vintage sign painting` | Illustration | https://alirezach.github.io/glossary-of-design/styles/vintage-americana-sign-painting.html
+- ایربراش دههٔ هشتاد | 80s Airbrush | `80s airbrush` | Illustration | https://alirezach.github.io/glossary-of-design/styles/80s-airbrush.html
+- جلد علمی‌تخیلی پالپ | Pulp Sci-Fi Paperback | `pulp sci-fi paperback` | Illustration | https://alirezach.github.io/glossary-of-design/styles/pulp-sci-fi-paperback.html
+- بلوپرینت و ترسیم فنی | Blueprint / Technical Drawing | `blueprint technical drawing` | Illustration | https://alirezach.github.io/glossary-of-design/styles/blueprint-technical-drawing.html
+- حکاکی گیاه‌شناختی | Botanical Engraving | `botanical engraving` | Illustration | https://alirezach.github.io/glossary-of-design/styles/botanical-engraving.html
+- مانگا با ترام | Manga / Screentone | `manga screentone` | Illustration | https://alirezach.github.io/glossary-of-design/styles/manga-screentone.html
+- کارتون رابرهوز | Rubber Hose | `rubber hose cartoon` | Illustration | https://alirezach.github.io/glossary-of-design/styles/rubber-hose.html
+- تصویرسازی مدرنیستی میانهٔ قرن | Mid-century modern illustration | `mid-century modern illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/mid-century-modern-illustration.html
+- تصویرسازی شرکتی ممفیس | Corporate Memphis illustration | `Corporate Memphis illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/corporate-memphis-illustration.html
+- تصویرسازی خطی | Line art illustration | `line art illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/line-art-illustration.html
+- سبک لین کلر | Ligne claire | `ligne claire` | Illustration | https://alirezach.github.io/glossary-of-design/styles/ligne-claire.html
+- تصویرسازی مانگا و انیمه | Manga / anime illustration | `manga anime illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/manga-anime-illustration.html
+- تصویرسازی کمیک آمریکایی | American comic-book illustration | `American comic book art` | Illustration | https://alirezach.github.io/glossary-of-design/styles/american-comic-book.html
+- گواش کتاب کودک | Children’s picture-book gouache | `children’s picture book gouache` | Illustration | https://alirezach.github.io/glossary-of-design/styles/childrens-picture-book-gouache.html
+- تصویرسازی گیاه‌شناسی | Botanical illustration | `botanical illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/botanical-illustration.html
+- ترسیم فنی | Technical / patent drawing | `technical patent drawing` | Illustration | https://alirezach.github.io/glossary-of-design/styles/technical-patent-drawing.html
+- تصویرسازی پیکسلی ایزومتریک | Isometric pixel illustration | `isometric pixel art` | Illustration | https://alirezach.github.io/glossary-of-design/styles/isometric-pixel-illustration.html
+- کمیک فرانسوی‌بلژیکی | Franco-Belgian Bande Dessinée | `Franco-Belgian comics` | Illustration | https://alirezach.github.io/glossary-of-design/styles/franco-belgian-bande-dessinee.html
+- تصویرسازی پالپ عصر طلایی | Golden Age Pulp Illustration | `Golden Age pulp illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/golden-age-pulp-illustration.html
+- تصویرسازی داستانی انیمیشن آمریکایی دههٔ ۱۹۴۰ | 1940s American Storybook Animation | `1940s storybook animation` | Illustration | https://alirezach.github.io/glossary-of-design/styles/disney-1940s-storybook.html
+- تصویرسازی کتاب‌های طلایی کودک در میانهٔ قرن | Mid-Century Little Golden Books Illustration | `Little Golden Books illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/little-golden-books.html
+- کارتون تحریریه | Editorial Cartoon | `Editorial cartoon drawing` | Illustration | https://alirezach.github.io/glossary-of-design/styles/editorial-cartoon.html
+- چیبی و کاوایی ژاپنی | Japanese Chibi / Kawaii | `chibi kawaii character` | Illustration | https://alirezach.github.io/glossary-of-design/styles/chibi-kawaii.html
+- انسان‌وارسازی اشیا و حیوانات | Anthropomorphic | `anthropomorphic character` | Illustration | https://alirezach.github.io/glossary-of-design/styles/anthropomorphic.html
+- طرح مفهومی و دودل | Conceptual sketch / doodle | `doodle art` | Illustration | https://alirezach.github.io/glossary-of-design/styles/conceptual-sketch-doodle.html
+- وسترن عرفانی | Mystical Western | `mystical western` | Illustration | https://alirezach.github.io/glossary-of-design/styles/mystical-western.html
+- رمانتزی | Romantasy | `romantasy book cover` | Illustration | https://alirezach.github.io/glossary-of-design/styles/romantasy.html
+- کانسپت‌آرت | Concept art | `concept art` | Illustration | https://alirezach.github.io/glossary-of-design/styles/concept-art.html
+- فانتزی حماسی | High fantasy | `high fantasy` | Illustration | https://alirezach.github.io/glossary-of-design/styles/high-fantasy.html
+- فانتزی تاریک | Dark fantasy | `dark fantasy` | Illustration | https://alirezach.github.io/glossary-of-design/styles/dark-fantasy.html
+- قصهٔ پریان | Fairy tale | `fairy tale illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/fairy-tale.html
+- اپرای فضایی | Space opera | `space opera` | Illustration | https://alirezach.github.io/glossary-of-design/styles/space-opera.html
+- آینده‌گرایی ایتالیایی | Italian Futurism | `Italian Futurism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/italian-futurism.html
+- آرت دکو | Art Deco | `Art Deco` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/art-deco.html
+- آرت نوو | Art Nouveau | `Art Nouveau` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/art-nouveau.html
+- سوپرماتیسم | Suprematism | `Suprematism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/suprematism.html
+- اپ‌آرت | Op Art | `Op Art` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/op-art.html
+- استریم‌لاین مدرن | Streamline Moderne | `Streamline Moderne` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/streamline-moderne.html
+- کوبیسم | Cubism | `Cubism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/cubism.html
+- هنر پاپ و بن‌دی | Pop Art / Ben-Day | `Pop Art Ben-Day` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/pop-art-ben-day.html
+- سوپرفلت | Superflat | `Superflat` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/superflat.html
+- اوکی‌یوئه | Ukiyo-e | `ukiyo-e` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/ukiyo-e.html
+- فتومونتاژ دادا | Dada Photomontage | `Dada photomontage` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/dada-photomontage.html
+- سوررئالیسم | Surrealism | `Surrealism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/surrealism.html
+- پوینتیلیسم | Pointillism | `Pointillism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/pointillism.html
+- کلاسیک یونانی‌رومی | Greco-Roman Classical | `Greco-Roman classical` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/greco-roman-classical.html
+- رنسانس | Renaissance | `Renaissance` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/renaissance.html
+- باروک | Baroque | `Baroque` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/baroque.html
+- روکوکو | Rococo | `Rococo` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/rococo.html
+- رمانتیسم | Romanticism | `Romanticism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/romanticism.html
+- امپرسیونیسم | Impressionism | `Impressionism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/impressionism.html
+- پساامپرسیونیسم | Post-Impressionism | `Post-Impressionism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/post-impressionism.html
+- اکسپرسیونیسم | Expressionism | `Expressionism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/expressionism.html
+- فاویسم | Fauvism | `Fauvism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/fauvism.html
+- اکسپرسیونیسم انتزاعی | Abstract Expressionism | `abstract expressionism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/abstract-expressionism.html
+- مینیمالیسم | Minimalism | `Minimalism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/minimalism-art.html
+- رئالیسم سدهٔ نوزدهم | Realism (19th century) | `19th-century realism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/realism-art.html
+- پیش‌رافائلی | Pre-Raphaelite | `Pre-Raphaelite painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/pre-raphaelite.html
+- گونگ‌بی چینی | Chinese Gongbi | `Chinese gongbi painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/chinese-gongbi.html
+- شمایل‌نگاری بیزانسی | Byzantine Icon | `Byzantine icon painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/byzantine-icon.html
+- نسخهٔ خطی گوتیکِ مصوّر | Gothic Illuminated Manuscript | `Gothic illuminated manuscript` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/gothic-illuminated-manuscript.html
+- نگارگری گورکانی | Mughal Miniature | `Mughal miniature painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/mughal-miniature.html
+- نقاشی دیواری مصر باستان | Ancient Egyptian Wall Painting | `Ancient Egyptian wall painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/ancient-egyptian-wall-painting.html
+- دیوارنگاری مکزیکی | Mexican Muralism | `Mexican muralism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/mexican-muralism.html
+- مکتب رودخانهٔ هادسون | Hudson River School | `Hudson River School landscape` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/hudson-river-school.html
+- نقاشی هنرها و صنایع‌دستی | Arts and Crafts Painting | `Arts and Crafts painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/arts-and-crafts-painting.html
+- نقاشی جدایی‌طلبی وین | Vienna Secession Painting | `Vienna Secession painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/vienna-secession-painting.html
+- ورتیسیسم | Vorticism | `Vorticist geometric painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/vorticism.html
+- دقیق‌گرایی | Precisionism | `Precisionist painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/precisionism.html
+- نواکسپرسیونیسم | Neo-Expressionism | `Neo-Expressionist painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/neo-expressionism.html
+- فوتورئالیسم | Photorealism | `Photorealist painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/photorealism-painting.html
+- هنر نائیو | Naïve Art | `Naive folk painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/naive-art.html
+- هنر خام، آرت بروت | Art Brut | `Art Brut drawing` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/art-brut.html
+- نقاشی رئالیسم جادویی | Magic Realism Painting | `Magic realism painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/magic-realism-painting.html
+- رئالیسم اجتماعی | Social Realism | `Social realist painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/social-realism-painting.html
+- نقاشی لبه‌سخت | Hard-Edge Painting | `Hard-edge abstract painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/hard-edge-painting.html
+- نقاشی میدان‌رنگ | Color Field Painting | `Color field painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/color-field-painting.html
+- نقاشی باوهاوس | Bauhaus Painting | `Bauhaus abstract painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/bauhaus-painting.html
+- نئوکلاسیک | Neoclassical | `neoclassical design` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/neoclassical.html
+- تنبریسم (تاریک‌نمایی) | Tenebrism | `tenebrism` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/tenebrism.html
+- استنسیل | Stencil | `stencil art` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/stencil.html
+- آبرنگ | Watercolor | `watercolor painting` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/watercolor.html
+- تصویرسازی با ماژیک | Marker illustration | `marker illustration` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/marker-illustration.html
+- ریزوگراف | Risograph | `risograph print` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/risograph.html
+- گرافیتی | Graffiti | `graffiti` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/graffiti.html
+- زغال | Charcoal | `charcoal drawing` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/charcoal.html
+- نقاشی دیجیتال رنگ‌روغن | Painterly / Digital Oil | `digital oil painting` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/painterly-digital-oil.html
+- چاپ چوبی و لینوکات | Woodcut / Linocut | `woodcut linocut` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/woodcut-linocut.html
+- طراحی تک‌خطی | Continuous Line Art | `continuous line art` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/continuous-line-art.html
+- سومی‌ئه (آب‌مرکب) | Sumi-e / Ink Wash | `sumi-e ink wash` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/sumi-e-ink-wash.html
+- سیانوتایپ | Cyanotype | `cyanotype print` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/cyanotype.html
+- گواش | Gouache | `gouache painting` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/gouache.html
+- طراحی با پاستل نرم | Soft Pastel | `soft pastel drawing` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/pastel-drawing.html
+- طراحی با قلم و مرکب | Pen and Ink | `pen and ink drawing` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/pen-and-ink.html
+- ترکیب رسانه‌ها (میکسد مدیا) | Mixed media | `mixed media collage` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/mixed-media.html
+- طراحی با مداد | Pencil sketch | `pencil sketch` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/pencil-sketch.html
+- ویپورویو | Vaporwave | `vaporwave` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/vaporwave.html
+- وای‌تو‌کی و فروتیگر آئرو | Y2K / Frutiger Aero | `Y2K Frutiger Aero` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/y2k-frutiger-aero.html
+- آینده‌گرایی اتمی نوستالژیک | Atomic Retro-Futurism | `atomic retro-futurism` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/atomic-retro-futurism.html
+- آینده‌گرایی عصر کاست | Cassette Futurism | `cassette futurism` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/cassette-futurism.html
+- پیکسل‌آرت هشت‌بیتی | Pixel Art / 8-bit | `8-bit pixel art` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/pixel-art-8-bit.html
+- گلیچ و دیتاماش | Glitch / Datamosh | `glitch datamosh` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/glitch-datamosh.html
+- آسکی و ترمینال | ASCII / Terminal | `ASCII terminal` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/ascii-terminal.html
+- سایبرپانک نئونی | Cyberpunk Neon | `cyberpunk neon` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/cyberpunk-neon.html
+- دیترینگ یک‌بیتی | 1-bit / Dither | `1-bit dithering` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/1-bit-dither.html
+- هنر مولد و پلاتر | Generative / Plotter | `generative plotter art` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/generative-plotter.html
+- استیم‌پانک | Steampunk | `steampunk` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/steampunk.html
+- سولارپانک | Solarpunk | `solarpunk` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/solarpunk.html
+- دیزل‌پانک | Dieselpunk | `dieselpunk` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/dieselpunk.html
+- سینث‌ویو و آوتران | Synthwave / Outrun | `synthwave outrun` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/synthwave-outrun.html
+- کاتج‌کور | Cottagecore | `cottagecore` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/cottagecore.html
+- دارک آکادمیا | Dark Academia | `dark academia` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/dark-academia.html
+- فضای لیمینال | Liminal Space | `liminal space` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/liminal-space.html
+- دریم‌کور | Dreamcore | `dreamcore surreal scene` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/dreamcore.html
+- ویردکور | Weirdcore | `weirdcore digital collage` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/weirdcore.html
+- سی‌پانک | Seapunk | `seapunk digital aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/seapunk.html
+- سایبرکور | Cybercore | `cybercore digital aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/cybercore.html
+- آفروفوتوریسم | Afrofuturism | `Afrofuturist visual style` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/afrofuturism.html
+- انیمهٔ رتروی دههٔ ۱۹۹۰ | 1990s Retro Anime | `1990s retro anime` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/1990s-retro-anime.html
+- زیبایی‌شناسی لوفای | Lo-Fi Aesthetic | `lo-fi aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/lofi-aesthetic.html
+- گرافیک کم‌رزولوشن پلی‌استیشن ۱ | PS1 Low-Resolution Graphics | `PS1 low-poly graphics` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/ps1-low-res-graphics.html
+- پیکسل‌آرت ۱۶بیتی سوپر نینتندو | 16-Bit SNES Pixel Art | `16-bit SNES pixel art` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/16-bit-snes-pixel-art.html
+- اثیری | Ethereal | `ethereal aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/ethereal.html
+- کیچ | Kitsch | `kitsch aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/kitsch.html
+- کوکت | Coquette | `coquette aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/coquette.html
+- قرون‌وسطای آینده‌نگر | Future medieval | `future medieval` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/future-medieval.html
+- کیدکور | Kidcore | `kidcore aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/kidcore.html
+- خرده‌ریزه‌ها (ترینکت) | Trinket | `trinket aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/trinket.html
+- سه‌بعدی کم‌پلیگان | Low-Poly 3D | `low-poly 3D` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/low-poly-3d.html
+- هنر وکسل | Voxel Art | `voxel art` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/voxel-art.html
+- رندر سه‌بعدی خمیری | Soft Clay 3D Render | `soft clay 3D render` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/clay-3d-render.html
+- رندر فیگور وینیل | Vinyl Toy / Collectible Figure | `vinyl toy render` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/vinyl-toy-render.html
+- رندر سه‌بعدی فوتورئال | Photoreal 3D Render | `photorealistic 3D render` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/photoreal-3d-render.html
+- دیورامای مینیاتوری | Miniature Diorama | `miniature diorama` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/miniature-diorama.html
+- عروسک پولیشی | Plush toy | `plush toy` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/plush-toy.html
+- شیشه و کروم | Glass and chrome | `glass and chrome render` | 3D & Render | https://alirezach.github.io/glossary-of-design/styles/glass-and-chrome.html
+- ملیله‌کاری کاغذ (کوئیلینگ) | Quilling | `paper quilling` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/quilling.html
+- کلاژ | Collage | `collage` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/collage.html
+- موزاییک | Mosaic | `mosaic art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/mosaic.html
+- چینی | Porcelain | `porcelain` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/porcelain.html
+- ساخته از نور | Light | `light art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/light.html
+- آب‌نبات | Candy | `candy sculpture` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/candy.html
+- حباب صابون | Bubbles | `bubble photography` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/bubbles.html
+- کریستال | Crystals | `crystal sculpture` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/crystals.html
+- سرامیک | Ceramic | `ceramic art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/ceramic.html
+- پلاستیک | Plastic | `plastic art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/plastic.html
+- چوب | Wood | `wood carving` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/wood.html
+- فلز | Metal | `metalwork` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/metal.html
+- ساخته از آب | Water | `water art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/water.html
+- شیشه | Glass | `glass art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/glass.html
+- ساخته از شن | Sand | `sand art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/sand.html
+- باران | Rain | `rain photography` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/rain.html
+- کاغذبری لایه‌ای | Layered Papercut | `layered papercut` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/layered-papercut.html
+- گلدوزی | Embroidery | `embroidery` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/embroidery.html
+- نمدسازی با سوزن | Needle Felting | `needle felting` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/needle-felting.html
+- شیشهٔ رنگی | Stained Glass | `stained glass` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/stained-glass.html
+- اوریگامی | Origami | `origami` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/origami.html
+- لوبوک روسی | Russian Lubok | `Russian lubok print` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/russian-lubok.html
+- نقاشی پتریکفکا اوکراینی | Ukrainian Petrykivka Painting | `Petrykivka folk painting` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/ukrainian-petrykivka.html
+- چاپ چوبی سال نوی چینی، نیان‌هوا | Chinese New Year Woodblock (Nianhua) | `Chinese nianhua woodblock` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/chinese-nianhua.html
+- مین‌هوا کره‌ای | Korean Minhwa | `Korean minhwa folk painting` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/korean-minhwa.html
+- پاپل پیکادو مکزیکی | Mexican Papel Picado | `Mexican papel picado` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/papel-picado.html
+- هنر کالاورای روز مردگان | Day of the Dead Calavera Art | `Mexican calavera folk art` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/day-of-the-dead-calavera-art.html
+- رزمالینگ اسکاندیناوی | Scandinavian Rosemaling | `Scandinavian rosemaling` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/scandinavian-rosemaling.html
+- نقاشی مادوبانی | Madhubani Painting | `Madhubani folk painting` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/madhubani-painting.html
+- شینوازری | Chinoiserie | `chinoiserie` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/chinoiserie.html
+- عکاسی بوکه | Bokeh photography | `bokeh photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/bokeh-photography.html
+- عکاسی با نوردهی طولانی | Long exposure photography | `long exposure` | Photography | https://alirezach.github.io/glossary-of-design/styles/long-exposure-photography.html
+- عکاسی پرتره | Portrait Photography | `portrait photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/portrait-photography.html
+- عکاسی خیابانی | Street Photography | `street photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/street-photography.html
+- عکاسی مستند | Documentary Photography | `documentary photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/documentary-photography.html
+- عکاسی ماکرو | Macro Photography | `macro photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/macro-photography.html
+- عکاسی با نوردهی دوگانه | Double Exposure Photography | `double exposure photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/double-exposure-photography.html
+- عکاسی فروسرخ | Infrared Photography | `infrared photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/infrared-photography.html
+- عکاسی ادیتوریال مد | Fashion Editorial Photography | `fashion editorial photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/fashion-editorial-photo.html
+- عکاسی محصول | Product Photography | `product photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/product-photography.html
+- عکاسی غذا | Food Photography | `food photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/food-photography.html
+- عکاسی پولاروید | Polaroid / Instant Film | `Polaroid photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/polaroid.html
+- مینیاتور تیلت‌شیفت | Tilt-Shift Miniature | `tilt-shift miniature photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/tilt-shift.html
+- داگرئوتیپ | Daguerreotype | `daguerreotype photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/daguerreotype.html
+- عکاسی هوایی با پهپاد | Aerial / Drone Photography | `aerial drone photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/aerial-drone-photo.html
+- نمای فیلم کداکروم | Kodachrome Film Look | `Kodachrome film look` | Photography | https://alirezach.github.io/glossary-of-design/styles/kodachrome-film-look.html
+- فیلم اسلاید اکتاکروم | Ektachrome Slide Film | `Ektachrome slide film` | Photography | https://alirezach.github.io/glossary-of-design/styles/ektachrome-slide-film.html
+- فیلم کراس‌پروسس‌شده | Cross-Processed Film | `cross-processed film` | Photography | https://alirezach.github.io/glossary-of-design/styles/cross-processed-film.html
+- لوموگرافی | Lomography | `Lomography snapshot` | Photography | https://alirezach.github.io/glossary-of-design/styles/lomography.html
+- عکاسی کلودیون تر | Wet-Plate Collodion | `wet-plate collodion photo` | Photography | https://alirezach.github.io/glossary-of-design/styles/wet-plate-collodion.html
+- عکاسی سوراخ‌سوزنی | Pinhole Photography | `pinhole photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/pinhole-photography.html
+- عکاسی لوفای هولگا | Holga Lo-Fi Photography | `Holga lo-fi photo` | Photography | https://alirezach.github.io/glossary-of-design/styles/holga-lofi-photo.html
+- عکاسی مد گرانج دههٔ ۱۹۹۰ | 1990s Grunge Fashion Photography | `1990s grunge fashion photo` | Photography | https://alirezach.github.io/glossary-of-design/styles/1990s-grunge-fashion-photography.html
+- نمای عکاسی خبری جنگ | War Photojournalism Look | `war photojournalism` | Photography | https://alirezach.github.io/glossary-of-design/styles/war-photojournalism.html
+- عکاسی سفر به سبک نشنال جئوگرافیک | National Geographic Travel Photography | `National Geographic travel photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/national-geographic-travel-photo.html
+- عکس طبیعی و بی‌تکلف | Natural photo | `natural candid photo` | Photography | https://alirezach.github.io/glossary-of-design/styles/natural-photo.html
+- عکاسی منظره | Landscape photography | `landscape photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/landscape-photography.html
+- عکاسی سیاه‌وسفید | Black and white photography | `black and white photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/black-and-white-photography.html
+- فریم فیلم (فیلم‌استیل) | Film still | `cinematic film still` | Photography | https://alirezach.github.io/glossary-of-design/styles/film-still.html
+- عکاسی معماری | Architectural photography | `architectural photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/architectural-photography.html
+- عکس طراحی داخلی | Interior design | `interior design photo` | Photography | https://alirezach.github.io/glossary-of-design/styles/interior-design.html
+- معماری بروتالیستی | Brutalist architecture | `brutalist architecture` | Photography | https://alirezach.github.io/glossary-of-design/styles/brutalist-architecture.html
+- نورپردازی استودیویی | Studio lighting | `studio lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/studio-lighting.html
+- نور طبیعی | Natural lighting | `natural lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/natural-lighting.html
+- نور و سایه | Light and shadow | `light and shadow` | Lighting | https://alirezach.github.io/glossary-of-design/styles/light-and-shadow.html
+- نور حجمی | Volumetric lighting | `volumetric lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/volumetric-lighting.html
+- نور نئون | Neon lighting | `neon lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/neon-lighting.html
+- نور ساعت طلایی | Golden hour | `golden hour lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/golden-hour.html
+- نور ساعت آبی | Blue hour | `blue hour lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/blue-hour.html
+- نورپردازی از پشت | Backlighting | `backlighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/backlighting.html
+- کیاروسکورو | Chiaroscuro | `chiaroscuro` | Lighting | https://alirezach.github.io/glossary-of-design/styles/chiaroscuro.html
+- نور شمع | Candlelight | `candlelight` | Lighting | https://alirezach.github.io/glossary-of-design/styles/candlelight.html
+- نورپردازی خیابانی | Street lighting | `street lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/street-lighting.html
+- نور سافت‌باکس | Softbox lighting | `softbox lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/softbox-lighting.html
+- نور مهتاب | Moonlight | `moonlight` | Lighting | https://alirezach.github.io/glossary-of-design/styles/moonlight.html
+- چراغ‌های ریسه‌ای | Fairy lights | `fairy lights` | Lighting | https://alirezach.github.io/glossary-of-design/styles/fairy-lights.html
+- نورپردازی های‌کی | High-key lighting | `high-key lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/high-key-lighting.html
+- نورپردازی رامبراند | Rembrandt lighting | `Rembrandt lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/rembrandt-lighting.html
+- نورپردازی با منبع درون‌صحنه‌ای | Motivated light | `motivated lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/motivated-lighting.html
+- رنگ‌های سرد و گرم | Cool tones/Warm tones | `cool and warm tones` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/cool-tones-warm-tones.html
+- رنگ‌های پاستلی و درخشان | Pastels/Vibrant | `pastel and vibrant colors` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/pastels-vibrant.html
+- رنگ‌های خاکی و جواهری | Earth tones/Jewel tones | `earth and jewel tones` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/earth-tones-jewel-tones.html
+- طیف تک‌رنگ آبی | Monochromatic blues | `monochromatic blue` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/monochromatic-blues.html
+- قرمزها و نارنجی‌های خاکی | Earthy reds and oranges | `earthy reds and oranges` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/earthy-reds-and-oranges.html
+- گرافیتی نئونی | Neon graffiti | `neon graffiti` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/neon-graffiti.html
+- رنگ‌های پاییزی | Autumn leaves | `autumn palette` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/autumn-leaves.html
+- طیف آبی اعماق دریا | Deep sea blues | `deep sea blues` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/deep-sea-blues.html
+- طیف خاکستری | Grayscale | `grayscale` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/grayscale.html
+- سپیا | Sepia | `sepia` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/sepia.html
+- رنگ‌های اصلی | Primary colors | `primary colors` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/primary-colors.html
+- طیف رنگین‌کمانی | Rainbow spectrum | `rainbow spectrum` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/rainbow-spectrum.html
+- نمای بسیار باز | Extreme wide shot | `extreme wide shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/extreme-wide-shot.html
+- نمای باز | Wide shot | `wide shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/wide-shot.html
+- نمای کامل | Full shot | `full shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/full-shot.html
+- نمای متوسط | Medium shot | `medium shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/medium-shot.html
+- نمای متوسط نزدیک | Medium close-up | `medium close-up` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/medium-close-up.html
+- نمای نزدیک | Close-up | `close-up` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/close-up.html
+- نمای بسیار نزدیک | Extreme close-up | `extreme close-up` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/extreme-close-up.html
+- نمای جزئیات | Insert shot | `insert shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/insert-shot.html
+- نمای روی شانه | Over-the-shoulder shot | `over-the-shoulder shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/over-the-shoulder-shot.html
+- نمای دید شخصیت | Point-of-view shot | `point-of-view shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/point-of-view-shot.html
+- نمای دونفره | Two-shot | `two-shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/two-shot.html
+- زاویهٔ پایین | Low angle | `low-angle shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/low-angle.html
+- زاویهٔ بالا | High angle | `high-angle shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/high-angle.html
+- نمای از بالا (دید پرنده) | Bird’s-eye view | `bird’s-eye view` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/birds-eye-view.html
+- نمای از پایین (دید کرمی) | Worms-eye view | `worm’s-eye view` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/worms-eye-view.html
+- زاویهٔ کج | Dutch tilt | `Dutch tilt` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/dutch-tilt.html
+- نمای عمودی از بالا | Overhead top-down shot | `overhead top-down shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/overhead-top-down.html
+- زاویهٔ هم‌سطح چشم | Eye-level angle | `eye-level shot` | Shot Size & Angle | https://alirezach.github.io/glossary-of-design/styles/eye-level-angle.html
+- نمای ثابت | Static / locked-off shot | `locked-off shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/static-locked-off.html
+- پن | Pan | `pan` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/pan.html
+- تیلت | Tilt | `tilt` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/tilt.html
+- دالی به جلو | Dolly in | `dolly in` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/dolly-in.html
+- دالی به عقب | Dolly out | `dolly out` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/dolly-out.html
+- حرکت جانبی دوربین | Truck / lateral slide | `lateral tracking shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/truck-lateral-slide.html
+- حرکت عمودی دوربین | Pedestal move | `pedestal move` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/pedestal.html
+- حرکت جرثقیلی دوربین | Crane / jib shot | `crane shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/crane-jib.html
+- دوربین روی دست | Handheld camera | `handheld camera` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/handheld.html
+- حرکت گیمبال | Steadicam / gimbal move | `gimbal tracking shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/steadicam-gimbal.html
+- حرکت مداری | Orbit / arc shot | `orbit shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/orbit-arc.html
+- پوش‌این | Push-in | `push-in` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/push-in.html
+- عقب‌کشیدن و آشکارسازی | Pull-back reveal | `pull-back reveal` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/pull-back-reveal.html
+- پن سریع | Whip pan | `whip pan` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/whip-pan.html
+- دالی زوم | Dolly zoom / vertigo effect | `dolly zoom` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/dolly-zoom.html
+- پرواز عبوری پهپاد | Drone fly-over | `drone flyover` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/drone-flyover.html
+- نمای پهپاد FPV | FPV drone shot | `FPV drone shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/fpv-drone.html
+- جابه‌جایی فوکوس | Rack focus / focus pull | `rack focus` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/rack-focus.html
+- زوم ناگهانی | Crash zoom | `crash zoom` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/crash-zoom.html
+- نمای تعقیبی | Tracking shot | `tracking shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/tracking-shot.html
+- برداشت پیوسته | One-take / oner | `one-take shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/one-take-oner.html
+- لنز واید | Wide-angle lens | `wide-angle lens` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/wide-angle-lens.html
+- فشردگی تله‌فوتو | Telephoto compression | `telephoto compression` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/telephoto-compression.html
+- لنز آنامورفیک | Anamorphic lens | `anamorphic lens` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/anamorphic-lens.html
+- لنز ماکرو | Macro lens | `macro lens` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/macro-lens.html
+- لنز فیش‌آی | Fisheye lens | `fisheye lens` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/fisheye-lens.html
+- عمق میدان کم | Shallow depth of field / bokeh | `shallow depth of field` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/shallow-depth-of-field.html
+- نمای فیلم ۱۶ میلی‌متری | 16mm film look | `16mm film look` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/16mm-film-look.html
+- نمای فیلم ۳۵ میلی‌متری | 35mm film look | `35mm film look` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/35mm-film-look.html
+- نمای سوپر ۸ | Super 8 film look | `Super 8 film look` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/super-8-film-look.html
+- نمای دوربین وی‌اچ‌اس | VHS / camcorder look | `VHS camcorder look` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/vhs-camcorder-look.html
+- حرکت آهسته | Slow motion / high frame rate | `slow motion` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/slow-motion-high-frame-rate.html
+- تایم‌لپس | Timelapse | `time-lapse` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/timelapse.html
+- هایپرلپس | Hyperlapse | `hyperlapse` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/hyperlapse.html
+- فیلم نوآر | Film noir | `film noir` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/film-noir.html
+- نئو نوآر | Neo-noir | `neo-noir` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/neo-noir.html
+- پالت فیروزه‌ای و نارنجی | Teal and orange blockbuster grade | `teal and orange color grade` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/teal-and-orange-blockbuster.html
+- کمدی متقارن پاستلی | Symmetrical pastel storybook comedy | `symmetrical pastel storybook comedy` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/symmetrical-pastel-comedy.html
+- مستند وریته | Documentary vérité | `documentary vérité` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/documentary-verite.html
+- سبک موزیک‌ویدئو | Music video look | `music video style` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/music-video.html
+- چرخش تبلیغاتی محصول | Commercial product spin | `studio product commercial` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/commercial-product-spin.html
+- سبک مستند طبیعت | Nature documentary look | `nature documentary style` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/nature-documentary.html
+- فوتیج یافته | Found footage look | `found footage style` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/found-footage.html
+- کمدی موقعیت دههٔ ۱۹۸۰ | 1980s sitcom look | `1980s sitcom style` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/80s-sitcom.html
+- نئورئالیسم ایتالیایی | Italian neorealism-inspired naturalism | `Italian neorealism` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/italian-neorealism.html
+- انیمیشن سل دوبعدی | 2D cel animation | `2D cel animation` | Animation | https://alirezach.github.io/glossary-of-design/styles/2d-cel-animation.html
+- انیمیشن انیمه‌ای | Anime-inspired animation | `anime-inspired animation` | Animation | https://alirezach.github.io/glossary-of-design/styles/anime-inspired-animation.html
+- پس‌زمینهٔ آبرنگی داستانی | Watercolor storybook animation | `watercolor storybook backgrounds` | Animation | https://alirezach.github.io/glossary-of-design/styles/watercolor-storybook-backgrounds.html
+- استاپ‌موشن | Stop-motion animation | `stop-motion animation` | Animation | https://alirezach.github.io/glossary-of-design/styles/stop-motion.html
+- انیمیشن خمیری | Claymation | `claymation` | Animation | https://alirezach.github.io/glossary-of-design/styles/claymation.html
+- انیمیشن کاغذبری | Cut-out / paper animation | `cut-out paper animation` | Animation | https://alirezach.github.io/glossary-of-design/styles/cutout-paper-animation.html
+- روتوسکوپی | Rotoscope animation | `rotoscope animation` | Animation | https://alirezach.github.io/glossary-of-design/styles/rotoscope.html
+- موشن‌گرافیک | Motion graphics | `motion graphics` | Animation | https://alirezach.github.io/glossary-of-design/styles/motion-graphics.html
+- انیمیشن سه‌بعدی استیلیزه | Stylized 3D animation | `stylized 3D animation` | Animation | https://alirezach.github.io/glossary-of-design/styles/stylized-3d-animation.html
+- کات تطبیقی | Match cut | `match cut` | Editing, Pacing & Sound | https://alirezach.github.io/glossary-of-design/styles/match-cut.html
+- جامپ‌کات | Jump cut | `jump cut editing` | Editing, Pacing & Sound | https://alirezach.github.io/glossary-of-design/styles/jump-cut.html
+- مونتاژ | Montage | `montage sequence` | Editing, Pacing & Sound | https://alirezach.github.io/glossary-of-design/styles/montage.html
+- تغییر سرعت | Speed ramp | `speed ramp` | Editing, Pacing & Sound | https://alirezach.github.io/glossary-of-design/styles/speed-ramp.html
+- نشانهٔ صدای محیط | Ambient sound cue | `ambient sound cue` | Editing, Pacing & Sound | https://alirezach.github.io/glossary-of-design/styles/ambient-sound-cue.html
+- قالب دیالوگ | Dialogue syntax | `dialogue-led scene` | Editing, Pacing & Sound | https://alirezach.github.io/glossary-of-design/styles/dialogue-syntax.html
+- ریتم تک‌کنشی | Single-beat pacing | `single-beat pacing` | Editing, Pacing & Sound | https://alirezach.github.io/glossary-of-design/styles/single-beat-pacing.html
+- چاپ لترپرس | Letterpress print | `letterpress print` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/letterpress.html
+- چاپ افست | Offset print | `offset print, CMYK halftone rosettes` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/offset-print.html
+- چاپ روزنامه‌ای | Newsprint | `newsprint halftone on thin grey newspaper` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/newsprint.html
+- زیراکس و فتوکپی | Photocopy / xerox | `photocopy xerox aesthetic, toner grain` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/photocopy-xerox.html
+- چاپ استنسیلی مایموگراف | Mimeograph print | `mimeograph stencil print, purple ink` | Medium & Technique | https://alirezach.github.io/glossary-of-design/styles/mimeograph.html
+- فویل‌کوبی (طلاکوب) | Foil stamping | `gold foil stamping on dark card` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/foil-stamping.html
+- برش قالبی (دایکات) | Die cut | `layered die-cut paper` | Material & Craft | https://alirezach.github.io/glossary-of-design/styles/die-cut.html
+- ماکسیمالیسم | Maximalism | `maximalist design, abundant pattern and color` | Graphic & Interface Design | https://alirezach.github.io/glossary-of-design/styles/maximalism.html
+- فیلم مدیوم‌فرمت | Medium-format film | `medium format film photograph` | Lens, Film & Speed | https://alirezach.github.io/glossary-of-design/styles/medium-format-film.html
+- عکاسی لارج‌فرمت | Large-format photography | `large format view camera photograph` | Photography | https://alirezach.github.io/glossary-of-design/styles/large-format-photography.html
+- دوربین دیجیتال اولیه | Early digital camera | `2000s early digital compact camera photo` | Photography | https://alirezach.github.io/glossary-of-design/styles/early-digital-camera.html
+- عکس فوری با فلاش | Flash snapshot | `direct flash snapshot` | Photography | https://alirezach.github.io/glossary-of-design/styles/flash-snapshot.html
+- عکاسی لایف‌استایل | Lifestyle photography | `lifestyle photography` | Photography | https://alirezach.github.io/glossary-of-design/styles/lifestyle-photography.html
+- واقع‌گرایی خشن | Gritty realism | `gritty realism, coarse grain, hard contrast` | Photography | https://alirezach.github.io/glossary-of-design/styles/gritty-realism.html
+- نمایشگر CRT | CRT display look | `CRT screen, scanlines, phosphor glow` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/crt-display.html
+- منریسم | Mannerism | `Mannerist painting` | Art Movements | https://alirezach.github.io/glossary-of-design/styles/mannerism.html
+- بیوپانک | Biopunk | `biopunk` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/biopunk.html
+- زیبایی‌شناسی ساحلی | Coastal aesthetic | `coastal aesthetic` | Digital & Internet Aesthetics | https://alirezach.github.io/glossary-of-design/styles/coastal-aesthetic.html
+- تصویرگری فانتزی بازیگوش | Whimsical illustration | `whimsical illustration` | Illustration | https://alirezach.github.io/glossary-of-design/styles/whimsical-illustration.html
+- وحشت فضاسازانه | Atmospheric horror | `atmospheric horror` | Cinematic Looks | https://alirezach.github.io/glossary-of-design/styles/atmospheric-horror.html
+- استریپ کمیک روزنامه | Newspaper comic strip | `newspaper comic strip` | Illustration | https://alirezach.github.io/glossary-of-design/styles/newspaper-comic-strip.html
+- کمیک نقاشانه | Painterly comic | `painterly comic art` | Illustration | https://alirezach.github.io/glossary-of-design/styles/painterly-comic.html
+- انیمیشن عروسکی | Puppet animation | `puppet animation` | Animation | https://alirezach.github.io/glossary-of-design/styles/puppet-animation.html
+- انیمیشن محدود | Limited animation | `limited animation, 1960s TV cartoon` | Animation | https://alirezach.github.io/glossary-of-design/styles/limited-animation.html
+- پالت همسایه (آنالوگ) | Analogous color scheme | `analogous color palette` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/analogous-palette.html
+- پالت مکمل | Complementary color scheme | `complementary color palette` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/complementary-palette.html
+- پالت سه‌گانه | Triadic color scheme | `triadic color palette` | Color & Palette | https://alirezach.github.io/glossary-of-design/styles/triadic-palette.html
+- ردیابی هوایی از بالا | Bird's-eye drone tracking | `bird's-eye drone tracking` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/birds-eye-drone-tracking.html
+- زوم آرام به داخل | Slow zoom in | `slow zoom in` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/slow-zoom-in.html
+- زوم آرام به بیرون | Slow zoom out | `slow zoom out` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/slow-zoom-out.html
+- پرواز در دل صحنه | Fly-through | `fly-through` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/fly-through.html
+- حرکت پارالاکس | Parallax move | `parallax move` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/parallax-move.html
+- آشکارسازی عمودی | Vertical reveal | `vertical reveal` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/vertical-reveal.html
+- آشکارسازی با فوکوس | Focus reveal (out of focus to sharp) | `focus reveal (out of focus to sharp)` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/focus-reveal.html
+- فوکوس تنفسی | Breathing focus | `breathing focus` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/breathing-focus.html
+- فوکوس عمیق | Deep focus | `deep focus` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/deep-focus.html
+- نمای تعقیبی قرینه | Symmetrical tracking shot | `symmetrical tracking shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/symmetrical-tracking-shot.html
+- چرخش ۳۶۰ درجهٔ قهرمان | Hero 360 shot | `hero 360 shot` | Camera Movement | https://alirezach.github.io/glossary-of-design/styles/hero-360-shot.html
+- نور تبلیغاتی با پس‌زمینهٔ گرادیانی | Soft gradient background commercial lighting | `soft gradient background commercial lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/soft-gradient-commercial-light.html
+- نورپردازی فلت‌لی | Flat lay commercial lighting | `flat lay commercial lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/flat-lay-lighting.html
+- نورپردازی رومیزی روی سطح براق | Tabletop reflective product lighting | `tabletop reflective product lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/tabletop-reflective-lighting.html
+- پرترهٔ نور پنجره | Soft window light portrait | `soft window light portrait` | Lighting | https://alirezach.github.io/glossary-of-design/styles/window-light-portrait.html
+- نورپردازی بیوتی‌دیش | Beauty dish lighting | `beauty dish lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/beauty-dish-lighting.html
+- نور نرم هوای ابری | Overcast soft light | `overcast soft light` | Lighting | https://alirezach.github.io/glossary-of-design/styles/overcast-soft-light.html
+- نور جانبی دوپاره | Cinematic side (split) lighting | `cinematic side (split) lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/split-side-lighting.html
+- نور سخت ادیتوریال مد | Hard light fashion editorial | `hard light fashion editorial` | Lighting | https://alirezach.github.io/glossary-of-design/styles/hard-light-editorial.html
+- اسپات‌لایت محصول | Hero product spotlight | `hero product spotlight` | Lighting | https://alirezach.github.io/glossary-of-design/styles/product-spotlight.html
+- نورپردازی صدفی (کلم‌شل) | Clamshell lighting | `clamshell lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/clamshell-lighting.html
+- نورپردازی تیره و لوکس | Low-key moody luxury lighting | `low-key moody luxury lighting` | Lighting | https://alirezach.github.io/glossary-of-design/styles/low-key-moody-lighting.html
+- ظهور سینمایی عنوان | Cinematic title fade-in | `cinematic title fade-in` | Typography | https://alirezach.github.io/glossary-of-design/styles/cinematic-title-fade.html
+- آشکارسازی عنوان از دل محوشدگی | Blur title reveal | `blur title reveal` | Typography | https://alirezach.github.io/glossary-of-design/styles/blur-title-reveal.html
+- عنوان ذره‌ای شناور | Dissolve drift title | `dissolve drift title` | Typography | https://alirezach.github.io/glossary-of-design/styles/dissolve-drift-title.html
+- ورود لغزان عنوان | Smooth glide-in title | `smooth glide-in title` | Typography | https://alirezach.github.io/glossary-of-design/styles/glide-in-title.html
+- عنوان دونیمه‌شونده | Split slide title reveal | `split slide title reveal` | Typography | https://alirezach.github.io/glossary-of-design/styles/split-slide-title.html
+- عنوان چرخان | Roll typography | `roll typography` | Typography | https://alirezach.github.io/glossary-of-design/styles/roll-flip-title.html
+- سقوط جهندهٔ حروف | Bounce fall letters | `bounce fall letters` | Typography | https://alirezach.github.io/glossary-of-design/styles/bounce-fall-title.html
+- آبشار ماشین‌تحریری | Typewriter cascade | `typewriter cascade` | Typography | https://alirezach.github.io/glossary-of-design/styles/typewriter-cascade-title.html
+- پاپ کشسان عنوان | Elastic pop title | `elastic pop title` | Typography | https://alirezach.github.io/glossary-of-design/styles/elastic-pop-title.html
+- آشکارسازی با سقوط حروف | Fall reveal title | `fall reveal title` | Typography | https://alirezach.github.io/glossary-of-design/styles/fall-reveal-title.html
+
+## Design terms (Persian | English: description)
+- ترکیب‌بندی (Composition): شیوهٔ چیدن عناصر در کادر، طوری که چشم بداند از کجا وارد شود، کجا مکث کند و از کجا بیرون برود. ترکیب‌بندی بد دلیل این است که یک تصویر «زیبا» باز هم گیج‌کننده به نظر می‌رسد.
+- سلسله‌مراتب بصری (Hierarchy): ترتیب توجه: اول چه دیده شود، بعد چه، و در آخر چه. معمولاً با اندازه، رنگ و جای قرارگیری ساخته می‌شود. اگر همه‌چیز فریاد بزند، هیچ‌چیز شنیده نمی‌شود.
+- کنتراست (Contrast): تفاوتی که تمرکز می‌سازد: روشن و تیره، بزرگ و کوچک، شلوغ و ساکت، زبر و صاف. کنتراست کم دشمن خاموش تصویرهای کوچک در موبایل است.
+- فضای منفی (فضای سفید) (Negative space / White space): بخش‌های خالی و آگاهانهٔ طرح که به سوژه نفس می‌دهند و از شلوغی جلوگیری می‌کنند. فضای خالیِ برنامه‌ریزی‌شده یعنی طرح ناتمام نیست.
+- تراز (هم‌ترازی) (Alignment): قرار دادن عناصر روی لبه‌ها و ستون‌های مشترک و نامرئی تا طرح منظم و منسجم دیده شود. تراز راست، چپ، وسط و دوطرفه چهار شکل رایج آن در متن‌اند.
+- تعادل (Balance): توزیع وزن بصری در کادر. قرینگی یک راه است؛ تعادل نامتقارن اغلب برای عکس محصول قوی‌تر است.
+- مقیاس (Scale): اندازهٔ نسبی عناصر، به‌عنوان معنا. مقیاس بزرگ درام می‌سازد و مقیاس کوچک جزئیات ظریف. خطای مقیاس دکمهٔ اقدام را شبیه پانویس می‌کند.
+- مجاورت (Proximity): کنار هم گذاشتن چیزهای مرتبط. فاصله‌های تصادفی باعث می‌شود ذهن رابطه‌های غلط بسازد.
+- ریتم (Rhythm): تکرار فاصله یا نقش‌مایه که در یک مجموعه حس ضرباهنگ می‌سازد؛ برای اسلایدهای کاروسل و بسته‌های استیکر حیاتی است.
+- نقطهٔ کانونی (Focal point): جایی که کل کادر برای آن ساخته شده است. مدل‌های هوش مصنوعی اغلب یک نقطهٔ کانونی دوم می‌سازند؛ حذفش کنید.
+- سیستم گرید (شبکه) (Grid / Grid system): چارچوبی از ستون‌ها و ردیف‌های متقاطع که چیدن عناصر را سریع‌تر، تمیزتر و یکدست‌تر می‌کند.
+- قاعدهٔ یک‌سوم (Rule of thirds): تقسیم کادر با دو خط افقی و دو خط عمودی؛ نقطه‌های تقاطع جای مناسبی برای نقطهٔ کانونی‌اند.
+- حاشیه (Margins): فضای دور لبهٔ صفحه. حاشیهٔ بزرگ‌تر طرح را آرام‌تر و حاشیهٔ کوچک‌تر آن را پرتنش‌تر می‌کند.
+- حاشیهٔ امن (Safe margin): فاصله‌ای که متن و لوگوی مهم باید از لبه‌های برش داشته باشند تا در برش یا قاب شبکه‌های اجتماعی از دست نروند.
+- نسبت ابعاد (Aspect ratio): نسبت عرض به ارتفاع تصویر یا صفحه، مثل ۱:۱، ۴:۵ یا ۱۶:۹. پیش از تولید انبوه آن را مشخص کنید.
+- دعوت به اقدام (Call to action (CTA)): عنصری، معمولاً دکمه یا پیوند، که مخاطب را به کاری مشخص دعوت می‌کند؛ مثل «ثبت‌نام کنید».
+- طرح اولیهٔ دستی (Thumbnail sketch): طرح‌های کوچک و سریع دستی برای سنجیدن چند ایده پیش از رفتن سراغ کامپیوتر.
+- ماکاپ (Mockup): نمونهٔ واقع‌نمای یک طرح روی محصول یا صفحه برای ارائه، ارزیابی و تبلیغ.
+- اینفوگرافیک (Infographic): نمایش تصویری اطلاعات یا داده که نمودار، تصویر و متن را ترکیب می‌کند تا پیام سریع و روشن برسد.
+- بافت (Texture): سطح لمسی واقعی یک اثر چاپی یا حس لمسی‌ای که با لایه‌های بافت‌دار روی طرح دیجیتال ساخته می‌شود.
+- پالت رنگ (Palette): مجموعهٔ محدودی از رنگ‌ها که هر کدام نقشی دارند؛ نه انباری از رنگ‌های مودبورد.
+- رنگ اصلی، ثانویه و تأکیدی (Primary / secondary / accent): نقش‌های رنگ: اصلی برند را حمل می‌کند، ثانویه پشتیبانی می‌کند و تأکیدی عمداً کم استفاده می‌شود.
+- رنگ‌های خنثی (Neutral): خاکستری‌ها و رنگ‌های نزدیک به خاکستری که به رنگ‌های پررنگ مجال نفس می‌دهند.
+- اشباع رنگ (Saturation): شدت و زنده‌بودن رنگ. اشباع زیاد رنگ‌ها را پرجان و اشباع کم آن‌ها را رنگ‌پریده می‌کند؛ اشباع بیش از حد خطای پیش‌فرض تصویرهای هوش مصنوعی است.
+- دمای رنگ (Temperature): گرایش گرم یا سرد رنگ. ترکیب بی‌هدف دمای رنگ تصویر را کثیف نشان می‌دهد.
+- رنگ‌های گرم (Warm colors): قرمز، زرد و نارنجی؛ رنگ‌هایی که حس گرما، صمیمیت و شادی می‌دهند.
+- رنگ‌های سرد (Cool colors): آبی، سبز و بنفش؛ رنگ‌هایی که فضایی آرام و خنک می‌سازند.
+- نسبت کنتراست (Contrast ratio): میزان خوانایی متن روی زمینه از نظر روشنایی. اگر متن در اندازهٔ موبایل خوانا نباشد، برند هم در فید شکست می‌خورد.
+- رانش رنگ برند (Brand color drift): وقتی هوش مصنوعی آرام‌آرام «تقریباً آبیِ شما» را می‌سازد. با ثابت کردن کد رنگ‌ها در بریف جلویش را بگیرید.
+- تک‌رنگ (Monochrome): طرح رنگی ساخته‌شده از فقط یک رنگ، همراه با تیرگی‌ها و روشنی‌های همان رنگ.
+- طرح رنگی همسایه (آنالوگ) (Analogous): سه رنگ کنار هم روی چرخهٔ رنگ؛ هماهنگ و آرام.
+- طرح رنگی مکمل (Complementary): دو رنگ روبه‌روی هم روی چرخهٔ رنگ؛ پرکنتراست و پرانرژی.
+- طرح رنگی سه‌گانه (Triadic): سه رنگ با فاصلهٔ برابر روی چرخهٔ رنگ؛ متعادل و سرزنده.
+- CMYK (CMYK): مدل رنگی چاپ با فیروزه‌ای، سرخابی، زرد و مشکی. کاهشی است: هرچه رنگ بیشتری اضافه شود، نتیجه تیره‌تر می‌شود.
+- RGB (RGB): مدل رنگی صفحه‌نمایش با قرمز، سبز و آبی. افزایشی است: از سیاه شروع می‌شود و با افزودن نور به سفید می‌رسد.
+- پنتون (PMS) (Pantone (PMS)): سامانهٔ استاندارد و شماره‌دار رنگ‌های چاپ که پیدا کردن و تکرار دقیق یک رنگ را ساده می‌کند.
+- نظریهٔ رنگ (Color theory): مطالعهٔ اثر رنگ‌ها بر احساس و واکنش آدم‌ها؛ مثلاً پیوند آبی با اعتماد.
+- گرادیان (Gradient): گذر تدریجی از یک رنگ به رنگ دیگر؛ خطی (از یک سو به سوی دیگر) یا شعاعی (از مرکز به لبه).
+- شفافیت (اپاسیتی) (Opacity): میزان کدری یا شفافیت یک عنصر. هرچه اپاسیتی کمتر باشد، لایه‌های زیرین بیشتر دیده می‌شوند.
+- تایپوگرافی (Typography): هنر و فن چیدن و طراحی حروف تا متن خوانا و چشم‌نواز باشد: انتخاب قلم، اندازه، طول سطر، فاصلهٔ سطرها و حروف.
+- سلسله‌مراتب تایپوگرافی (Type hierarchy): نقش‌های اندازه و وزن قلم برای تیتر اصلی، تیتر فرعی، متن و زیرنویس.
+- متن اصلی (Body copy): بخش اصلی متن یک طرح یا نشریه؛ همان متنی که خوانده می‌شود.
+- حروف نمایشی (Display type): حروف پرزرق‌وبرق برای سطرهای کوتاه و جلب توجه، مثل تیتر پوستر و جلد. هرگز برای متن بلند یا حقوقی.
+- فاصلهٔ سطرها (لیدینگ) (Leading / Line height): فاصلهٔ عمودی بین سطرها. لیدینگ تنگ حس فوریت و لیدینگ باز حس فاخر بودن می‌دهد.
+- فاصلهٔ حروف (ترکینگ) (Tracking): تنظیم یکنواخت فاصلهٔ همهٔ حروف یک کلمه یا بند برای تغییر تراکم متن.
+- کرنینگ (Kerning): تنظیم فاصلهٔ بین دو حرف مشخص تا فاصله‌ها از نظر بصری یکدست شوند.
+- ارتفاع x (X-height): ارتفاع میانگین حروف کوچک لاتین، که با ارتفاع حرف x سنجیده می‌شود.
+- بالارو (Ascender): بخشی از حرف کوچک که از ارتفاع x بالاتر می‌رود، مثل b، d و f.
+- پایین‌رو (Descender): بخشی از حرف که از خط کرسی پایین‌تر می‌رود، مثل g، j و p.
+- بیوه و یتیم (Widow / Orphan): کلمه یا سطر کوتاهی که تنها در بالا یا پایین ستون یا انتهای بند می‌ماند. با ویرایش جعبهٔ متن درستش کنید، نه با ساختن دوبارهٔ کل تصویر.
+- قلم سریف‌دار (Serif typeface): قلمی با زائده‌های کوچک در انتهای خطوط؛ رسمی، معتبر و سنتی.
+- قلم بدون سریف (Sans serif): قلمی بدون زائده؛ تمیز، مدرن و ساده.
+- قلم دست‌نویس (Script typeface): قلمی که از دست‌خط پیوسته تقلید می‌کند؛ ظریف، شخصی یا خودمانی.
+- قلم اسلب‌سریف (Slab serif): قلمی با سریف‌های ضخیم و مکعبی؛ محکم و پرقدرت، بیشتر برای تیتر.
+- خواناییِ حرف در برابر خوانش‌پذیری (Legibility vs readability): خوانایی یعنی تشخیص تک‌تک حروف؛ خوانش‌پذیری یعنی راحتی خواندن طولانی. تبلیغ به هر دو نیاز دارد.
+- نقل‌قول برجسته (Pull quote): جمله‌ای کوتاه از متن که بزرگ و جدا چیده می‌شود تا ایدهٔ مهم را برجسته کند؛ رایج در مجله.
+- متن ساختگی (لورم ایپسوم) (Lorem ipsum): متن پرکنندهٔ موقت برای دیدن شکل طرح پیش از رسیدن متن واقعی.
+- برند (Brand): مجموعهٔ ارزش‌ها، ایده‌ها و احساس‌هایی که یک سازمان را تعریف می‌کند؛ از لحن حرف زدن تا محتوایی که منتشر می‌کند.
+- هویت بصری برند (Brand identity): تجسم دیدنی برند: لوگو، رنگ، قلم، کارت ویزیت، بسته‌بندی و هر چیزی که برند را در ذهن مخاطب متمایز کند.
+- لوگوتایپ (Logotype): لوگویی که خود نام برند است، با طراحی ویژهٔ حروف؛ مثل گوگل.
+- نشانه (برندمارک) (Brandmark): لوگویی که به‌جای نام از یک نماد استفاده می‌کند؛ مثل سیب اپل.
+- عکس استوک (Stock photo): عکس حرفه‌ای آماده که با مجوز استفاده می‌شود، به‌جای عکاسی سفارشی.
+- بلید (اضافهٔ برش) (Bleed): گسترش تصویر یا رنگ کمی بیرون از لبهٔ برش تا بعد از برش، لبهٔ سفید چاپ‌نشده باقی نماند.
+- برش قالبی (دایکات) (Die cut): بریدن بخش‌هایی از اثر چاپی با قالب برای ساختن شکل‌های خاص؛ از مراحل تکمیلی چاپ است.
+- فویل‌کوبی (Foil stamping): پرس داغ فویل روی بخش‌هایی از طرح برای ساختن سطح براق فلزی.
+- چاپ لترپرس (Letterpressing): فشردن طرح با کلیشهٔ فلزی روی کاغذ برای ساختن فرورفتگی‌های برجسته.
+- DPI (نقطه در اینچ) (DPI (Dots per inch)): تعداد نقطه‌های چاپ در هر اینچ؛ هرچه بیشتر، چاپ شفاف‌تر.
+- وضوح (رزولوشن) (Resolution): میزان جزئیات تصویر؛ برای چاپ با DPI و برای نمایشگر با PPI سنجیده می‌شود. وضوح کم یعنی تصویر تار یا پیکسلی.
+- پیکسل (Pixel): کوچک‌ترین واحد تصویر دیجیتال روی نمایشگر.
+- تصویر رستری (بیت‌مپ) (Raster image): تصویری ساخته‌شده از شبکهٔ پیکسل‌ها، مثل عکس؛ با بزرگ کردن کیفیتش افت می‌کند.
+- تصویر برداری (وکتور) (Vector image): تصویری ساخته‌شده از نقطه، خط و منحنی که بدون افت کیفیت بزرگ و کوچک می‌شود؛ مناسب لوگو.
+- هدف خروجی (Export intent): جایی که فایل در آن زندگی می‌کند: اینستاگرام، چاپ، فروشگاه آنلاین یا ارائه. همین تعیین می‌کند وضوح، زمینه و حاشیهٔ امن چه باشد.
+- PNG شفاف (Transparent PNG): فایل بدون زمینه برای استیکر و لایهٔ رویی؛ اگر لبه‌هایش کثیف باشد فاجعه است.
+- الزام زمینهٔ سفید (White background compliance): قانون فروشگاه‌های آنلاین برای عکس محصول، نه یک سلیقهٔ زیبایی‌شناختی.
+- آثار فشرده‌سازی (Compression artifacts): بلوک‌های زشتی که بعد از خروجی گرفتن و فشرده‌سازی پیدا می‌شوند. در مقصد واقعی (مثلاً روی گوشی) بررسی کنید.
+- نام‌گذاری فایل (File naming): نامی مثل brand_campaign_asset_v03 بهتر از final-FINAL2 است. نظم فایل هم بخشی از طراحی است.
+- تثبیت نسخه (Version freeze): بعد از تأیید، دیگر از نو تولید نکنید. نسخهٔ تثبیت‌شده را منتشر کنید.
+- پرامپت (Prompt): بریفی با سوژه، زمینه و محدودیت‌ها؛ نه یک شعر حسی.
+- پرامپت منفی (فهرست ممنوع‌ها) (Negative prompt / never-list): چیزهایی که نباید در تصویر باشند. غیرطراح‌ها از آن کم و از تولید دوباره زیاد استفاده می‌کنند.
+- تصویر مرجع و تختهٔ سبک (Reference / style board): تصویرهایی که ظاهر کار را تعریف می‌کنند. سه مرجع قوی بهتر از دوازده مرجع پراکنده است.
+- بذر و واریاسیون (Seed / variation): کنترل شباهت خروجی‌ها در یک مجموعه؛ برای سری تبلیغ و استیکر حیاتی است.
+- توهم بصری (Visual hallucination): جزئیات غلط اما مطمئن: انگشت اضافه، هندسهٔ غلط لوگو، متن جعلی روی بسته‌بندی.
+- چسبیدن بیش از حد به مرجع (Overfit to reference): وقتی خروجی چنان از مرجع کپی می‌کند که واقعیت محصول از دست می‌رود.
+- یکدستی دسته‌ای (Batch consistency): ثابت نگه داشتن چهره، پالت و اشیا در یک مجموعهٔ بزرگ از تصویرها.
+- حق وتوی انسانی (Human veto): فردی مشخص که می‌تواند تصویر «زیبا» اما غلط را رد کند. بدون او هوش مصنوعی فقط اشتباه را سریع‌تر می‌کند.
+- ساختار سه‌بخشی پرامپت (Prompt structure): سوژه (چه چیز، با چه جنس و حالتی)، زمینه (محیط، زمان، فاصلهٔ دوربین) و پارامترهای سبک (نور، لنز، نقش رنگ‌ها، ممنوع‌ها).
+- ترکیب منسجم سبک‌ها (Combining styles coherently): یک رسانهٔ اصلی، یک اثر ساختاری و یک پرداخت نهایی را نام ببرید؛ نه فهرستی از ده سبک متضاد. اگر ترکیب می‌کنید، هر ویژگی را به یک لایه یا بخش تصویر نسبت دهید.
+- «شلوغه» ("Busy"): معمولاً یعنی چند نقطهٔ کانونی با هم رقابت می‌کنند. سلسله‌مراتب و فضای منفی را درست کنید.
+- «ارزون به نظر می‌رسه» ("Cheap"): معمولاً یعنی کنتراست بی‌نظم، نورپردازی کلیشه‌ای استوک یا رنگ‌های تأکیدیِ بیش از حد اشباع.
+- «به برند نمی‌خوره» ("Off brand"): فاصله گرفتن از نقش‌های رنگ و قلم برند. هویت را دوباره قفل کنید؛ برای درست کردن یک تصویر، سبک تازه اضافه نکنید.
+- «تخته» ("Flat"): کمبود عمق و کنتراست. جهت نور را تغییر دهید یا لایه‌ها را از هم جدا کنید؛ فقط اشباع را بالا نبرید.
+- «خیلی اداریه» ("Corporate"): ترکیب‌بندی بیش از حد محتاط و ژست‌های استوک. یک شیء مشخص یا یک زاویهٔ دید تازه اضافه کنید.
+- «بوی هوش مصنوعی می‌ده» ("AI look"): پوست پلاستیکی، قرینگی کامل، براقی بی‌معنا. بافت را اصلاح کنید و یک لبهٔ بی‌نقص را بشکنید.
+- فوتورئال (Photorealistic): جزئیات کاملاً باورپذیر از نظر فیزیکی و عکاسی.
+- طبیعت‌گرا (Naturalistic): مشاهدهٔ دقیق و باورپذیر، بی‌آنکه لزوماً شبیه عکس باشد.
+- بازنمایانه (Representational): سوژه کاملاً قابل‌شناسایی می‌ماند.
+- سبک‌پردازی‌شده (استیلایز) (Stylized): بعضی ویژگی‌ها آگاهانه ساده یا اغراق می‌شوند.
+- نیمه‌واقع‌گرا (Semi-realistic): کالبد و جنس واقعی با ساده‌سازی ملایم.
+- آرمانی‌شده (Idealized): بی‌نظمی‌ها به سمت یک آرمان بصری کم می‌شوند.
+- ساده‌شده (Simplified): جزئیات غیرضروری حذف می‌شوند اما هویت سوژه می‌ماند.
+- طرح‌واره‌ای (Schematic): رابطه‌ها مهم‌تر از ظاهر واقعی‌اند.
+- نموداری (Diagrammatic): نظم اطلاعات و برچسب‌ها غالب است.
+- نمادین (Symbolic): شکل‌ها با قرارداد یا استعاره ایده منتقل می‌کنند.
+- ناییف (خام‌دستانه) (Naïve): بازنمایی مستقیم، تخت و غیرآکادمیک؛ نه به معنای کیفیت پایین.
+- هندسی ابتدایی (Primitive geometric): شکل‌ها به حجم‌های پایه و نشانه‌های تکراری کاهش می‌یابند.
+- انتزاعی‌شده (Abstracted): سوژهٔ شناختنی به رابطهٔ شکل و رنگ تبدیل می‌شود.
+- غیرعینی (نان‌آبجکتیو) (Nonobjective): هیچ سوژهٔ قابل‌شناسایی‌ای در کار نیست.
+- سورئال (Surreal): عناصر باورپذیر با منطق رؤیا به شکلی ناممکن کنار هم می‌نشینند.
+- هندسی (Geometric): دایره، مربع، مثلث و گرید؛ حس عقلانی و ساختاری.
+- ارگانیک (Organic): منحنی‌های نامنظم طبیعی؛ زنده، روان و غیررسمی.
+- زاویه‌دار (Angular): گوشه‌های تیز، مورب‌ها و برش‌های چندوجهی؛ پرانرژی و پرتنش.
+- گرد (Rounded): گوشه‌های نرم و حجم‌های بادکرده؛ دوستانه و بازیگوش.
+- راست‌گوشه (Rectilinear): غلبهٔ لبه‌های صاف افقی و عمودی؛ معمارانه و پایدار.
+- منحنی‌گرا (Curvilinear): منحنی‌های پیوسته و روان؛ ظریف، تزئینی و پویا.
+- زیست‌ریخت (بیومورفیک) (Biomorphic): شکل‌های انتزاعی شبیه سلول، بدن یا سنگ؛ طبیعی، سورئال و میانهٔ قرن.
+- چندوجهی (Faceted): سطح‌های منحنی به وجه‌های چندضلعی شکسته می‌شوند؛ بلوری و لوپولی.
+- مکعبی (Blocky): توده‌های مستطیلی پهن؛ محکم، اسباب‌بازی‌گونه و یادمانی.
+- لاغر و دوکی (Spindly): فرم‌های بسیار باریک و کشیده؛ ظریف، عصبی و ترسناک.
+- کشیده (Elongated): تناسب‌ها در طول یا عرض کش می‌آیند؛ ظریف، استیلایز یا غریب.
+- کوتاه و پهن (Squat): تناسب‌های پهن و کوتاه؛ پایدار، کمیک و محکم.
+- باریک‌شونده (Tapered): فرم‌ها کم‌کم باریک می‌شوند؛ جهت‌دار و پالوده.
+- پیمانه‌ای (مدولار) (Modular): ساخته‌شده از واحدهای تکرارپذیر؛ سیستماتیک و صنعتی.
+- نامتقارن (Asymmetric): دو طرف آگاهانه متفاوت‌اند؛ ارگانیک، فعال و شخصی.
+- خط تمیز (Clean line): کنتور کنترل‌شده، یکنواخت یا با تغییر آگاهانهٔ ضخامت.
+- تک‌ضخامت (مونولاین) (Monoline): خطی با ضخامت ثابت در همه‌جا.
+- ضخامت متغیر خط (Variable line weight): تغییر ضخیم و نازک خط برای تأکید، عمق یا فشار دست.
+- دورگیری ضخیم (Bold outline): کنتور سنگینی که فرم‌های تخت یا حجم‌دار را در بر می‌گیرد.
+- دورگیری نازک (Fine outline): مرز ظریف؛ مناسب گیاه‌نگاری، طراحی فنی یا مد.
+- خط شکسته (Broken line): کنتور منقطع که زمینه از لابه‌لایش پیداست.
+- خط اسکیسی (Sketchy line): خط‌های جست‌وجوگر و تکراری که دیده می‌مانند.
+- خط خوشنویسانه (Calligraphic line): فشار و جهت قلم، باریک‌شدن پرحالت می‌سازد.
+- خط مکانیکی (Mechanical line): خط دقیق خط‌کشی یا برداری.
+- بدون دورگیری (No outline / Lineless): شکل‌ها فقط با رنگ و تیرگی از هم جدا می‌شوند.
+- لبهٔ سخت (Hard-edged): مرزهای تیز بدون هیچ ترکیب رنگی.
+- لبهٔ نرم (Soft-edged): گذرها محو می‌شوند، می‌دوند یا حل می‌شوند.
+- لبهٔ گم‌وپیدا (Lost-and-found edges): کنتور بسته به نور و تأکید ناپدید می‌شود و برمی‌گردد.
+- لبهٔ کاغذ بریده (Cut-paper edge): سیلوئت تیز با کمی عمق و سایهٔ فیزیکی.
+- لبهٔ پیکسلی (Pixel edge): لبهٔ پله‌پلهٔ عمدی با وضوح کم.
+- مینیمال (Minimal): فرم‌ها و جزئیات بسیار کم، با سلسله‌مراتب آگاهانه.
+- کم‌مایه و باز (Spare): اجزای محدود با فضای باز سخاوتمندانه.
+- تمیز (Clean): سطح‌های کنترل‌شده و نویز ناخواستهٔ کم.
+- صرفه‌جویانه (Economical): هر نشانه نقش روشنی دارد.
+- تخت (Flat): حجم‌پردازی محدود؛ شکل و رنگ غالب است.
+- لایه‌لایه (Layered): صفحه‌ها، بافت‌ها یا عمق‌های روی هم.
+- پرتزئین (Ornate): تزئینات متراکم و جزئیات پرکار.
+- پرجزئیات (Intricate): جزئیات ریز فراوان و درهم‌تنیده.
+- ماکسیمالیستی (Maximalist): رنگ، نقش، شیء و تزئین فراوان با زیاده‌روی عمدی.
+- باروک‌وار (Baroque): منحنی‌های پویا، کنتراست نمایشی، تزئین غنی و حرکت فضایی.
+- روکوکوگونه (Rococo-like): تزئین نامتقارن ظریف، رنگ‌های کم‌رنگ، منحنی صدفی و ظرافت بازیگوش.
+- خویشتن‌دار (Restrained): افکت، پالت و تزئین محدود.
+- خام (Raw): نشانه‌های صیقل‌نخورده، فرایند پیدا و لبه‌های نامنظم.
+- صیقلی (Polished): پرداخت کامل، یکدست و آمادهٔ ارائه.
+- مستند (Documentary): قاب‌بندی مشاهده‌گر، حس نور موجود، جزئیات صحنه‌سازی‌نشده و نقص‌های باورپذیر.
+- مطبوعاتی (ادیتوریال) (Editorial): ایدهٔ آگاهانه، ترکیب‌بندی کنترل‌شده و پرداخت آمادهٔ انتشار.
+- تجاری (Commercial): سلسله‌مراتب روشن محصول، اجرای تمیز و جذابیت عام.
+- کاتالوگی (Catalog): زمینهٔ خنثی، زاویهٔ ثابت، جزئیات دقیق محصول و کمترین روایت.
+- لایف‌استایل (Lifestyle): محصول یا آدم در زمینه‌ای طبیعی، آرمانی اما باورپذیر.
+- بی‌تکلف (کندید) (Candid): سوژه انگار بین دو ژست غافلگیر شده؛ نگاه و حرکت از دوربین فرمان نمی‌گیرد.
+- اسنپ‌شات (Snapshot): قاب‌بندی فوری، فلاش مستقیم یا نور موجود، برش اتفاقی.
+- پرداخت استودیویی (Studio-polished): نور دقیق، زمینهٔ کنترل‌شده، روتوش‌شده اما از نظر فیزیکی منسجم.
+- روتوش‌نشده (Unretouched): منافذ پوست، الیاف، گردوخاک و ناقرینگی‌های جزئی باقی می‌مانند.
+- هایپررئال (Hyperreal): واقعیت با دقت، مقیاس، بافت یا وضوح افراطی تشدید می‌شود.
+- رؤیاگونه (Dreamlike): منطق علت و معلول نرم می‌شود؛ گذرهای مه‌آلود، مقیاس دگرگون یا رنگ درخشان.
+- اثیری (Ethereal): رنگ‌های روشن درخشان، شفافیت، مه و لبه‌های نرم.
+- خشن و زمخت (Gritty): بافت درشت، کنتراست سخت، فرسودگی، نویز و محیط آرمانی‌نشده.
+- لمسی (Tactile): دانهٔ ماده، نشانه‌های برجسته، لبه‌ها و ردّ ساخت پیدا می‌مانند.
+- کلاسیک (Classical): تناسب متعادل، فرم آرمانی، ستون‌ها و هماهنگی خویشتن‌دار.
+- نسخهٔ خطی قرون وسطا (Medieval manuscript-like): سلسله‌مراتب تخت، حاشیه‌های تزئینی، ورق طلا و زمینهٔ منقوش.
+- رنسانس (Renaissance-inspired): پرسپکتیو خطی، ترکیب هرمی پایدار، حجم طبیعی و معماری کلاسیک.
+- منریسم (Mannerist): بدن‌های کشیده، تنش فضایی غیرعادی و رنگ‌های مصنوعی پیچیده.
+- باروک (Baroque): مورب‌های نمایشی، کیاروسکوروی تئاتری، حرکت و مادهٔ غنی.
+- روکوکو (Rococo): پالت پاستلی، تزئین صدفی، عدم تقارن و صحنه‌های تزئینی سبک.
+- نئوکلاسیک (Neoclassical): کنتور روشن، نقش‌مایه‌های باستانی، قرینگی منظم و پالت خویشتن‌دار.
+- رمانتیک (Romantic): منظرهٔ والا، آب‌وهوای طوفانی، احساس و مقیاس نمایشی.
+- ویکتوریایی (Victorian): تزئین لایه‌لایه، نقش گیاهی، رنگ‌های تیرهٔ غنی و تایپوگرافی متراکم.
+- هنرها و صنایع دستی (Arts and Crafts): مواد صادق، کار دست، طبیعت استیلایز و الگوهای تکراری تخت.
+- آرت نوو (Art Nouveau): منحنی‌های شلاقی، ساختار گیاهی، حروف درهم‌آمیخته و پیکره‌های کشیده.
+- آرت دکو (Art Deco): هندسهٔ آیرودینامیک، فرم‌های پله‌ای، پرتوهای خورشیدی، قرینگی و فلزهای فاخر.
+- باوهاوس (Bauhaus-inspired): هندسهٔ پایه، سلسله‌مراتب کارکردی، رنگ‌های اصلی و حروف بدون سریف.
+- کانستراکتیویسم (Constructivist-inspired): مورب‌های قوی، فتومونتاژ، بلوک‌های هندسی و پالت محدود قرمز و مشکی و کرم.
+- استریم‌لاین مدرن (Streamline Moderne): خطوط سرعت افقی، گوشه‌های گرد، کروم و فرم‌های آیرودینامیک.
+- مدرن میانهٔ قرن (Mid-century modern): هندسهٔ ارگانیک، چوب گرم، کارکرد تمیز و رنگ‌های ملایم و خوش‌بین.
+- رترو‌فیوچریسم عصر فضا (Space-age retrofuturist): گنبد، باله، ستاره‌های انفجاری، فناوری خوش‌بین و پلاستیک قالبی.
+- بروتالیسم (Brutalist): مواد خام عظیم، سازهٔ نمایان، هندسهٔ خشک و کنتراست بی‌تعارف.
+- پست‌مدرن (Postmodern): نقل‌قول از گذشته، تناقض بازیگوش، الگوهای پررنگ و ارجاع‌های تاریخی درهم.
+- ممفیس (Memphis-like): الگوهای هندسی روشن، خط‌خطی‌ها، سطح‌های شبیه لمینیت و عدم تقارن بازیگوش.
+- Y2K رترو دیجیتال (Y2K retro-digital): کروم، پلاستیک شفاف، حباب، گرادیان و رابط‌های فشردهٔ آینده‌گرا.
+- نوآر (Noir): نور کم، سایه‌های سخت، خیابان خیس، سایهٔ کرکره و قاب‌بندی پرتنش اخلاقی.
+- نئونوآر (Neo-noir): کنتراست نوآر با رنگ، معماری و نورهای ترکیبی امروزی.
+- سایبرپانک (Cyberpunk): فناوری شهری متراکم، فاصلهٔ طبقاتی، نور نئون، باران و تابلوهای لایه‌لایه.
+- سولارپانک (Solarpunk): فناوری سبز در مقیاس محله، گیاهان فراوان، نور گرم روز و طراحی خوش‌بین و تعمیرپذیر.
+- استیم‌پانک (Steampunk): ماشین‌آلات خیالی عصر بخار، برنج و آهن پرچ‌شده، عقربه‌ها، چرم و دوده.
+- دیزل‌پانک (Dieselpunk): آینده‌گرایی صنعتی میان دو جنگ، موتورهای سنگین، فولاد، هندسهٔ دکو و دود.
+- اتم‌پانک (Atompunk): خوش‌بینی و اضطراب عصر اتم، فرم‌های بومرنگی، باله، گنبد و رنگ‌های لعابی روشن.
+- آینده‌گرایی کاستی (Cassette futurism): کنترل‌های آنالوگ درشت، CRT، کلیدها، پنل‌های برچسب‌دار و پلاستیک صنعتی بژ و خاکستری.
+- بیوپانک (Biopunk): فرم‌های ارگانیک مهندسی‌شده، آزمایشگاه مرطوب، غشا و سامانه‌های رشد.
+- آینده‌گرایی زیست‌محیطی (Eco-futurist): مواد کم‌اثر، طراحی غیرفعال، چرخه‌های بسته و زیست‌بوم یکپارچه.
+- گوتیک (Gothic): طاق‌های تیزه‌دار، عمودگرایی، تور سنگی، سایه و فضای عبادی یا شوم.
+- دارک آکادمیا (Dark academia): کتابخانه‌های قدیمی، چوب فرسوده، پشم و کاغذ، پالت قهوه‌ای و سبز و نور پنجره.
+- کاتیج‌کور (Cottagecore): خانه‌داری دستی روستایی، باغ پربار، الیاف طبیعی و نور نرم فصلی.
+- ساحلی (Coastal): مواد رنگ‌پریدهٔ فرسوده، آبی‌های دریایی، مه شور و نور باز.
+- وسترن (Western): منظرهٔ خشک، مواد کاربردی فرسوده، افق پهن و معماری مرزی.
+- فانتزی (Fantasy): سامانهٔ جهانی ناممکن؛ فرهنگ، مواد، رفتار جادو و سطح فناوری را مشخص کنید.
+- علمی‌تخیلی (Science fiction): فناوری خیالی با کارکرد، مقیاس و منطق مادی منسجم.
+- وحشت (Horror): تهدید از راه نور، غیاب، دگرگونی بدن یا محیط، یا تعلیق؛ سازوکارش را نام ببرید.
+- بازیگوش و خیال‌انگیز (Whimsical): مقیاس بازیگوش، ترکیب‌های غافلگیرکننده، شکل‌های شاد و رنگ ملایم.
+- انیمیشن سل (Cel animation look): رنگ‌های تخت نقاشی‌شده، خط و سایه‌های جدا.
+- انیمیشن محدود (Limited animation): فرم‌های ساده و آمادهٔ حرکت با جزئیات صرفه‌جویانه.
+- انیمیشن برش کاغذی (Cutout animation): قطعه‌های لایه‌لایهٔ کاغذمانند که می‌چرخند و روی هم می‌افتند.
+- استاپ‌موشن (Stop-motion look): صحنه‌های مینیاتوری ساخته‌شده، اثر انگشت و درزها.
+- انیمیشن خمیری (Clay animation): سطح پلاستیلین، تغییر شکل گرد و اثر انگشت.
+- انیمیشن عروسکی (Puppet animation): شخصیت‌های پارچه‌ای، فومی یا چوبی با مفصل و صحنهٔ ساخته‌شده.
+- الهام از انیمه (Anime-influenced): به‌تنهایی خیلی کلی است؛ ضخامت خط، تناسب چهره، سایه‌زنی و ژانر را مشخص کنید.
+- مانگاگونه (Manga-like): مرکب تک‌رنگ، تراما، خطوط سرعت و زبان پنل.
+- کمیک آلبومی اروپایی (European album comic): صفحه‌آرایی روشن، مرکب کنترل‌شده و پنل‌های رنگی.
+- استریپ روزنامه (Newspaper strip): چند پنل کوتاه تکراری، خط صرفه‌جو و صحنهٔ محدود.
+- رمان گرافیکی (Graphic novel): رسانهٔ کمیک بلند، نه یک سبک واحد؛ مرکب، رنگ، واقع‌گرایی و ریتم پنل را مشخص کنید.
+- خط روشن (لین کلر) (Clear-line style): کنتور تمیز یکنواخت، رنگ تخت و محیط پرجزئیات خوانا.
+- کمیک نقاشانه (Painterly comic): بافت قلم‌مو و رنگ پیدا در قاب‌بندی پیاپی.
+- چاپ سیلک (اسکرین) (Screen-printed): رنگ‌های تخت جدا، هم‌پوشانی کدر، جابه‌جایی جزئی رنگ‌ها و بافت توری.
+- ریزوگراف (Risograph): رنگ‌های زندهٔ محدود، هافتون، ترکیب رنگ‌های روی هم، جابه‌جایی رنگ و کاغذ بدون پوشش.
+- لترپرس (Letterpress): جوهر برجسته، فرورفتگی لمسی، فشردگی لبه و کاغذ ضخیم.
+- چاپ افست (Offset print): هافتون و روزت ریز، ثبت دقیق رنگ و کاغذ تجاری.
+- کاغذ روزنامه (Newsprint): نقطه‌های درشت، پخش جوهر، رنگ کدر و کاغذ نازک خاکستری.
+- فتوکپی و زیراکس (Photocopy / xerox): کنتراست بالا، دانهٔ تونر، ریزش لبه و آثار کپی‌های پیاپی.
+- مایموگراف (Mimeograph-like): جوهر محدود، بافت استنسیل و تکثیر ناهموار.
+- سیانوتایپ (Cyanotype): زمینهٔ آبی پروسی با سیلوئت‌های سفید یا روشن.
+- فیلم فوری (Instant film): چاپ حاشیه‌دار ضخیم، اپتیک نرم و تغییر رنگ شیمیایی.
+- فیلم ۳۵ میلی‌متری (35mm film): دانهٔ ریز تا متوسط، هاله و افت نرم نورهای روشن.
+- فیلم مدیوم‌فرمت (Medium-format film): جزئیات بالا، گذر نرم تونال و فوکوس کم‌عمق.
+- لارج‌فرمت (Large-format): جزئیات بسیار بالا، ترکیب‌بندی سنجیده و کنترل صفحه‌ها و پرسپکتیو.
+- ویدئوی VHS و آنالوگ (VHS / analog video): خطوط درهم، نشت رنگ، نویز ترکینگ و وضوح کم.
+- دوربین دیجیتال اولیه (Early digital camera): فلاش تند، دامنهٔ دینامیک محدود، نویز رنگی و تیزکردن بیش از حد.
+- نمایشگر CRT (CRT display): خطوط اسکن، درخشش فسفر، شیشهٔ خمیده، موآره و هاله.
+- گلیچ (Glitch): بلوک‌های داده‌موش، جابه‌جایی کانال رنگ، پارگی تصویر و خطای فشرده‌سازی.
+- آرام (Calm): افق‌های پایدار، فاصله‌گذاری باز، کنتراست کم، لبه‌های نرم و پالت خویشتن‌دار.
+- پرانرژی (Energetic): مورب‌ها، برش تنگ، بردارهای تکراری، اشباع بالا و کنتراست تیز.
+- صمیمی (Intimate): قاب نزدیک، نور گرم موضعی، فضای کم‌عمق و جزئیات آرام.
+- یادمانی (Monumental): زاویهٔ پایین، توده‌های بزرگ ساده، آدم‌های کوچک و ساختار تونال پهن.
+- مالیخولیایی (Melancholic): رنگ سرد کدر، فاصله‌های خالی، دوردست نرم و نگاه رو به پایین یا ردّ باران.
+- شاد (Joyful): ژست باز، منحنی‌های سرزنده، رنگ گرم روشن و تکرار ریتمیک.
+- پرتنش (Tense): قاب فشرده، زاویه‌های مایل، سایهٔ سخت، دید بسته و تعادل ناپایدار.
+- رازآلود (Mysterious): دید گزینشی، پوشاندن، نور کم، عمق مبهم و سرنخ‌های اندک.
+- نوستالژیک (Nostalgic): مواد و پردازش خاص یک دوره، رنگ کم‌رنگ یا گرم و جزئیات زیسته؛ نه فقط فیلتر سپیا.
+- فاخر (Luxurious): کنتراست پالودهٔ مواد، بازتاب‌های کنترل‌شده، فاصله‌گذاری سخاوتمندانه و پرداخت دقیق.
+- بازیگوش (Playful): جابه‌جایی مقیاس، فرم‌های گرد، تأکیدهای رنگی غیرمنتظره و ریتم نامنظم.
+- بالینی و سرد (Clinical): نور خنثی و سرد، سطح‌های تمیز، تراز سخت و بافت و تزئین حداقلی.
