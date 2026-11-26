@@ -203,3 +203,5 @@ nav.tabs a.tablink:hover{opacity:1;border-bottom-color:currentColor}
 /* GitHub footer link */
 .gh{display:inline-flex;align-items:center;gap:6px;color:inherit;text-decoration:none;font-family:"IBM Plex Mono",monospace;unicode-bidi:isolate}.gh:hover{text-decoration:underline}.gh svg{width:18px;height:18px;fill:currentColor;flex:none}
 footer.site-foot{text-align:center;padding:22px 16px 30px;font-size:15px;opacity:.8;border-top:1px solid rgba(0,0,0,.1);margin-top:30px}
+
+.subnav{display:flex;align-items:center;flex-wrap:wrap;gap:.25rem 1.1rem;padding:.7rem clamp(1rem,4vw,3rem);border-bottom:1px solid currentColor;font-size:1rem}.subnav a,.style-title-link{color:inherit}.subnav a[aria-current]{font-weight:bold}.subnav a:focus-visible,.style-title-link:focus-visible{outline:2px solid currentColor;outline-offset:3px}.style-title-link{text-decoration:underline;text-underline-offset:.18em}

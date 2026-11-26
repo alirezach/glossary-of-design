@@ -27,7 +27,7 @@
     $("#tray-copy").onclick = () => copy(compose(), "پرامپت ترکیبی کپی شد");
     $("#tray-clear").onclick = () => { st.picked.clear(); render(); tray(); };
     window.addEventListener("hashchange", openHash);
-    render(); recipes(); openHash();
+    render(); recipes(); if (p.get("tab") === "recipes" && !location.hash) tab("recipes"); openHash();
   }
 
   const rPrompt = r => `${r.subject}, ${r.styles.map(id => byId[id] ? byId[id].keyword : id).join(", ")} style, ${r.extra}`;
@@ -72,7 +72,7 @@
     const el = document.createElement("article"); el.className = "slide" + (st.picked.has(s.id) ? " picked" : "");
     el.innerHTML = `<button type="button" class="window" aria-label="بزرگ‌نمایی ${s.name_fa}"><img loading="lazy" src="${s.image}" alt="${s.name_fa}"></button>
       <button type="button" class="pick" title="افزودن به پرامپت‌ساز" aria-pressed="${st.picked.has(s.id)}">${st.picked.has(s.id) ? "✓" : "+"}</button>
-      <h4>${s.name_fa}</h4>
+      <h4><a class="style-title-link" href="styles/${encodeURIComponent(s.id)}.html">${s.name_fa}</a></h4>
       <button type="button" class="kwc" title="کپی نام سبک"><span>${s.keyword}</span><i>کپی</i></button>
       ${s.prompt ? `<span class="has-p">پرامپت نمونه دارد</span>` : ""}`;
     $(".window", el).onclick = () => location.hash = s.id;
@@ -100,7 +100,7 @@
     tab("dir");
     $("#dlg-inner").innerHTML = `<button class="close" type="button" aria-label="بستن">×</button>
       <figure><img src="${s.image}" alt="${s.name_fa}"><figcaption>${s.kind === "diagram" ? "نمودار حرکت دوربین" : s.kind === "sample" ? ("نمونهٔ " + (s.credit || "منبع")) : "نمونهٔ ساخته‌شده با هوش مصنوعی (GPT Image)"}</figcaption></figure>
-      <div class="body"><h2>${s.name_fa}</h2><span class="lat">${s.name_en}</span>
+      <div class="body"><h2><a class="style-title-link" href="styles/${encodeURIComponent(s.id)}.html">${s.name_fa}</a></h2><span class="lat">${s.name_en}</span>
       <div class="meta"><span>${TAX.family[s.family].fa}</span>${(s.needs || []).map(n => `<span>${TAX.needs[n]}</span>`).join("")}</div>
       <h3>نام سبک برای پرامپت</h3><button type="button" class="kwc big"><span>${s.keyword}</span><i>کپی</i></button>
       <p class="hint">مثال: <span class="en">a poster for a book fair, in ${s.keyword} style</span></p>
