@@ -1,6 +1,6 @@
 # واژه‌نامهٔ طراحی با هوش مصنوعی (Glossary of Design)
 
-> Persian-first, community visual directory of 524 named styles for AI image and video prompting. Each style has a Persian name, an English prompt keyword, a sample image, and taxonomy (family, form, need, Iranian/world origin). Also includes a Persian glossary of 247 graphic-design terms. Author: Alireza Chamanzar. License: CC BY-SA 4.0.
+> Persian-first, community visual directory of 531 named styles for AI image and video prompting. Each style has a Persian name, an English prompt keyword, a sample image, and taxonomy (family, form, need, Iranian/world origin). Also includes a Persian glossary of 247 graphic-design terms. Author: Alireza Chamanzar. License: CC BY-SA 4.0.
 
 دایرکتوری فارسی سبک‌های تصویری برای پرامپت‌نویسی تصویر و ویدئو؛ شامل سنت‌های تصویری ایرانی (نگارگری، خوشنویسی، کاشی، پوستر تهران).
 
@@ -54,6 +54,7 @@
 - جنبش سقاخانه | Saqqakhaneh movement | `Saqqakhaneh painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/saqqakhaneh.html
 - تذهیب ایرانی | Persian manuscript illumination (tazhib) | `Persian tazhib` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/tazhib-illumination.html
 - نقاشی لاکی ایرانی | Persian lacquer and papier-mâché painting | `Persian lacquer painting` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/lacquer-papier-mache.html
+- تصویرسازی حماسی شاهنامه در قاب تذهیب | Shahnameh epic illustration in a tazhib arch frame | `Shahnameh epic illustration in a Persian tazhib arch frame` | Persian Painting | https://alirezach.github.io/glossary-of-design/styles/shahnameh-epic-tazhib-frame.html
 - خط نستعلیق | Nasta‘liq calligraphy | `Persian Nastaliq` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/nastaliq.html
 - خط شکسته‌نستعلیق | Shekasteh-Nasta‘liq calligraphy | `Shekasteh Nastaliq` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/shekasteh-nastaliq.html
 - خط نسخ ایرانی | Persian Naskh script | `Persian Naskh` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/naskh.html
@@ -62,6 +63,12 @@
 - سیاه‌مشق | Siyah-mashq practice sheet | `siyah-mashq` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/siyah-mashq.html
 - خط‌نقاشی و کالیگرافیتی فارسی | Persian calligraffiti / Naqashi-khat | `Persian calligraffiti` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/calligraffiti-naqashi-khat.html
 - تایپوگرافی نمایشی و جنبشی فارسی | Persian display and kinetic lettering | `Persian kinetic typography` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/persian-display-kinetic-type.html
+- خط دیوانی | Diwani calligraphy | `Diwani calligraphy` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/diwani-calligraphy.html
+- حروف‌نگاری قلم‌مویی | Arabic-script brush lettering | `Arabic brush lettering` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/arabic-brush-lettering.html
+- تایپوگرافی تجربی عربی‌نویس | Experimental Arabic-script typography | `experimental Arabic typography` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/experimental-arabic-typography.html
+- حروف‌نگاری رترو سینمای دههٔ ۱۹۷۰ | 1970s Arabic cinema poster lettering | `1970s Arabic cinema lettering` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/retro-70s-arabic-cinema-lettering.html
+- گرافیتی وایلداستایل عربی‌نویس | Arabic-script wildstyle graffiti | `Arabic wildstyle graffiti lettering` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/arabic-wildstyle-graffiti.html
+- خط‌نگارهٔ دایره‌ای (کالیگرام) | Arabic-script calligram | `Arabic calligram` | Persian Calligraphy & Type | https://alirezach.github.io/glossary-of-design/styles/arabic-calligram.html
 - گره‌سازی هندسی | Girih geometric strapwork | `Persian girih` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/girih.html
 - مقرنس ایرانی | Muqarnas Persian vaulting | `Persian muqarnas` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/muqarnas.html
 - کاشی هفت‌رنگ | Haft-rang polychrome tilework | `haft-rang tilework` | Persian Pattern, Craft & Architecture | https://alirezach.github.io/glossary-of-design/styles/haft-rang-tilework.html

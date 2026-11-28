@@ -246,6 +246,29 @@
   "region": "iran"
  },
  {
+  "id": "shahnameh-epic-tazhib-frame",
+  "name_fa": "تصویرسازی حماسی شاهنامه در قاب تذهیب",
+  "name_en": "Shahnameh epic illustration in a tazhib arch frame",
+  "keyword": "Shahnameh epic illustration in a Persian tazhib arch frame",
+  "family": "persian-painting",
+  "form": [
+   "painting",
+   "pattern"
+  ],
+  "needs": [
+   "book-cover",
+   "poster",
+   "concept"
+  ],
+  "image": "images/styles/shahnameh-epic-tazhib-frame.webp",
+  "kind": "sample",
+  "region": "iran",
+  "prompt": "A vertical 3:4 illustration of [SHAHNAMEH SCENE], contemporary hyper-detailed Persian epic illustration set inside an ornate tazhib arch frame shaped like a mihrab, cobalt-blue and gold arabesque and khatai floral borders with red blossoms, Chinese-style cloud scrolls spilling outside the frame, heroes in richly patterned gold brocade robes and leopard-skin armour, lapis blue, vermilion and gold palette, fine gilded linework, plain white background around the frame, no text, no watermark.",
+  "note_fa": "به‌جای [SHAHNAMEH SCENE] داستان مدنظر را بنویسید، مثلاً Zal raised by the Simorgh. کانال یگانه پرامپت کامل ۱۴ داستان شاهنامه (زال و سیمرغ، رستم و سهراب، آرش کمانگیر و…) را جداگانه منتشر کرده است.",
+  "credit": "یگانه · @yegnique",
+  "credit_url": "https://t.me/yegnique/638"
+ },
+ {
   "id": "nastaliq",
   "name_fa": "خط نستعلیق",
   "name_en": "Nasta‘liq calligraphy",
@@ -327,7 +350,10 @@
   "kind": "ai",
   "prompt": "A poster for an Iranian tile-art exhibition in Isfahan, monumental Persian-context Thuluth lettering, exact short title text «کتیبه», tall sweeping forms in turquoise and cobalt on a glazed tile ground, no other text.",
   "note_fa": "عنوان فارسی را پس از تولید، در نرم‌افزار اضافه کنید.",
-  "region": "iran"
+  "region": "iran",
+  "prompt2": "Create an elegant Arabic calligraphy artwork featuring the exact word \"[YOUR WORD]\" in traditional Thuluth style. Flowing elongated strokes, sophisticated interlocking letters, precise diacritics, balanced composition, deep black ink on a pure ivory background. Authentic Arabic letterforms, no extra text, no mockup.",
+  "prompt2_note": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "prompt2_url": "https://t.me/yegnique/620"
  },
  {
   "id": "kufic-bannaei",
@@ -348,7 +374,10 @@
   "kind": "ai",
   "prompt": "A poster for a Yazd geometric-tile exhibition, Iranian square Kufic banna’i lettering, exact short title text «کاشی», rectilinear grid and interlocking modules in turquoise and cobalt, clean architectural composition, no other text.",
   "note_fa": "عنوان فارسی را پس از تولید، در نرم‌افزار اضافه کنید.",
-  "region": "iran"
+  "region": "iran",
+  "prompt2": "Design a bold geometric Square Kufic Arabic lettering composition using the exact word \"[YOUR WORD]\". Construct the letters from precise modular square grids, consistent stroke thickness, sharp 90-degree angles, compact architectural composition, black on white, minimalist vector aesthetic, no additional words.",
+  "prompt2_note": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "prompt2_url": "https://t.me/yegnique/621"
  },
  {
   "id": "siyah-mashq",
@@ -412,6 +441,144 @@
   "prompt": "A short title animation in which Persian lettering forms the exact word «بهار», strokes unfolding and settling over a warm paper background, close straight-on camera, soft natural side lighting, elegant Persian kinetic typography with clear spacing, Audio: a brief soft brush sound and gentle ambient tone, no speech.",
   "note_fa": "عنوان فارسی را پس از تولید، در نرم‌افزار اضافه کنید.",
   "region": "iran"
+ },
+ {
+  "id": "diwani-calligraphy",
+  "name_fa": "خط دیوانی",
+  "name_en": "Diwani calligraphy",
+  "keyword": "Diwani calligraphy",
+  "family": "persian-calligraphy",
+  "form": [
+   "lettering",
+   "pattern"
+  ],
+  "needs": [
+   "branding",
+   "poster",
+   "packaging"
+  ],
+  "image": "images/styles/diwani-calligraphy.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Create an intricate Arabic Diwani calligraphy composition featuring the exact phrase \"[YOUR WORD]\". Gracefully intertwined curved letters, elegant ornamental flourishes, delicate connecting strokes, traditional Ottoman-inspired Diwani craftsmanship, flowing compact silhouette, deep black ink, warm cream background, refined and luxurious, no extra text.",
+  "note_fa": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "credit": "یگانه · @yegnique",
+  "credit_url": "https://t.me/yegnique/624"
+ },
+ {
+  "id": "arabic-brush-lettering",
+  "name_fa": "حروف‌نگاری قلم‌مویی",
+  "name_en": "Arabic-script brush lettering",
+  "keyword": "Arabic brush lettering",
+  "family": "persian-calligraphy",
+  "form": [
+   "lettering",
+   "painting"
+  ],
+  "needs": [
+   "poster",
+   "album",
+   "social"
+  ],
+  "image": "images/styles/arabic-brush-lettering.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Create expressive hand-painted Arabic brush lettering for the exact word \"[YOUR WORD]\". Dynamic thick-to-thin strokes, natural ink splatters, authentic rough brush texture, energetic movement, powerful visual rhythm, imperfect handmade edges, black ink on a clean white background, isolated lettering, no other elements.",
+  "note_fa": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "credit": "یگانه · @yegnique",
+  "credit_url": "https://t.me/yegnique/622"
+ },
+ {
+  "id": "experimental-arabic-typography",
+  "name_fa": "تایپوگرافی تجربی عربی‌نویس",
+  "name_en": "Experimental Arabic-script typography",
+  "keyword": "experimental Arabic typography",
+  "family": "persian-calligraphy",
+  "form": [
+   "lettering",
+   "layout"
+  ],
+  "needs": [
+   "poster",
+   "editorial",
+   "branding"
+  ],
+  "image": "images/styles/experimental-arabic-typography.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Design a contemporary experimental Arabic typographic artwork featuring \"[YOUR WORD]\". Extra-bold custom Arabic letterforms, exaggerated proportions, tight letter connections, clever negative space, dramatic thick curves, modern editorial poster aesthetic, flat solid black lettering on white, highly legible Arabic, no English text.",
+  "note_fa": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "credit": "یگانه · @yegnique",
+  "credit_url": "https://t.me/yegnique/623"
+ },
+ {
+  "id": "retro-70s-arabic-cinema-lettering",
+  "name_fa": "حروف‌نگاری رترو سینمای دههٔ ۱۹۷۰",
+  "name_en": "1970s Arabic cinema poster lettering",
+  "keyword": "1970s Arabic cinema lettering",
+  "family": "persian-calligraphy",
+  "form": [
+   "lettering",
+   "print"
+  ],
+  "needs": [
+   "poster",
+   "album",
+   "packaging"
+  ],
+  "image": "images/styles/retro-70s-arabic-cinema-lettering.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Create vintage 1970s-inspired Arabic hand-lettering of the exact word \"[YOUR WORD]\". Bold rounded custom Arabic letters, playful stretched connections, nostalgic Arabic cinema poster typography, subtly distressed screen-print texture, warm burnt orange and dark brown palette, authentic retro aesthetic, centered composition, no additional text.",
+  "note_fa": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "credit": "یگانه · @yegnique",
+  "credit_url": "https://t.me/yegnique/625"
+ },
+ {
+  "id": "arabic-wildstyle-graffiti",
+  "name_fa": "گرافیتی وایلداستایل عربی‌نویس",
+  "name_en": "Arabic-script wildstyle graffiti",
+  "keyword": "Arabic wildstyle graffiti lettering",
+  "family": "persian-calligraphy",
+  "form": [
+   "lettering",
+   "painting"
+  ],
+  "needs": [
+   "social",
+   "album",
+   "poster"
+  ],
+  "image": "images/styles/arabic-wildstyle-graffiti.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Generate a bold Arabic graffiti lettering artwork spelling exactly \"[YOUR WORD]\". Custom wildstyle Arabic letter connections, dramatic angular extensions, layered outlines, vibrant spray-paint colors, dynamic urban energy, subtle paint drips, strong readable central lettering, isolated on a clean neutral background, no unrelated words.",
+  "note_fa": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "credit": "یگانه · @yegnique",
+  "credit_url": "https://t.me/yegnique/626"
+ },
+ {
+  "id": "arabic-calligram",
+  "name_fa": "خط‌نگارهٔ دایره‌ای (کالیگرام)",
+  "name_en": "Arabic-script calligram",
+  "keyword": "Arabic calligram",
+  "family": "persian-calligraphy",
+  "form": [
+   "lettering",
+   "pattern"
+  ],
+  "needs": [
+   "branding",
+   "packaging",
+   "poster"
+  ],
+  "image": "images/styles/arabic-calligram.webp",
+  "kind": "sample",
+  "region": "world",
+  "prompt": "Create a unique Arabic calligram using the exact word \"[YOUR WORD]\". Sculpt and interweave the Arabic letterforms into a unified circular artistic silhouette, creative letter extensions, balanced visual mass, elegant negative space, authentic connected Arabic script, fluid calligraphic construction, monochrome black ink on a pure white background, no additional symbols or text.",
+  "note_fa": "به‌جای [YOUR WORD] واژهٔ خود را با اعراب‌گذاری بنویسید. پرامپت از کانال تلگرامی یگانه (@yegnique).",
+  "credit": "یگانه · @yegnique",
+  "credit_url": "https://t.me/yegnique/627"
  },
  {
   "id": "girih",

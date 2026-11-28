@@ -104,11 +104,12 @@
       <div class="meta"><span>${TAX.family[s.family].fa}</span>${(s.needs || []).map(n => `<span>${TAX.needs[n]}</span>`).join("")}</div>
       <h3>نام سبک برای پرامپت</h3><button type="button" class="kwc big"><span>${s.keyword}</span><i>کپی</i></button>
       <p class="hint">مثال: <span class="en">a poster for a book fair, in ${s.keyword} style</span></p>
-      ${s.credit ? `<p class="hint">تصویر نمونه از <a href="${s.credit_url}" target="_blank" rel="noopener">${s.credit}</a></p>` : ""}${s.prompt ? `<h3>پرامپت نمونه</h3><div class="prompt">${s.prompt}<button type="button" class="copy">کپی پرامپت</button></div>${s.note_fa ? `<p class="hint">${s.note_fa}</p>` : ""}` : ""}
+      ${s.credit ? `<p class="hint">تصویر نمونه از <a href="${s.credit_url}" target="_blank" rel="noopener">${s.credit}</a></p>` : ""}${s.prompt ? `<h3>پرامپت نمونه</h3><div class="prompt">${s.prompt}<button type="button" class="copy">کپی پرامپت</button></div>${s.note_fa ? `<p class="hint">${s.note_fa}</p>` : ""}` : ""}${s.prompt2 ? `<h3>پرامپت دوم <a href="${s.prompt2_url}" target="_blank" rel="noopener">(کانال یگانه)</a></h3><div class="prompt">${s.prompt2}<button type="button" class="copy2">کپی پرامپت</button></div>${s.prompt2_note ? `<p class="hint">${s.prompt2_note}</p>` : ""}` : ""}
       <div class="row"><button type="button" class="chip" id="dlg-pick">${st.picked.has(s.id) ? "حذف از پرامپت‌ساز" : "افزودن به پرامپت‌ساز"}</button><button type="button" class="chip" id="dlg-link">کپی پیوند</button></div></div>`;
     $(".close", dlg).onclick = () => dlg.close();
     $(".kwc", dlg).onclick = () => copy(s.keyword, `«${s.keyword}» کپی شد`);
     $(".copy", dlg) && ($(".copy", dlg).onclick = () => copy(s.prompt, "پرامپت کپی شد"));
+    $(".copy2", dlg) && ($(".copy2", dlg).onclick = () => copy(s.prompt2, "پرامپت کپی شد"));
     $("#dlg-pick").onclick = () => { st.picked.has(s.id) ? st.picked.delete(s.id) : st.picked.add(s.id); render(); tray(); $("#dlg-pick").textContent = st.picked.has(s.id) ? "حذف از پرامپت‌ساز" : "افزودن به پرامپت‌ساز"; };
     $("#dlg-link").onclick = () => copy(location.href, "پیوند کپی شد");
     dlg.onclose = () => { if (location.hash) history.replaceState(null, "", location.pathname + location.search); };
